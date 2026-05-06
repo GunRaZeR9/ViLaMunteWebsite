@@ -8,9 +8,9 @@
     "contact": "Contact"
   },
   "home": {
-    "title": "Casa Cifu | Viila Munte",
+    "title": "Viila Munte",
     "tagline": "O retragere alpin în inima munților Călimani",
-    "description": "Bienvenue în Casa Cifu - o cabană de lux situată în pitorescul masiv al Călimani. Ideală pentru cupluri, familii și grupuri de prieteni care caută o evadare din agitația zilei.",
+    "description": "Bienvenue în Viila Munte - o cabană de lux situată în pitorescul masiv al Călimani. Ideală pentru cupluri, familii și grupuri de prieteni care caută o evadare din agitația zilei.",
     "highlights": {
       "views": "Vederi montane spectaculoase",
       "amenities": "Toate facilitățile moderne",
@@ -21,7 +21,7 @@
   },
   "gallery": {
     "title": "Galerie foto",
-    "description": "Explorează frumusețea Casei Cifu"
+    "description": "Explorează frumusețea Viila Munte"
   },
   "rates": {
     "title": "Tarife și disponibilitate",
@@ -71,7 +71,7 @@
     "mapTitle": "Locația noastră"
   },
   "footer": {
-    "copyright": "© 2026 Casa Cifu / Viila Munte. Toate drepturile rezervate.",
+    "copyright": "© 2026 Viila Munte. Toate drepturile rezervate.",
     "followUs": "Urmărește-ne",
     "terms": "Condiții de utilizare",
     "privacy": "Politica de confidențialitate"

@@ -8,9 +8,9 @@
     "contact": "Contact"
   },
   "home": {
-    "title": "Casa Cifu | Viila Munte",
+    "title": "Viila Munte",
     "tagline": "An Alpine retreat in the heart of the Calimani Mountains",
-    "description": "Welcome to Casa Cifu - a luxury cabin nestled in the picturesque Calimani mountain range. Ideal for couples, families, and groups of friends seeking an escape from the hustle and bustle.",
+    "description": "Welcome to Viila Munte - a luxury cabin nestled in the picturesque Calimani mountain range. Ideal for couples, families, and groups of friends seeking an escape from the hustle and bustle.",
     "highlights": {
       "views": "Spectacular mountain views",
       "amenities": "All modern amenities",
@@ -21,7 +21,7 @@
   },
   "gallery": {
     "title": "Photo Gallery",
-    "description": "Explore the beauty of Casa Cifu"
+    "description": "Explore the beauty of Viila Munte"
   },
   "rates": {
     "title": "Rates & Availability",
@@ -71,7 +71,7 @@
     "mapTitle": "Our Location"
   },
   "footer": {
-    "copyright": "© 2026 Casa Cifu / Viila Munte. All rights reserved.",
+    "copyright": "© 2026 Viila Munte. All rights reserved.",
     "followUs": "Follow us",
     "terms": "Terms of Use",
     "privacy": "Privacy Policy"
