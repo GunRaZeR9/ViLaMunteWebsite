@@ -1,0 +1,41 @@
+<div class="py-12 bg-white">
+  <div class="container">
+    <h1 class="text-4xl font-bold text-center mb-12 text-stone-900">
+      {{ 'rates.title' | translate }}
+    </h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+      <div *ngFor="let rate of rates; let i = index" [class.bg-stone-900]="i === 0" [class.text-white]="i === 0" [class.bg-white]="i !== 0" [class.border]="i !== 0" [class.border-stone-200]="i !== 0" class="p-8 rounded-lg shadow-md text-center">
+        <h3 class="text-2xl font-semibold mb-4" [class.text-white]="i === 0" [class.text-stone-900]="i !== 0">{{ rate.season | translate }}</h3>
+        <p class="text-4xl font-bold mb-2" [class.text-sage]="i === 0" [class.text-forest]="i !== 0">{{ rate.price }}</p>
+        <p [class.text-stone-300]="i === 0" [class.text-stone-600]="i !== 0">{{ rate.description }}</p>
+      </div>
+    </div>
+
+    <div class="max-w-3xl mx-auto bg-white border-2 border-stone-200 p-8 rounded-lg">
+      <h2 class="text-2xl font-bold text-stone-900 mb-6">{{ 'rates.includes' | translate }}</h2>
+      <ul class="space-y-3">
+        <li class="flex items-center gap-3">
+          <span class="text-forest">✓</span>
+          <span>{{ 'rates.amenities.bedrooms' | translate }}</span>
+        </li>
+        <li class="flex items-center gap-3">
+          <span class="text-forest">✓</span>
+          <span>{{ 'rates.amenities.kitchen' | translate }}</span>
+        </li>
+        <li class="flex items-center gap-3">
+          <span class="text-forest">✓</span>
+          <span>{{ 'rates.amenities.heating' | translate }}</span>
+        </li>
+        <li class="flex items-center gap-3">
+          <span class="text-forest">✓</span>
+          <span>{{ 'rates.amenities.wifi' | translate }}</span>
+        </li>
+        <li class="flex items-center gap-3">
+          <span class="text-forest">✓</span>
+          <span>{{ 'rates.amenities.parking' | translate }}</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

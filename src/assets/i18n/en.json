@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "rates": "Rates",
+    "calendar": "Calendar",
+    "rules": "House Rules",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Casa Cifu | Viila Munte",
+    "tagline": "An Alpine retreat in the heart of the Calimani Mountains",
+    "description": "Welcome to Casa Cifu - a luxury cabin nestled in the picturesque Calimani mountain range. Ideal for couples, families, and groups of friends seeking an escape from the hustle and bustle.",
+    "highlights": {
+      "views": "Spectacular mountain views",
+      "amenities": "All modern amenities",
+      "location": "Secluded and peaceful location"
+    },
+    "cta": "Book Now",
+    "reviews_title": "What our guests say"
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "description": "Explore the beauty of Casa Cifu"
+  },
+  "rates": {
+    "title": "Rates & Availability",
+    "pricePerNight": "Price per night",
+    "includes": "Includes:",
+    "amenities": {
+      "bedrooms": "Comfortable bedrooms",
+      "kitchen": "Fully equipped kitchen",
+      "heating": "Heating and hot water",
+      "wifi": "High-speed WiFi",
+      "parking": "Private parking"
+    },
+    "seasonRules": {
+      "high": "High season (May-September)",
+      "mid": "Mid season",
+      "low": "Low season (October-April)"
+    }
+  },
+  "calendar": {
+    "title": "Availability Calendar",
+    "available": "Available",
+    "blocked": "Booked",
+    "ctaText": "Contact us to book"
+  },
+  "rules": {
+    "title": "House Rules",
+    "checkIn": "Check-in: 4:00 PM",
+    "checkOut": "Check-out: 11:00 AM",
+    "rules": [
+      "Guests responsible for maintaining cleanliness",
+      "No smoking indoors",
+      "Keep noise to a minimum after 10:00 PM",
+      "Pets negotiable with advance notice",
+      "Cash or bank transfer accepted"
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "address": "Calimani Road, Balan Commune, Harghita, Romania",
+    "phone": "+40 (0)7XX XXX XXXX",
+    "email": "contact@viilamunte.ro",
+    "formTitle": "Send us a message",
+    "name": "Name",
+    "email_field": "Email",
+    "message": "Message",
+    "send": "Send",
+    "mapTitle": "Our Location"
+  },
+  "footer": {
+    "copyright": "© 2026 Casa Cifu / Viila Munte. All rights reserved.",
+    "followUs": "Follow us",
+    "terms": "Terms of Use",
+    "privacy": "Privacy Policy"
+  },
+  "cookie": {
+    "message": "We use cookies to improve your experience.",
+    "accept": "Accept",
+    "decline": "Decline"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "home": "Acasă",
+    "gallery": "Galerie",
+    "rates": "Tarife",
+    "calendar": "Calendar",
+    "rules": "Regulament",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Casa Cifu | Viila Munte",
+    "tagline": "O retragere alpin în inima munților Călimani",
+    "description": "Bienvenue în Casa Cifu - o cabană de lux situată în pitorescul masiv al Călimani. Ideală pentru cupluri, familii și grupuri de prieteni care caută o evadare din agitația zilei.",
+    "highlights": {
+      "views": "Vederi montane spectaculoase",
+      "amenities": "Toate facilitățile moderne",
+      "location": "Locație retrasă și liniștită"
+    },
+    "cta": "Rezervă acum",
+    "reviews_title": "Ce spun oaspeții noștri"
+  },
+  "gallery": {
+    "title": "Galerie foto",
+    "description": "Explorează frumusețea Casei Cifu"
+  },
+  "rates": {
+    "title": "Tarife și disponibilitate",
+    "pricePerNight": "Preț pe noapte",
+    "includes": "Include:",
+    "amenities": {
+      "bedrooms": "Dormitoare confortabile",
+      "kitchen": "Bucătărie complet echipată",
+      "heating": "Încălzire și apă caldă",
+      "wifi": "WiFi de viteză mare",
+      "parking": "Parcare privată"
+    },
+    "seasonRules": {
+      "high": "Sezon înalt (mai-septembrie)",
+      "mid": "Sezon mediu",
+      "low": "Sezon jos (octombrie-aprilie)"
+    }
+  },
+  "calendar": {
+    "title": "Calendar disponibilitate",
+    "available": "Disponibil",
+    "blocked": "Ocupat",
+    "ctaText": "Contactează-ne pentru rezervare"
+  },
+  "rules": {
+    "title": "Regulament interior",
+    "checkIn": "Check-in: 16:00",
+    "checkOut": "Check-out: 11:00",
+    "rules": [
+      "Oaspeții responsabili de mențenerea curățeniei",
+      "Fumat interzis în interior",
+      "Zgomotul trebuie să fie minim după orele 22:00",
+      "Animale de companie negociate cu anticipare",
+      "Se acceptă plăți în numerar sau transfer bancar"
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "address": "Drumul Calimani, Comuna Bălan, Harghita, România",
+    "phone": "+40 (0)7XX XXX XXXX",
+    "email": "contact@viilamunte.ro",
+    "formTitle": "Trimite-ne un mesaj",
+    "name": "Nume",
+    "email_field": "Email",
+    "message": "Mesaj",
+    "send": "Trimite",
+    "mapTitle": "Locația noastră"
+  },
+  "footer": {
+    "copyright": "© 2026 Casa Cifu / Viila Munte. Toate drepturile rezervate.",
+    "followUs": "Urmărește-ne",
+    "terms": "Condiții de utilizare",
+    "privacy": "Politica de confidențialitate"
+  },
+  "cookie": {
+    "message": "Folosim cookies pentru a îmbunătăți experiența ta.",
+    "accept": "Accept",
+    "decline": "Declin"
+  }
+}
