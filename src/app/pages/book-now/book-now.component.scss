@@ -1,0 +1,330 @@
+:host {
+  display: block;
+}
+
+/* ---- RATES ---- */
+.booking-rates {
+  padding: 4rem 0;
+  background: #fff;
+
+  &__title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    color: #1C1917;
+  }
+
+  &__content {
+    max-width: 48rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  &__main-card {
+    background: #292524;
+    color: #fff;
+    padding: 2rem;
+    border-radius: 0.75rem;
+  }
+
+  &__card-header {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  &__card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  &__price {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #40916C;
+  }
+
+  &__detail {
+    color: #D6D3D1;
+    margin-bottom: 0.25rem;
+    font-size: 0.95rem;
+  }
+
+  &__fine-print {
+    color: #A8A29E;
+    font-size: 0.875rem;
+    border-top: 1px solid #3C3834;
+    padding-top: 1rem;
+    margin-top: 1rem;
+  }
+
+  &__spa-box {
+    background: #FAFAF9;
+    padding: 2rem;
+    border-radius: 0.75rem;
+    border: 1px solid #E7E5E4;
+  }
+
+  &__spa-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #1C1917;
+    margin-bottom: 1rem;
+  }
+
+  &__spa-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+
+    @media (min-width: 640px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  &__spa-option {
+    background: #fff;
+    border: 1px solid #E7E5E4;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    color: #44403C;
+  }
+}
+
+/* ---- CALENDAR PLACEHOLDER ---- */
+.booking-calendar {
+  padding: 4rem 0;
+  background: #FAFAF9;
+
+  &__title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #1C1917;
+  }
+
+  &__placeholder {
+    max-width: 56rem;
+    margin: 0 auto;
+    background: #fff;
+    border: 2px dashed #D6D3D1;
+    border-radius: 0.75rem;
+    padding: 3rem;
+    text-align: center;
+  }
+
+  &__coming-soon {
+    color: #A8A29E;
+    font-size: 1.125rem;
+  }
+}
+
+/* ---- HOUSE RULES ---- */
+.booking-rules {
+  padding: 4rem 0;
+  background: #fff;
+
+  .container {
+    max-width: 48rem;
+  }
+
+  &__title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    color: #1C1917;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+.booking-rule {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+  background: #FAFAF9;
+  border-radius: 0.75rem;
+
+  &__icon {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+  }
+
+  &__content { }
+
+  &__text {
+    color: #44403C;
+    line-height: 1.6;
+  }
+}
+
+/* ---- CONTACT + FORM ---- */
+.booking-contact {
+  padding: 4rem 0;
+  background: #FAFAF9;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+
+    @media (min-width: 1024px) {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  &__info-card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    border: 1px solid #E7E5E4;
+
+    p {
+      color: #44403C;
+    }
+  }
+
+  &__info-label {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #1C1917;
+    margin-bottom: 0.5rem;
+  }
+
+  &__phone,
+  &__email {
+    color: #2D6A4F;
+    font-weight: 600;
+    font-size: 1rem;
+
+    &:hover {
+      color: #40916C;
+    }
+  }
+
+  &__map-btn {
+    display: block;
+    text-align: center;
+  }
+
+  &__map-embed {
+    border-radius: 0.75rem;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+    iframe {
+      display: block;
+    }
+  }
+
+  &__form-wrap {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    border: 1px solid #E7E5E4;
+  }
+
+  &__form-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1C1917;
+    margin-bottom: 0.5rem;
+  }
+
+  &__form-subtitle {
+    color: #78716C;
+    font-size: 0.875rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* ---- BOOKING FORM ---- */
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  &__field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  &__row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+
+    @media (min-width: 640px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  &__label {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #1C1917;
+  }
+
+  &__input,
+  &__select,
+  &__textarea {
+    width: 100%;
+    padding: 0.625rem 1rem;
+    border: 1px solid #E7E5E4;
+    border-radius: 0.5rem;
+    font-family: inherit;
+    font-size: 1rem;
+    color: #1C1917;
+    background: #fff;
+    transition: border-color 0.2s;
+    outline: none;
+
+    &:focus {
+      border-color: #2D6A4F;
+    }
+  }
+
+  &__textarea {
+    resize: vertical;
+    min-height: 6rem;
+  }
+
+  &__submit {
+    width: 100%;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 1.125rem;
+
+    &:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+}

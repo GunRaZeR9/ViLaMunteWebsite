@@ -83,6 +83,8 @@
     },
     "rooms": {
       "title": "Odihnă sub cerul de munte",
+      "subtitle": "Trei tipuri de camere, fiecare gândit pentru confort maxim în inima naturii.",
+      "photos": "fotografii",
       "apt": "Apartament Familial: 2 camere cu paturi matrimoniale și baie comună.",
       "double": "2 Camere Double Executive: Pat matrimonial și baie proprie.",
       "triple": "2 Camere Triple Premium: Pat matrimonial + pat single și baie proprie.",
@@ -173,6 +175,11 @@
       "1": "Seară de povești la focul de tabără sub cerul liber.",
       "2": "Relaxare la ciubăr și saună pentru reîncărcarea bateriilor.",
       "3": "Drumeții exploratorii către Lacul Iezer sau Cascadele din zonă."
+    },
+    "gallery": {
+      "title": "Atmosfera locației",
+      "subtitle": "O privire în spațiile care fac diferența pentru echipa ta.",
+      "photos": "fotografii"
     },
     "dining": {
       "title": "Totul la dispoziția voastră",

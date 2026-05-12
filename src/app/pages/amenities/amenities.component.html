@@ -1,0 +1,215 @@
+<!-- HERO -->
+<app-hero
+  [title]="'cabin.hero.title' | translate"
+  [subtitle]="'cabin.hero.subtitle' | translate"
+  [imageUrl]="'assets/images/2.cabana/455.webp'"
+  [showCta]="false"
+></app-hero>
+
+<!-- SECTION 2: ROOMS -->
+<section class="cabin-rooms">
+  <div class="container">
+    <h2 class="cabin-rooms__title" appFadeIn="up">
+      {{ 'cabin.rooms.title' | translate }}
+    </h2>
+    <p class="cabin-rooms__subtitle" appFadeIn="up">
+      {{ 'cabin.rooms.subtitle' | translate }}
+    </p>
+
+    <div class="cabin-rooms__decks" appFadeIn="up">
+      @for (collection of roomCollections; track collection.key) {
+        <div
+          class="room-deck"
+          (click)="openLightbox(collection)"
+          (keydown.enter)="openLightbox(collection)"
+          (keydown.space)="openLightbox(collection)"
+          role="button"
+          tabindex="0"
+          [attr.aria-label]="collection.label"
+        >
+          @for (img of collection.images.slice(0, collection.previewCount); track img; let i = $index) {
+            <div
+              class="room-deck__card"
+              [ngClass]="getCardPositionClass(i, collection.previewCount)"
+            >
+              <img
+                [src]="img"
+                [attr.alt]="collection.label"
+                class="room-deck__card-img"
+                loading="lazy"
+                width="320"
+                height="240"
+              />
+            </div>
+          }
+
+          <div class="room-deck__label">
+            <span class="room-deck__label-name">{{ collection.label }}</span>
+            <span class="room-deck__label-count">
+              {{ collection.images.length }} {{ 'cabin.rooms.photos' | translate }}
+            </span>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 3: KITCHEN -->
+<section class="cabin-kitchen">
+  <div class="container cabin-kitchen__grid">
+    <div class="cabin-kitchen__content" appFadeIn="left">
+      <h2 class="cabin-kitchen__title">
+        {{ 'cabin.kitchen.title' | translate }}
+      </h2>
+      <p class="cabin-kitchen__text">
+        {{ 'cabin.kitchen.text' | translate }}
+      </p>
+      <ul class="cabin-kitchen__list">
+        @for (i of kitchenItems; track i) {
+          <li class="cabin-kitchen__item">
+            <span class="cabin-kitchen__check">✓</span>
+            <span>{{ 'cabin.kitchen.item' + i | translate }}</span>
+          </li>
+        }
+      </ul>
+    </div>
+    <div appFadeIn="right">
+      <img
+        src="assets/images/2.cabana/Bucataria.webp"
+        alt="Bucătărie ViiLa Munte"
+        class="cabin-kitchen__image"
+        loading="lazy"
+        width="800" height="600"
+      />
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 4: COMMON AREAS / BILLIARDS -->
+<section class="cabin-common">
+  <div class="container cabin-common__grid">
+    <div appFadeIn="left">
+      <img
+        src="assets/images/2.cabana/329.webp"
+        alt="Biliard ViiLa Munte"
+        class="cabin-common__image"
+        loading="lazy"
+        width="800" height="600"
+      />
+    </div>
+    <div class="cabin-common__content" appFadeIn="right">
+      <h2 class="cabin-common__title">
+        {{ 'cabin.common.title' | translate }}
+      </h2>
+      <p class="cabin-common__text">
+        {{ 'cabin.common.text' | translate }}
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 5: SPA -->
+<section class="cabin-spa">
+  <div class="container cabin-spa__inner" appFadeIn="up">
+    <h2 class="cabin-spa__title">
+      {{ 'cabin.spa.title' | translate }}
+    </h2>
+    <p class="cabin-spa__text">
+      {{ 'cabin.spa.text' | translate }}
+    </p>
+    <div class="cabin-spa__options">
+      <div class="cabin-spa__option">
+        <p class="cabin-spa__option-text">{{ 'cabin.spa.tub' | translate }}</p>
+      </div>
+      <div class="cabin-spa__option">
+        <p class="cabin-spa__option-text">{{ 'cabin.spa.sauna' | translate }}</p>
+      </div>
+    </div>
+    <a routerLink="/contact" class="btn btn--primary">
+      {{ 'cabin.spa.cta' | translate }}
+    </a>
+  </div>
+</section>
+
+<!-- SECTION 6: OUTDOOR -->
+<section class="cabin-outdoor">
+  <div class="container cabin-outdoor__grid">
+    <div class="cabin-outdoor__content" appFadeIn="left">
+      <h2 class="cabin-outdoor__title">
+        {{ 'cabin.outdoor.title' | translate }}
+      </h2>
+      <p class="cabin-outdoor__text">
+        {{ 'cabin.outdoor.text' | translate }}
+      </p>
+      <ul class="cabin-outdoor__list">
+        <li class="cabin-outdoor__item">
+          <span class="cabin-outdoor__item-icon">🔥</span>
+          <span class="cabin-outdoor__item-text">{{ 'cabin.outdoor.bbq' | translate }}</span>
+        </li>
+        <li class="cabin-outdoor__item">
+          <span class="cabin-outdoor__item-icon">🌟</span>
+          <span class="cabin-outdoor__item-text">{{ 'cabin.outdoor.campfire' | translate }}</span>
+        </li>
+        <li class="cabin-outdoor__item">
+          <span class="cabin-outdoor__item-icon">🏕️</span>
+          <span class="cabin-outdoor__item-text">{{ 'cabin.outdoor.gazebo' | translate }}</span>
+        </li>
+      </ul>
+    </div>
+    <div appFadeIn="right">
+      <img
+        src="assets/images/1.HOMEPAGE/viilamunte%203.webp"
+        alt="Outdoor ViiLa Munte"
+        class="cabin-outdoor__image"
+        loading="lazy"
+        width="800" height="600"
+      />
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 7: TECH -->
+<section class="cabin-tech">
+  <div class="container cabin-tech__inner" appFadeIn="up">
+    <span class="cabin-tech__icon">📶</span>
+    <h2 class="cabin-tech__title">{{ 'cabin.tech.title' | translate }}</h2>
+    <p class="cabin-tech__text">{{ 'cabin.tech.text' | translate }}</p>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="cabin-cta">
+  <div class="container">
+    <h3 class="cabin-cta__title">{{ 'cabin.cta.title' | translate }}</h3>
+    <a routerLink="/contact" class="btn btn--white btn--lg">
+      {{ 'cabin.cta.button' | translate }}
+    </a>
+  </div>
+</section>
+
+@if (lightboxOpen) {
+  <div
+    class="lightbox"
+    (click)="closeLightbox()"
+    role="dialog"
+    aria-modal="true"
+  >
+    <div class="lightbox__stage" (click)="$event.stopPropagation()">
+      <button class="lightbox__close" (click)="closeLightbox()" type="button" aria-label="Închide">&#x2715;</button>
+      <div class="lightbox__counter">{{ lightboxIndex + 1 }} / {{ lightboxImages.length }}</div>
+      <div class="lightbox__image-wrap">
+        <img
+          [src]="lightboxImages[lightboxIndex]"
+          class="lightbox__image"
+          [attr.alt]="lightboxLabel"
+          loading="eager"
+        />
+      </div>
+      @if (lightboxImages.length > 1) {
+        <button class="lightbox__nav lightbox__nav--prev" (click)="navigateLightbox(-1)" type="button" aria-label="Anteriorul">&#8249;</button>
+        <button class="lightbox__nav lightbox__nav--next" (click)="navigateLightbox(1)" type="button" aria-label="Următorul">&#8250;</button>
+      }
+    </div>
+  </div>
+}

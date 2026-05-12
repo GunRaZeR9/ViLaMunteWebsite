@@ -1,0 +1,132 @@
+<!-- HERO -->
+<app-hero
+  [title]="'teambuilding.hero.title' | translate"
+  [subtitle]="'teambuilding.hero.subtitle' | translate"
+  [imageUrl]="'assets/images/4.teambuilding/432.webp'"
+  [showCta]="false"
+></app-hero>
+
+<!-- SECTION 2: FEATURES GRID -->
+<section class="tb-features">
+  <div class="container">
+    <h2 class="tb-features__title" appFadeIn="up">
+      {{ 'teambuilding.features.title' | translate }}
+    </h2>
+    <div class="tb-features__grid">
+      @for (i of featureIndices; track i) {
+        <div class="tb-feature-card" appFadeIn="up">
+          <div class="tb-feature-card__icon">{{ 'teambuilding.features.' + i + '.icon' | translate }}</div>
+          <h3 class="tb-feature-card__title">
+            {{ 'teambuilding.features.' + i + '.title' | translate }}
+          </h3>
+          <p class="tb-feature-card__text">
+            {{ 'teambuilding.features.' + i + '.text' | translate }}
+          </p>
+        </div>
+      }
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 3: ACTIVITIES -->
+<section class="tb-activities">
+  <div class="container tb-activities__grid">
+    <div class="tb-activities__content" appFadeIn="left">
+      <h2 class="tb-activities__title">
+        {{ 'teambuilding.activities.title' | translate }}
+      </h2>
+      <p class="tb-activities__text">
+        {{ 'teambuilding.activities.text' | translate }}
+      </p>
+      <ul class="tb-activities__list">
+        @for (i of activityIndices; track i) {
+          <li class="tb-activities__item">
+            <span class="tb-activities__arrow">→</span>
+            <span>{{ 'teambuilding.activities.' + i | translate }}</span>
+          </li>
+        }
+      </ul>
+    </div>
+    <div class="tb-activities__deck-col" appFadeIn="right">
+      <div
+        class="tb-deck"
+        (click)="openLightbox()"
+        (keydown.enter)="openLightbox()"
+        (keydown.space)="openLightbox()"
+        role="button"
+        tabindex="0"
+        [attr.aria-label]="galleryCollection.label"
+      >
+        @for (img of galleryCollection.images.slice(0, galleryCollection.previewCount); track img; let i = $index) {
+          <div
+            class="tb-deck__card"
+            [ngClass]="getCardPositionClass(i, galleryCollection.previewCount)"
+          >
+            <img
+              [src]="img"
+              [attr.alt]="galleryCollection.label"
+              class="tb-deck__card-img"
+              loading="lazy"
+              width="320"
+              height="240"
+            />
+          </div>
+        }
+        <div class="tb-deck__label">
+          <span class="tb-deck__label-name">{{ galleryCollection.label }}</span>
+          <span class="tb-deck__label-count">
+            {{ galleryCollection.images.length }} {{ 'teambuilding.gallery.photos' | translate }}
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 4: DINING / LOGISTICS -->
+<section class="tb-dining">
+  <div class="container tb-dining__inner" appFadeIn="up">
+    <h2 class="tb-dining__title">
+      {{ 'teambuilding.dining.title' | translate }}
+    </h2>
+    <p class="tb-dining__text">
+      {{ 'teambuilding.dining.text' | translate }}
+    </p>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="tb-cta">
+  <div class="container">
+    <h3 class="tb-cta__title">{{ 'teambuilding.cta.title' | translate }}</h3>
+    <a routerLink="/contact" class="btn btn--white btn--lg">
+      {{ 'teambuilding.cta.button' | translate }}
+    </a>
+  </div>
+</section>
+
+@if (lightboxOpen) {
+  <div
+    class="lightbox"
+    (click)="closeLightbox()"
+    role="dialog"
+    aria-modal="true"
+  >
+    <div class="lightbox__stage" (click)="$event.stopPropagation()">
+      <button class="lightbox__close" (click)="closeLightbox()" type="button" aria-label="Închide">&#x2715;</button>
+      <div class="lightbox__counter">{{ lightboxIndex + 1 }} / {{ lightboxImages.length }}</div>
+      <div class="lightbox__image-wrap">
+        <img
+          [src]="lightboxImages[lightboxIndex]"
+          class="lightbox__image"
+          [attr.alt]="lightboxLabel"
+          loading="eager"
+        />
+      </div>
+      @if (lightboxImages.length > 1) {
+        <button class="lightbox__nav lightbox__nav--prev" (click)="navigateLightbox(-1)" type="button" aria-label="Anteriorul">&#8249;</button>
+        <button class="lightbox__nav lightbox__nav--next" (click)="navigateLightbox(1)" type="button" aria-label="Următorul">&#8250;</button>
+      }
+    </div>
+  </div>
+}

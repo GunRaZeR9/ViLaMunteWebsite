@@ -83,6 +83,8 @@
     },
     "rooms": {
       "title": "Rest under the mountain sky",
+      "subtitle": "Three room types, each designed for maximum comfort in the heart of nature.",
+      "photos": "photos",
       "apt": "Family Apartment: 2 rooms with double beds and shared bathroom.",
       "double": "2 Executive Double Rooms: Double bed and private bathroom.",
       "triple": "2 Triple Premium Rooms: Double bed + single bed and private bathroom.",
@@ -173,6 +175,11 @@
       "1": "An evening of stories at the campfire under the open sky.",
       "2": "Relaxation at the hot tub and sauna to recharge.",
       "3": "Exploratory hikes to Lake Iezer or the local waterfalls."
+    },
+    "gallery": {
+      "title": "The venue atmosphere",
+      "subtitle": "A glimpse of the spaces that make the difference for your team.",
+      "photos": "photos"
     },
     "dining": {
       "title": "Everything at your disposal",
