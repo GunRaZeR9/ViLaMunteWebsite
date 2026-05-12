@@ -1,65 +1,199 @@
-<app-hero
-  [title]="'Viila Munte'"
-  [subtitle]="'home.tagline' | translate"
-  [imageUrl]="'assets/images/2023/07/DJI_0682.jpg'"
-  [showCta]="true"
-></app-hero>
-
-<section class="py-12 bg-white">
-  <div class="container">
-    <h2 class="text-3xl font-bold text-center mb-6 text-stone-900">
-      Bine ai venit la Viila Munte
-    </h2>
-    <p class="text-center text-gray-700 max-w-2xl mx-auto mb-12 text-lg leading-relaxed">
-      {{ 'home.description' | translate }}
+<!-- SECTION 1: HERO -->
+<div class="home-hero">
+  <img
+    src="assets/images/1.HOMEPAGE/cabana%20toplita%201.webp"
+    alt="ViiLa Munte - Refugiu exclusiv în Călimani"
+    class="home-hero__image"
+    fetchpriority="high"
+    width="1920" height="1080"
+  />
+  <div class="home-hero__overlay">
+    <h1 class="home-hero__title">
+      {{ 'home.hero.title' | translate }}
+    </h1>
+    <p class="home-hero__tagline">
+      {{ 'home.hero.tagline' | translate }}
     </p>
+    <div class="home-hero__ctas">
+      <a routerLink="/contact" class="btn btn--primary">
+        {{ 'home.hero.ctaBook' | translate }}
+      </a>
+      <a routerLink="/gallery" class="btn btn--outline-white">
+        {{ 'home.hero.ctaGallery' | translate }}
+      </a>
+    </div>
+  </div>
+</div>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <div class="text-center p-6 bg-white border border-stone-200 rounded-xl shadow-sm hover:shadow-md transition">
-        <svg class="w-12 h-12 text-forest mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-        </svg>
-        <h3 class="text-xl font-semibold text-stone-900 mb-2">
-          {{ 'home.highlights.views' | translate }}
-        </h3>
-        <p class="text-stone-600">
-          Vederi spectaculoase asupra munților Călimani și peisaje naturale minunate
-        </p>
+<!-- SECTION 2: INTRO -->
+<section class="home-intro">
+  <div class="container home-intro__inner" appFadeIn="up">
+    <h2 class="home-intro__title">
+      {{ 'home.intro.title' | translate }}
+    </h2>
+    <p class="home-intro__text">
+      {{ 'home.intro.text' | translate }}
+    </p>
+    <a routerLink="/gallery" class="btn btn--outline-forest">
+      {{ 'home.intro.cta' | translate }}
+    </a>
+  </div>
+</section>
+
+<!-- SECTION 3: STATS -->
+<section class="home-stats">
+  <div class="container">
+    <div class="home-stats__row" appFadeIn="up">
+      <div class="home-stats__item">
+        <span class="home-stats__icon">👥</span>
+        <p class="home-stats__label">{{ 'home.stats.guests' | translate }}</p>
       </div>
-      <div class="text-center p-6 bg-white border border-stone-200 rounded-xl shadow-sm hover:shadow-md transition">
-        <svg class="w-12 h-12 text-forest mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-        </svg>
-        <h3 class="text-xl font-semibold text-stone-900 mb-2">
-          {{ 'home.highlights.amenities' | translate }}
-        </h3>
-        <p class="text-stone-600">
-          Confortul modern combinat cu atmosfera tradițională a cabanei de munte
-        </p>
+      <div class="home-stats__item">
+        <span class="home-stats__icon">🛏️</span>
+        <p class="home-stats__label">{{ 'home.stats.rooms' | translate }}</p>
       </div>
-      <div class="text-center p-6 bg-white border border-stone-200 rounded-xl shadow-sm hover:shadow-md transition">
-        <svg class="w-12 h-12 text-forest mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-        </svg>
-        <h3 class="text-xl font-semibold text-stone-900 mb-2">
-          {{ 'home.highlights.location' | translate }}
-        </h3>
-        <p class="text-stone-600">
-          Retrasă și liniștită, departe de agitația urbană, perfectă pentru relaxare
-        </p>
+      <div class="home-stats__item">
+        <span class="home-stats__icon">🚿</span>
+        <p class="home-stats__label">{{ 'home.stats.bathrooms' | translate }}</p>
       </div>
+      <div class="home-stats__item">
+        <span class="home-stats__icon">🎱</span>
+        <p class="home-stats__label">{{ 'home.stats.billiard' | translate }}</p>
+      </div>
+      <div class="home-stats__item">
+        <span class="home-stats__icon">📶</span>
+        <p class="home-stats__label">{{ 'home.stats.internet' | translate }}</p>
+      </div>
+    </div>
+    <div class="home-stats__cta">
+      <a routerLink="/rates" class="btn btn--primary">
+        {{ 'home.stats.cta' | translate }}
+      </a>
     </div>
   </div>
 </section>
 
-<app-reviews></app-reviews>
+<!-- SECTION 4: SPA -->
+<section class="home-spa">
+  <div class="container home-spa__grid">
+    <div class="home-spa__content" appFadeIn="left">
+      <h2 class="home-spa__title">
+        {{ 'home.spa.title' | translate }}
+      </h2>
+      <p class="home-spa__text">
+        {{ 'home.spa.text' | translate }}
+      </p>
+      <a routerLink="/rates" class="btn btn--primary">
+        {{ 'home.spa.cta' | translate }}
+      </a>
+    </div>
+    <div appFadeIn="right">
+      <img
+        src="assets/images/2.cabana/329.webp"
+        alt="Ciubăr ViiLa Munte"
+        class="home-spa__image"
+        loading="lazy"
+        width="800" height="600"
+      />
+    </div>
+  </div>
+</section>
 
-<section class="py-12 bg-forest text-white">
-  <div class="container text-center">
-    <h2 class="text-3xl font-bold mb-4 text-white">Gata să rezervezi?</h2>
-    <p class="text-lg mb-6 text-white">Contactează-ne astazi pentru a planifica vacanța ta perfectă</p>
-    <a href="/contact" class="inline-block px-8 py-3 bg-white text-forest font-semibold rounded-lg hover:bg-forest-pale transition">
-      Contactează-ne
+<!-- SECTION 5: TEAMBUILDING TEASER -->
+<section class="home-tb">
+  <div class="container home-tb__inner" appFadeIn="up">
+    <h2 class="home-tb__title">
+      {{ 'home.teambuilding.title' | translate }}
+    </h2>
+    <p class="home-tb__text">
+      {{ 'home.teambuilding.text' | translate }}
+    </p>
+    <a routerLink="/calendar" class="btn btn--primary">
+      {{ 'home.teambuilding.cta' | translate }}
     </a>
+  </div>
+</section>
+
+<!-- SECTION 6: OUTDOOR / CAMPFIRE -->
+<section class="home-outdoor">
+  <div class="container home-outdoor__grid">
+    <div class="home-outdoor__content" appFadeIn="left">
+      <h2 class="home-outdoor__title">
+        {{ 'home.outdoor.title' | translate }}
+      </h2>
+      <p class="home-outdoor__text">
+        {{ 'home.outdoor.text' | translate }}
+      </p>
+      <a routerLink="/rates" class="btn btn--primary">
+        {{ 'home.outdoor.cta' | translate }}
+      </a>
+    </div>
+    <div appFadeIn="right">
+      <img
+        src="assets/images/1.HOMEPAGE/viilamunte%203.webp"
+        alt="Foc de tabără ViiLa Munte"
+        class="home-outdoor__image"
+        loading="lazy"
+        width="800" height="600"
+      />
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 7: ROAD -->
+<section class="home-road">
+  <div class="container home-road__grid">
+    <div appFadeIn="left">
+      <img
+        src="assets/images/3.drumul/DJI_0326.webp"
+        alt="Drum forestier ViiLa Munte"
+        class="home-road__image"
+        loading="lazy"
+        width="800" height="600"
+      />
+    </div>
+    <div class="home-road__content" appFadeIn="right">
+      <h2 class="home-road__title">
+        {{ 'home.road.title' | translate }}
+      </h2>
+      <p class="home-road__text">
+        {{ 'home.road.text' | translate }}
+      </p>
+      <a routerLink="/gallery" class="btn btn--outline-forest">
+        {{ 'home.road.cta' | translate }}
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 8: SOCIAL PROOF + REVIEWS -->
+<section class="home-social">
+  <div class="container">
+    <div class="home-social__header" appFadeIn="up">
+      <h2 class="home-social__title">
+        {{ 'home.social.title' | translate }}
+      </h2>
+      <div class="home-social__rating">
+        <span class="home-social__score">{{ 'home.social.rating' | translate }}</span>
+        <span class="home-social__stars">★★★★★</span>
+        <span class="home-social__label">Google Maps</span>
+      </div>
+      <p class="home-social__text">
+        {{ 'home.social.text' | translate }}
+      </p>
+    </div>
+
+    <app-reviews></app-reviews>
+
+    <div class="home-social__footer">
+      <p class="home-social__location">Toplița, Munții Călimani</p>
+      <a href="https://wa.me/40XXXXXXXXX" target="_blank" rel="noopener noreferrer"
+         class="btn btn--whatsapp">
+        <svg class="btn__icon" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+        {{ 'whatsapp.text' | translate }}
+      </a>
+    </div>
   </div>
 </section>

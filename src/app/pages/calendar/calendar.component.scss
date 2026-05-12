@@ -1,3 +1,158 @@
 :host {
   display: block;
 }
+
+/* ---- FEATURES ---- */
+.tb-features {
+  padding: 4rem 0;
+  background: #fff;
+
+  &__title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    color: #1C1917;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+
+    @media (min-width: 640px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: 1024px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}
+
+.tb-feature-card {
+  text-align: center;
+  padding: 1.5rem;
+  background: #FAFAF9;
+  border-radius: 0.75rem;
+  border: 1px solid #E7E5E4;
+  transition: box-shadow 0.3s;
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+
+  &__icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  &__title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #1C1917;
+    margin-bottom: 0.5rem;
+  }
+
+  &__text {
+    color: #57534E;
+    font-size: 0.875rem;
+    line-height: 1.6;
+  }
+}
+
+/* ---- ACTIVITIES ---- */
+.tb-activities {
+  padding: 4rem 0;
+  background: #292524;
+  color: #fff;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    align-items: center;
+
+    @media (min-width: 768px) {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  &__title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 1.5rem;
+  }
+
+  &__text {
+    color: #D6D3D1;
+    line-height: 1.75;
+    margin-bottom: 1.5rem;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  &__item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    color: #D6D3D1;
+  }
+
+  &__arrow {
+    color: #2D6A4F;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  &__image {
+    width: 100%;
+    border-radius: 0.75rem;
+    object-fit: cover;
+    height: 20rem;
+  }
+}
+
+/* ---- DINING ---- */
+.tb-dining {
+  padding: 4rem 0;
+  background: #fff;
+
+  &__inner {
+    max-width: 48rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  &__title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #1C1917;
+  }
+
+  &__text {
+    color: #44403C;
+    line-height: 1.75;
+  }
+}
+
+/* ---- CTA ---- */
+.tb-cta {
+  padding: 4rem 0;
+  background: #2D6A4F;
+  color: #fff;
+  text-align: center;
+
+  &__title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 1.5rem;
+  }
+}

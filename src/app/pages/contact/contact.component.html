@@ -1,66 +1,201 @@
-<div class="py-12 bg-white">
+<!-- HERO -->
+<app-hero
+  [title]="'booking.hero.title' | translate"
+  [subtitle]="'booking.hero.subtitle' | translate"
+  [imageUrl]="'assets/images/5.rezervare/DDM02787-HDR.webp'"
+  [showCta]="false"
+></app-hero>
+
+<!-- SECTION 2: RATES -->
+<section class="booking-rates">
   <div class="container">
-    <h1 class="text-4xl font-bold text-center mb-12 text-stone-900">
-      {{ 'contact.title' | translate }}
-    </h1>
-
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-12">
-      <!-- Contact Info -->
-      <div class="space-y-6">
-        <div class="bg-white p-6 rounded-lg border border-stone-200">
-          <h3 class="text-xl font-semibold text-stone-900 mb-2">📍 Locație</h3>
-          <p class="text-stone-700">{{ 'contact.address' | translate }}</p>
+    <h2 class="booking-rates__title" appFadeIn="up">
+      {{ 'booking.rates.title' | translate }}
+    </h2>
+    <div class="booking-rates__content">
+      <!-- Main rate -->
+      <div class="booking-rates__main-card" appFadeIn="up">
+        <div class="booking-rates__card-header">
+          <h3 class="booking-rates__card-title">{{ 'booking.rates.full' | translate }}</h3>
+          <span class="booking-rates__price">{{ 'booking.rates.fullPrice' | translate }}</span>
         </div>
-
-        <div class="bg-white p-6 rounded-lg border border-stone-200">
-          <h3 class="text-xl font-semibold text-stone-900 mb-2">📞 Telefon</h3>
-          <a href="tel:+40XXXXXXXXX" class="text-forest hover:text-forest-light transition font-semibold">
-            {{ 'contact.phone' | translate }}
-          </a>
-        </div>
-
-        <div class="bg-white p-6 rounded-lg border border-stone-200">
-          <h3 class="text-xl font-semibold text-stone-900 mb-2">✉️ Email</h3>
-          <a href="mailto:contact@viilamunte.ro" class="text-forest hover:text-forest-light transition font-semibold">
-            {{ 'contact.email' | translate }}
-          </a>
+        <p class="booking-rates__detail">{{ 'booking.rates.capacity' | translate }}</p>
+        <p class="booking-rates__detail">{{ 'booking.rates.minimum' | translate }}</p>
+        <p class="booking-rates__fine-print">{{ 'booking.rates.included' | translate }}</p>
+      </div>
+      <!-- SPA options -->
+      <div class="booking-rates__spa-box" appFadeIn="up">
+        <h3 class="booking-rates__spa-title">{{ 'booking.rates.spaTitle' | translate }}</h3>
+        <div class="booking-rates__spa-grid">
+          <div class="booking-rates__spa-option">
+            <p>{{ 'booking.rates.tub' | translate }}</p>
+          </div>
+          <div class="booking-rates__spa-option">
+            <p>{{ 'booking.rates.sauna' | translate }}</p>
+          </div>
         </div>
       </div>
-
-      <!-- Contact Form -->
-      <div class="bg-white p-8 rounded-lg shadow-md border border-stone-200">
-        <h2 class="text-2xl font-bold text-stone-900 mb-6">{{ 'contact.formTitle' | translate }}</h2>
-        <form (ngSubmit)="submitForm()" #contactForm="ngForm" class="space-y-4">
-          <div>
-            <label class="block text-sm font-semibold text-stone-800 mb-2">{{ 'contact.name' | translate }}</label>
-            <input [(ngModel)]="name" name="name" type="text" required
-                   class="w-full px-4 py-2 border border-stone-200 rounded-lg focus:outline-none focus:border-forest transition" />
-          </div>
-
-          <div>
-            <label class="block text-sm font-semibold text-stone-800 mb-2">{{ 'contact.email_field' | translate }}</label>
-            <input [(ngModel)]="email" name="email" type="email" required
-                   class="w-full px-4 py-2 border border-stone-200 rounded-lg focus:outline-none focus:border-forest transition" />
-          </div>
-
-          <div>
-            <label class="block text-sm font-semibold text-stone-800 mb-2">{{ 'contact.message' | translate }}</label>
-            <textarea [(ngModel)]="message" name="message" rows="5" required
-                      class="w-full px-4 py-2 border border-stone-200 rounded-lg focus:outline-none focus:border-forest transition"></textarea>
-          </div>
-
-          <button type="submit" [disabled]="!contactForm.valid"
-                  class="w-full px-6 py-3 bg-forest text-white font-semibold rounded-lg hover:bg-forest-light transition disabled:opacity-50">
-            {{ 'contact.send' | translate }}
-          </button>
-        </form>
-      </div>
-    </div>
-
-    <!-- Map -->
-    <div class="mt-12">
-      <h2 class="text-2xl font-bold text-stone-900 mb-6">{{ 'contact.mapTitle' | translate }}</h2>
-      <iframe [src]="mapUrl" width="100%" height="400" frameborder="0" loading="lazy" style="border-radius: 8px;"></iframe>
     </div>
   </div>
-</div>
+</section>
+
+<!-- SECTION 3: CALENDAR PLACEHOLDER -->
+<section class="booking-calendar">
+  <div class="container">
+    <h2 class="booking-calendar__title">
+      {{ 'booking.calendar.title' | translate }}
+    </h2>
+    <div class="booking-calendar__placeholder">
+      <!-- Smoobu / Airbnb calendar widget will be embedded here -->
+      <p class="booking-calendar__coming-soon">Calendar widget coming soon</p>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 4: HOUSE RULES -->
+<section class="booking-rules">
+  <div class="container">
+    <h2 class="booking-rules__title" appFadeIn="up">
+      {{ 'booking.rules.title' | translate }}
+    </h2>
+    <div class="booking-rules__list">
+      <div class="booking-rule" appFadeIn="up">
+        <span class="booking-rule__icon">🕒</span>
+        <div class="booking-rule__content">
+          <p class="booking-rule__text">{{ 'booking.rules.checkIn' | translate }}</p>
+          <p class="booking-rule__text">{{ 'booking.rules.checkOut' | translate }}</p>
+        </div>
+      </div>
+      <div class="booking-rule" appFadeIn="up">
+        <span class="booking-rule__icon">🚭</span>
+        <p class="booking-rule__text">{{ 'booking.rules.smoking' | translate }}</p>
+      </div>
+      <div class="booking-rule" appFadeIn="up">
+        <span class="booking-rule__icon">🎵</span>
+        <p class="booking-rule__text">{{ 'booking.rules.noise' | translate }}</p>
+      </div>
+      <div class="booking-rule" appFadeIn="up">
+        <span class="booking-rule__icon">🌲</span>
+        <p class="booking-rule__text">{{ 'booking.rules.access' | translate }}</p>
+      </div>
+      <div class="booking-rule" appFadeIn="up">
+        <span class="booking-rule__icon">🐾</span>
+        <p class="booking-rule__text">{{ 'booking.rules.pets' | translate }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 5: CONTACT + BOOKING FORM -->
+<section class="booking-contact">
+  <div class="container booking-contact__grid">
+
+    <!-- Contact info + map -->
+    <div class="booking-contact__info" appFadeIn="left">
+      <div class="booking-contact__info-card">
+        <h3 class="booking-contact__info-label">📍 {{ 'contact.title' | translate }}</h3>
+        <p>{{ 'booking.contact.location' | translate }}</p>
+      </div>
+      <div class="booking-contact__info-card">
+        <h3 class="booking-contact__info-label">📞</h3>
+        <a href="tel:+40XXXXXXXXX" class="booking-contact__phone">
+          {{ 'contact.phone' | translate }}
+        </a>
+      </div>
+      <div class="booking-contact__info-card">
+        <h3 class="booking-contact__info-label">✉️</h3>
+        <a href="mailto:contact@viilamunte.ro" class="booking-contact__email">
+          {{ 'contact.email' | translate }}
+        </a>
+      </div>
+      <a href="https://maps.google.com/?q=Balan,+Harghita,+Romania"
+         target="_blank" rel="noopener noreferrer"
+         class="btn btn--outline-forest booking-contact__map-btn">
+        {{ 'booking.contact.mapButton' | translate }}
+      </a>
+      <div class="booking-contact__map-embed">
+        <iframe
+          src="https://maps.google.com/maps?q=Balan,+Harghita,+Romania&output=embed"
+          width="100%"
+          height="250"
+          loading="lazy"
+          title="ViiLa Munte location">
+        </iframe>
+      </div>
+    </div>
+
+    <!-- Booking form -->
+    <div class="booking-contact__form-wrap" appFadeIn="right">
+      <h2 class="booking-contact__form-title">{{ 'booking.form.title' | translate }}</h2>
+      <p class="booking-contact__form-subtitle">{{ 'booking.form.subtitle' | translate }}</p>
+
+      <form (ngSubmit)="submitForm()" #bookingForm="ngForm" class="booking-form">
+        <div class="booking-form__field">
+          <label class="booking-form__label">{{ 'booking.form.name' | translate }}</label>
+          <input [(ngModel)]="name" name="name" type="text" required
+                 [placeholder]="'booking.form.namePlaceholder' | translate"
+                 class="booking-form__input" />
+        </div>
+
+        <div class="booking-form__row">
+          <div class="booking-form__field">
+            <label class="booking-form__label">{{ 'booking.form.email' | translate }}</label>
+            <input [(ngModel)]="email" name="email" type="email" required
+                   [placeholder]="'booking.form.emailPlaceholder' | translate"
+                   class="booking-form__input" />
+          </div>
+          <div class="booking-form__field">
+            <label class="booking-form__label">{{ 'booking.form.phone' | translate }}</label>
+            <input [(ngModel)]="phone" name="phone" type="tel"
+                   [placeholder]="'booking.form.phonePlaceholder' | translate"
+                   class="booking-form__input" />
+          </div>
+        </div>
+
+        <div class="booking-form__row">
+          <div class="booking-form__field">
+            <label class="booking-form__label">{{ 'booking.form.checkIn' | translate }}</label>
+            <input [(ngModel)]="checkIn" name="checkIn" type="date"
+                   class="booking-form__input" />
+          </div>
+          <div class="booking-form__field">
+            <label class="booking-form__label">{{ 'booking.form.checkOut' | translate }}</label>
+            <input [(ngModel)]="checkOut" name="checkOut" type="date"
+                   class="booking-form__input" />
+          </div>
+        </div>
+
+        <div class="booking-form__row">
+          <div class="booking-form__field">
+            <label class="booking-form__label">{{ 'booking.form.groupType' | translate }}</label>
+            <select [(ngModel)]="groupType" name="groupType" class="booking-form__select">
+              <option value="">—</option>
+              <option value="friends">{{ 'booking.form.groupFriends' | translate }}</option>
+              <option value="teambuilding">{{ 'booking.form.groupTeambuilding' | translate }}</option>
+              <option value="event">{{ 'booking.form.groupEvent' | translate }}</option>
+            </select>
+          </div>
+          <div class="booking-form__field">
+            <label class="booking-form__label">{{ 'booking.form.persons' | translate }}</label>
+            <input [(ngModel)]="persons" name="persons" type="number" min="1" max="20"
+                   [placeholder]="'booking.form.personsPlaceholder' | translate"
+                   class="booking-form__input" />
+          </div>
+        </div>
+
+        <div class="booking-form__field">
+          <label class="booking-form__label">{{ 'booking.form.message' | translate }}</label>
+          <textarea [(ngModel)]="message" name="message" rows="4" required
+                    [placeholder]="'booking.form.messagePlaceholder' | translate"
+                    class="booking-form__textarea"></textarea>
+        </div>
+
+        <button type="submit" [disabled]="!bookingForm.valid"
+                class="btn btn--primary booking-form__submit">
+          {{ 'booking.form.submit' | translate }}
+        </button>
+      </form>
+    </div>
+
+  </div>
+</section>

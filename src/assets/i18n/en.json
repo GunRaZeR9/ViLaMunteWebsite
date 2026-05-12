@@ -1,74 +1,253 @@
 {
   "nav": {
     "home": "Home",
-    "gallery": "Gallery",
-    "rates": "Rates",
-    "calendar": "Calendar",
-    "rules": "House Rules",
-    "contact": "Contact"
+    "gallery": "Our Story",
+    "rates": "Amenities",
+    "calendar": "Teambuilding",
+    "contact": "Book Now"
   },
-  "home": {
-    "title": "Viila Munte",
-    "tagline": "An Alpine retreat in the heart of the Calimani Mountains",
-    "description": "Welcome to Viila Munte - a luxury cabin nestled in the picturesque Calimani mountain range. Ideal for couples, families, and groups of friends seeking an escape from the hustle and bustle.",
-    "highlights": {
-      "views": "Spectacular mountain views",
-      "amenities": "All modern amenities",
-      "location": "Secluded and peaceful location"
+  "seo": {
+    "home": {
+      "title": "ViiLa Munte Toplița - Wooden Cabin for 20 Guests in the Călimani Mountains",
+      "description": "ViiLa Munte Toplița - Exclusive wooden cabin rental for up to 20 guests in the Călimani Mountains. Private rental, billiards, sauna, hot tub and Starlink internet. Perfect for teambuilding and private events."
     },
-    "cta": "Book Now",
-    "reviews_title": "What our guests say"
-  },
-  "gallery": {
-    "title": "Photo Gallery",
-    "description": "Explore the beauty of Viila Munte"
-  },
-  "rates": {
-    "title": "Rates & Availability",
-    "pricePerNight": "Price per night",
-    "includes": "Includes:",
-    "amenities": {
-      "bedrooms": "Comfortable bedrooms",
-      "kitchen": "Fully equipped kitchen",
-      "heating": "Heating and hot water",
-      "wifi": "High-speed WiFi",
-      "parking": "Private parking"
+    "cabin": {
+      "title": "Accommodation for 20 People Toplița - Rooms & Amenities at Viila Munte",
+      "description": "Discover Viila Munte, the ideal teambuilding venue in Harghita. Mountain cabin in Călimani with 20 spots, 7 bathrooms, hot tub and sauna. Book the whole place!"
     },
-    "seasonRules": {
-      "high": "High season (May-September)",
-      "mid": "Mid season",
-      "low": "Low season (October-April)"
+    "access": {
+      "title": "How to Get to ViiLa Munte - Forest Road & Toplița Attractions",
+      "description": "Complete guide on how to reach ViiLa Munte Toplița. The 12km forest road through Călimani and top attractions: Mezothermal Waterfall and Ski Slopes."
+    },
+    "teambuilding": {
+      "title": "Teambuilding in Harghita - Exclusive Venue in the Călimani Mountains",
+      "description": "ViiLa Munte: The ideal mountain teambuilding destination. 20-person capacity, Starlink internet, total privacy and premium amenities in the heart of Călimani."
+    },
+    "booking": {
+      "title": "Book ViiLa Munte Toplița — Availability and Rates",
+      "description": "Book the entire ViiLa Munte cabin for your group of 20. Rate: 2,400 RON/night. Check the updated calendar and house rules."
     }
   },
-  "calendar": {
-    "title": "Availability Calendar",
-    "available": "Available",
-    "blocked": "Booked",
-    "ctaText": "Contact us to book"
+  "home": {
+    "hero": {
+      "title": "ViiLa Munte — Your Exclusive Retreat in the Heart of Călimani",
+      "tagline": "12 km of silence between you and the rest of the world. Full cabin rental for groups of up to 20 people.",
+      "ctaBook": "Book the Cabin",
+      "ctaGallery": "View Gallery"
+    },
+    "intro": {
+      "title": "Say Goodbye to the City, Say Hello to the Mountains",
+      "text": "ViiLa Munte is a total disconnection experience at 1,000m altitude. An isolated location, designed specifically for teambuilding and large groups seeking absolute privacy and premium comfort.",
+      "cta": "Discover our story"
+    },
+    "stats": {
+      "guests": "20 Guests",
+      "rooms": "10 Rooms",
+      "bathrooms": "7 Bathrooms",
+      "billiard": "Billiards",
+      "internet": "Starlink",
+      "cta": "View interior details & amenities"
+    },
+    "spa": {
+      "title": "Fire, Water and Relaxation under the Open Sky",
+      "text": "Discover our hot tub and panoramic sauna, specially crafted to wash away the day's fatigue under the clearest starlit sky.",
+      "cta": "View SPA amenities"
+    },
+    "teambuilding": {
+      "title": "The ideal location for your team",
+      "text": "Total privacy, fast internet and generous space for group activities. No neighbours, no distractions.",
+      "cta": "Teambuilding Packages"
+    },
+    "outdoor": {
+      "title": "Mountain flavours and evenings by the campfire",
+      "text": "We have everything ready for a true feast: a fully equipped BBQ and cauldron area, a covered gazebo, and a special spot for campfires under the open Călimani sky.",
+      "cta": "View BBQ area"
+    },
+    "road": {
+      "title": "The journey is part of the adventure",
+      "text": "The last 12 km are on a forest road — the natural barrier that separates us from the noise of civilisation.",
+      "cta": "Access Guide & Local Attractions"
+    },
+    "social": {
+      "title": "Our guests recommend us",
+      "text": "We are proud of our community. With over 87 positive reviews on Google Maps, ViiLa Munte is one of the most appreciated mountain locations in Harghita County. People come for the scenery and return for the hospitality.",
+      "rating": "4.9/5"
+    },
+    "reviews_title": "What our guests say",
+    "cta": "Book now"
   },
-  "rules": {
-    "title": "House Rules",
-    "checkIn": "Check-in: 4:00 PM",
-    "checkOut": "Check-out: 11:00 AM",
-    "rules": [
-      "Guests responsible for maintaining cleanliness",
-      "No smoking indoors",
-      "Keep noise to a minimum after 10:00 PM",
-      "Pets negotiable with advance notice",
-      "Cash or bank transfer accepted"
-    ]
+  "cabin": {
+    "hero": {
+      "title": "Comfort and Privacy in the Heart of the Călimani Mountains",
+      "subtitle": "A mountain cabin where generous space meets complete serenity. Ideal configuration for groups and teambuilding sessions of 20 people."
+    },
+    "rooms": {
+      "title": "Rest under the mountain sky",
+      "apt": "Family Apartment: 2 rooms with double beds and shared bathroom.",
+      "double": "2 Executive Double Rooms: Double bed and private bathroom.",
+      "triple": "2 Triple Premium Rooms: Double bed + single bed and private bathroom.",
+      "mansard": "2 Mansard Rooms: Double bed + single bed and private bathroom."
+    },
+    "kitchen": {
+      "title": "A fully equipped kitchen for large feasts",
+      "text": "We know that a great meal means a happy team. Our kitchen is ready to support the needs of a group of 20 people, equipped with:",
+      "item0": "Cooker",
+      "item1": "Large refrigerator",
+      "item2": "Microwave oven",
+      "item3": "Toaster",
+      "item4": "Mixer",
+      "item5": "Coffee maker",
+      "item6": "Bean-to-cup coffee machine",
+      "item7": "Complete dishware set for 20 people"
+    },
+    "common": {
+      "title": "Facilities for groups and entertainment",
+      "text": "If you are looking for a cabin in Toplița where fun has no limits, Viila Munte offers a generous living room with a billiard table, a dining area for 20 people and a fully equipped kitchen for memorable feasts. No neighbours, no volume restrictions, just your team."
+    },
+    "spa": {
+      "title": "Premium Relaxation: Hot Tub & Sauna",
+      "text": "No experience at a cabin in Călimani is complete without the hot water ritual.",
+      "tub": "Outdoor Hot Tub: Relaxation under the stars (450 RON / session).",
+      "sauna": "Panoramic Sauna: Direct view of the forest (250 RON / session).",
+      "cta": "Book now"
+    },
+    "outdoor": {
+      "title": "Cook and relax under the open sky",
+      "text": "A mountain cabin is not complete without the smell of embers and stories by the fire. Viila Munte provides everything you need for an authentic feast:",
+      "bbq": "BBQ and cauldron area: Fully equipped for delicious outdoor cooking.",
+      "campfire": "Campfire: The specially arranged spot where teambuilding evenings become unforgettable under the starlit Călimani sky.",
+      "gazebo": "Gazebo: Covered outdoor dining space, whatever the weather."
+    },
+    "tech": {
+      "title": "Connectivity at altitude",
+      "text": "Although we are an isolated mountain cabin, you stay connected through high-speed Starlink internet. Ideal for working sessions during a teambuilding or uninterrupted video streaming."
+    },
+    "cta": {
+      "title": "Ready to book the entire cabin?",
+      "button": "Book now"
+    }
+  },
+  "access": {
+    "hero": {
+      "title": "The Road to Silence: Access Guide",
+      "subtitle": "A 12 km journey through the heart of the forest — your gateway to total disconnection."
+    },
+    "road": {
+      "title": "What you need to know about the forest road",
+      "text": "ViiLa Munte is an isolated location, and the road to us is part of the charm of the experience. Access is from the town of Toplița on a 12 km forest road.",
+      "accessible": "Is it passable? Yes, the road is accessible for any type of passenger car driven with care. You don't need a 4x4 vehicle — just patience to savour the scenery (estimated travel time: 45-60 minutes).",
+      "signal": "GSM Signal: Once on the forest road, the phone signal will gradually disappear. We recommend saving the route offline. At the cabin, you will enjoy a stable connection through Starlink internet."
+    },
+    "shopping": {
+      "title": "Last stop for shopping",
+      "text": "As a location situated deep in the mountains, we recommend doing all necessary shopping in Toplița before setting off on the forest road. In town you will find supermarkets (Lidl, Penny) and local producers for full supplies."
+    },
+    "attractions": {
+      "title": "What you can visit in the area",
+      "0": { "name": "Toplița Mezothermal Waterfall", "desc": "A unique wonder in Romania where the water never freezes. (12 km from the cabin)." },
+      "1": { "name": "Lake Iezer Retițiș", "desc": "Explore the Călimani Mountains directly from the cabin's doorstep. A spectacular mountain trail leading to the glacial lake at 2,021m altitude." },
+      "2": { "name": "Lomășița Waterfall", "desc": "A hidden gem of the mountains, perfect for a wilderness hiking excursion. A scenic forest trail accessible to mountain lovers." },
+      "3": { "name": "Ski Slope & Wellness Centre", "desc": "Snowy fun in winter or relaxation at the mezothermal pool in Toplița during the rest of the year." },
+      "4": { "name": "Călimani Reserve", "desc": "Spectacular mountain trails and wild landscapes, right at the cabin's doorstep." }
+    },
+    "map": {
+      "button": "Open in Google Maps"
+    }
+  },
+  "teambuilding": {
+    "hero": {
+      "title": "Your office at 1,000m altitude: Teambuilding without compromise",
+      "subtitle": "Total privacy, satellite connectivity and unlimited space for your team. The location where ideas come to life in the silence of the mountains."
+    },
+    "features": {
+      "title": "Facilities dedicated to your team's success",
+      "0": { "icon": "📶", "title": "Starlink Connectivity", "text": "High-speed satellite internet (Wi-Fi 6), stable for video conferencing or remote work." },
+      "1": { "icon": "🔒", "title": "100% Privacy", "text": "The cabin is rented in its entirety. We have no neighbours, so the team can enjoy complete freedom, without restrictions." },
+      "2": { "icon": "👥", "title": "Capacity of 20 people", "text": "7 accommodation units ready to ensure the comfort and rest of every team member." },
+      "3": { "icon": "🧾", "title": "Company invoicing", "text": "We provide the fiscal documents necessary for simple and fast corporate event reimbursement." }
+    },
+    "activities": {
+      "title": "Activities that bond the team",
+      "text": "We know that the best ideas come in moments of relaxation. After brainstorming sessions in the generous living room, the team can move to:",
+      "0": "Billiards competitions in the entertainment area.",
+      "1": "An evening of stories at the campfire under the open sky.",
+      "2": "Relaxation at the hot tub and sauna to recharge.",
+      "3": "Exploratory hikes to Lake Iezer or the local waterfalls."
+    },
+    "dining": {
+      "title": "Everything at your disposal",
+      "text": "The fully equipped kitchen allows you to organise your meals exactly as you wish, from fresh morning coffee (bean-to-cup machine included), to BBQs and outdoor cauldrons. You have total organisational freedom."
+    },
+    "cta": {
+      "title": "Want to book the next teambuilding in Călimani?",
+      "button": "Request a personalised offer"
+    }
+  },
+  "booking": {
+    "hero": {
+      "title": "Book your retreat in the heart of the mountains",
+      "subtitle": "Check availability and prepare for an unforgettable experience with your group. Full cabin rental for a maximum of 20 people."
+    },
+    "rates": {
+      "title": "Rates and services",
+      "full": "Full Cabin Rental",
+      "fullPrice": "2,400 RON / night",
+      "capacity": "Capacity: 20 people (7 accommodation units).",
+      "minimum": "Minimum stay: 2 nights (on weekends).",
+      "spaTitle": "Relaxation Options (SPA)",
+      "tub": "Outdoor Hot Tub: 450 RON / session.",
+      "sauna": "Panoramic Sauna: 250 RON / session.",
+      "included": "Included in price: Billiard table, BBQ/cauldron, campfire (firewood included), Starlink internet, parking."
+    },
+    "calendar": {
+      "title": "Check available dates"
+    },
+    "rules": {
+      "title": "Rules and administrative details",
+      "checkIn": "Check-in: After 14:00",
+      "checkOut": "Check-out: Before 11:00",
+      "smoking": "Smoking strictly forbidden inside the cabin (allowed on terraces and outdoor areas).",
+      "noise": "As we have no neighbours, you can enjoy music at any volume, with respect for the peace of nature.",
+      "access": "Please note that the last 12 km are on a forest road. We recommend full provisioning in the town of Toplița.",
+      "pets": "Pet policy: Contact us for details."
+    },
+    "contact": {
+      "location": "Toplița, Harghita County (Access from Str. Măgheruș).",
+      "mapButton": "Open in Google Maps",
+      "whatsapp": "WhatsApp"
+    },
+    "form": {
+      "title": "Send us a booking request",
+      "subtitle": "Fill in the details below and we will contact you as soon as possible for confirmation.",
+      "name": "Full Name",
+      "namePlaceholder": "John Smith",
+      "email": "Email Address",
+      "emailPlaceholder": "Where to send the offer",
+      "phone": "Phone Number",
+      "phonePlaceholder": "For quick details",
+      "checkIn": "Check-in Date",
+      "checkOut": "Check-out Date",
+      "groupType": "Group type",
+      "groupFriends": "Group of friends",
+      "groupTeambuilding": "Teambuilding",
+      "groupEvent": "Private event",
+      "persons": "Number of people",
+      "personsPlaceholder": "E.g.: 15, 20",
+      "message": "Message / Special requirements",
+      "messagePlaceholder": "E.g.: We would like the hot tub, We need a company invoice",
+      "submit": "SEND REQUEST"
+    }
   },
   "contact": {
-    "title": "Contact Us",
-    "address": "Calimani Road, Balan Commune, Harghita, Romania",
-    "phone": "+40 (0)7XX XXX XXXX",
+    "title": "Contact",
+    "address": "Toplița, Harghita County",
+    "phone": "[Your number]",
     "email": "contact@viilamunte.ro",
-    "formTitle": "Send us a message",
-    "name": "Name",
-    "email_field": "Email",
-    "message": "Message",
-    "send": "Send",
-    "mapTitle": "Our Location"
+    "mapTitle": "Our location"
+  },
+  "whatsapp": {
+    "text": "Book now",
+    "mobileSr": "WhatsApp"
   },
   "footer": {
     "copyright": "© 2026 Viila Munte. All rights reserved.",
@@ -80,5 +259,11 @@
     "message": "We use cookies to improve your experience.",
     "accept": "Accept",
     "decline": "Decline"
+  },
+  "rules": {
+    "title": "House Rules",
+    "checkIn": "Check-in: After 14:00",
+    "checkOut": "Check-out: Before 11:00",
+    "rules": []
   }
 }

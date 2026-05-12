@@ -1,51 +1,82 @@
-<div class="py-12 bg-white">
-  <div class="container max-w-2xl">
-    <h1 class="text-4xl font-bold text-center mb-12 text-stone-900">
-      {{ 'calendar.title' | translate }}
-    </h1>
+<!-- HERO -->
+<app-hero
+  [title]="'teambuilding.hero.title' | translate"
+  [subtitle]="'teambuilding.hero.subtitle' | translate"
+  [imageUrl]="'assets/images/4.teambuilding/432.webp'"
+  [showCta]="false"
+></app-hero>
 
-    <div class="bg-white p-8 rounded-lg shadow-md border border-stone-200">
-      <!-- Month Navigation -->
-      <div class="flex justify-between items-center mb-6">
-        <button (click)="previousMonth()" class="px-4 py-2 bg-forest text-white rounded hover:bg-forest-light transition">
-          ← Previous
-        </button>
-        <h2 class="text-2xl font-bold text-stone-900">{{ monthName }}</h2>
-        <button (click)="nextMonth()" class="px-4 py-2 bg-forest text-white rounded hover:bg-forest-light transition">
-          Next →
-        </button>
-      </div>
-
-      <!-- Calendar Grid -->
-      <div class="grid grid-cols-7 gap-2 mb-6">
-        <div *ngFor="let day of ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']" class="text-center font-semibold text-forest py-2">
-          {{ day }}
+<!-- SECTION 2: FEATURES GRID -->
+<section class="tb-features">
+  <div class="container">
+    <h2 class="tb-features__title" appFadeIn="up">
+      {{ 'teambuilding.features.title' | translate }}
+    </h2>
+    <div class="tb-features__grid">
+      @for (i of featureIndices; track i) {
+        <div class="tb-feature-card" appFadeIn="up">
+          <div class="tb-feature-card__icon">{{ 'teambuilding.features.' + i + '.icon' | translate }}</div>
+          <h3 class="tb-feature-card__title">
+            {{ 'teambuilding.features.' + i + '.title' | translate }}
+          </h3>
+          <p class="tb-feature-card__text">
+            {{ 'teambuilding.features.' + i + '.text' | translate }}
+          </p>
         </div>
-        <div *ngFor="let day of calendarDays"
-             [class]="'p-2 text-center rounded ' + (day === null ? 'bg-gray-100' : (isDateBlocked(day!) ? 'bg-red-200 text-red-700 font-semibold' : 'bg-green-100 text-green-700'))"
-             >
-          {{ day }}
-        </div>
-      </div>
-
-      <!-- Legend -->
-      <div class="flex gap-4 justify-center mb-6 text-sm">
-        <div class="flex items-center gap-2">
-          <span class="w-4 h-4 bg-green-100 border border-green-700 rounded"></span>
-          <span>{{ 'calendar.available' | translate }}</span>
-        </div>
-        <div class="flex items-center gap-2">
-          <span class="w-4 h-4 bg-red-200 border border-red-700 rounded"></span>
-          <span>{{ 'calendar.blocked' | translate }}</span>
-        </div>
-      </div>
-
-      <!-- CTA Button -->
-      <div class="text-center">
-        <a href="/contact" class="inline-block px-8 py-3 bg-forest text-white font-semibold rounded-lg hover:bg-forest-light transition">
-          {{ 'calendar.ctaText' | translate }}
-        </a>
-      </div>
+      }
     </div>
   </div>
-</div>
+</section>
+
+<!-- SECTION 3: ACTIVITIES -->
+<section class="tb-activities">
+  <div class="container tb-activities__grid">
+    <div class="tb-activities__content" appFadeIn="left">
+      <h2 class="tb-activities__title">
+        {{ 'teambuilding.activities.title' | translate }}
+      </h2>
+      <p class="tb-activities__text">
+        {{ 'teambuilding.activities.text' | translate }}
+      </p>
+      <ul class="tb-activities__list">
+        @for (i of activityIndices; track i) {
+          <li class="tb-activities__item">
+            <span class="tb-activities__arrow">→</span>
+            <span>{{ 'teambuilding.activities.' + i | translate }}</span>
+          </li>
+        }
+      </ul>
+    </div>
+    <div appFadeIn="right">
+      <img
+        src="assets/images/4.teambuilding/Carusel.Fac_.4-2880x1800.webp"
+        alt="Activități teambuilding ViiLa Munte"
+        class="tb-activities__image"
+        loading="lazy"
+        width="800" height="600"
+      />
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 4: DINING / LOGISTICS -->
+<section class="tb-dining">
+  <div class="container tb-dining__inner" appFadeIn="up">
+    <h2 class="tb-dining__title">
+      {{ 'teambuilding.dining.title' | translate }}
+    </h2>
+    <p class="tb-dining__text">
+      {{ 'teambuilding.dining.text' | translate }}
+    </p>
+  </div>
+</section>
+
+<!-- SECTION 5: CTA -->
+<section class="tb-cta">
+  <div class="container">
+    <h3 class="tb-cta__title">{{ 'teambuilding.cta.title' | translate }}</h3>
+    <a routerLink="/contact" class="btn btn--white btn--lg">
+      {{ 'teambuilding.cta.button' | translate }}
+    </a>
+  </div>
+</section>

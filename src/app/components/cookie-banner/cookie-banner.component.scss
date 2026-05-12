@@ -1,3 +1,68 @@
 :host {
   display: block;
 }
+
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 40;
+  background: #1C1917;
+  color: #fff;
+  padding: 1rem;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.3);
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+
+    @media (min-width: 640px) {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  &__text {
+    font-size: 0.875rem;
+    color: #D6D3D1;
+  }
+
+  &__actions {
+    display: flex;
+    gap: 0.75rem;
+    flex-shrink: 0;
+  }
+
+  &__btn {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    font-family: inherit;
+    transition: background 0.3s;
+
+    &--outline {
+      background: transparent;
+      border: 1px solid #fff;
+      color: #fff;
+
+      &:hover {
+        background: rgba(255, 255, 255, 0.1);
+      }
+    }
+
+    &--primary {
+      background: #2D6A4F;
+      border: 1px solid #2D6A4F;
+      color: #fff;
+
+      &:hover {
+        background: #40916C;
+        border-color: #40916C;
+      }
+    }
+  }
+}

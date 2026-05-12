@@ -1,68 +1,63 @@
-<header class="sticky top-0 bg-white/95 backdrop-blur-md border-b border-stone-100 z-50">
-  <nav class="container flex justify-between items-center py-4">
-    <div class="flex items-center gap-2">
-      <img src="assets/images/2021/09/Logo1negru.webp" alt="Viila Munte" class="h-10">
+<header class="site-header">
+  <nav class="container site-header__nav">
+    <div class="site-header__logo">
+      <img src="assets/images/2021/09/Logo1negru.webp" alt="Viila Munte" />
     </div>
 
     <!-- Desktop menu -->
-    <div class="hidden md:flex gap-6 items-center">
-      <a routerLink="/" routerLinkActive="border-b-2 border-forest text-forest" [routerLinkActiveOptions]="{ exact: true }" class="text-stone-800 hover:text-forest transition">
+    <div class="site-header__desktop">
+      <a routerLink="/" routerLinkActive="site-header__link--active" [routerLinkActiveOptions]="{ exact: true }" class="site-header__link">
         {{ 'nav.home' | translate }}
       </a>
-      <a routerLink="/gallery" routerLinkActive="border-b-2 border-forest text-forest" class="text-stone-800 hover:text-forest transition">
+      <a routerLink="/gallery" routerLinkActive="site-header__link--active" class="site-header__link">
         {{ 'nav.gallery' | translate }}
       </a>
-      <a routerLink="/rates" routerLinkActive="border-b-2 border-forest text-forest" class="text-stone-800 hover:text-forest transition">
+      <a routerLink="/rates" routerLinkActive="site-header__link--active" class="site-header__link">
         {{ 'nav.rates' | translate }}
       </a>
-      <a routerLink="/calendar" routerLinkActive="border-b-2 border-forest text-forest" class="text-stone-800 hover:text-forest transition">
+      <a routerLink="/calendar" routerLinkActive="site-header__link--active" class="site-header__link">
         {{ 'nav.calendar' | translate }}
       </a>
-      <a routerLink="/rules" routerLinkActive="border-b-2 border-forest text-forest" class="text-stone-800 hover:text-forest transition">
-        {{ 'nav.rules' | translate }}
-      </a>
-      <a routerLink="/contact" routerLinkActive="border-b-2 border-forest text-forest" class="text-stone-800 hover:text-forest transition">
+      <a routerLink="/contact" routerLinkActive="site-header__link--active" class="site-header__link">
         {{ 'nav.contact' | translate }}
       </a>
 
-      <!-- Language toggle -->
-      <button (click)="toggleLanguage()" class="px-3 py-1 bg-stone-100 text-stone-700 rounded hover:bg-stone-200 transition text-sm font-medium">
+      <button (click)="toggleLanguage()" class="site-header__lang">
         {{ currentLanguage === 'ro' ? 'EN' : 'RO' }}
       </button>
     </div>
 
     <!-- Mobile menu button -->
-    <button (click)="toggleMobileMenu()" class="md:hidden text-stone-800">
-      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <button (click)="toggleMobileMenu()" class="site-header__burger">
+      <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
       </svg>
     </button>
   </nav>
 
   <!-- Mobile menu -->
-  <div *ngIf="mobileMenuOpen" class="md:hidden border-t border-stone-200">
-    <div class="container py-4 flex flex-col gap-3">
-      <a routerLink="/" (click)="closeMobileMenu()" class="text-stone-800 hover:text-forest transition">
+  @if (mobileMenuOpen) {
+  <div class="site-header__mobile">
+    <div class="container site-header__mobile-menu">
+      <a routerLink="/" (click)="closeMobileMenu()" class="site-header__link">
         {{ 'nav.home' | translate }}
       </a>
-      <a routerLink="/gallery" (click)="closeMobileMenu()" class="text-stone-800 hover:text-forest transition">
+      <a routerLink="/gallery" (click)="closeMobileMenu()" class="site-header__link">
         {{ 'nav.gallery' | translate }}
       </a>
-      <a routerLink="/rates" (click)="closeMobileMenu()" class="text-stone-800 hover:text-forest transition">
+      <a routerLink="/rates" (click)="closeMobileMenu()" class="site-header__link">
         {{ 'nav.rates' | translate }}
       </a>
-      <a routerLink="/calendar" (click)="closeMobileMenu()" class="text-stone-800 hover:text-forest transition">
+      <a routerLink="/calendar" (click)="closeMobileMenu()" class="site-header__link">
         {{ 'nav.calendar' | translate }}
       </a>
-      <a routerLink="/rules" (click)="closeMobileMenu()" class="text-stone-800 hover:text-forest transition">
-        {{ 'nav.rules' | translate }}
-      </a>
-      <a routerLink="/contact" (click)="closeMobileMenu()" class="text-stone-800 hover:text-forest transition">
+      <a routerLink="/contact" (click)="closeMobileMenu()" class="site-header__link">
         {{ 'nav.contact' | translate }}
       </a>
-      <button (click)="toggleLanguage()" class="px-3 py-1 bg-stone-100 text-stone-700 rounded hover:bg-stone-200 transition text-sm font-medium self-start">
+      <button (click)="toggleLanguage()" class="site-header__lang">
         {{ currentLanguage === 'ro' ? 'EN' : 'RO' }}
       </button>
     </div>
   </div>
+  }
 </header>

@@ -1,3 +1,85 @@
 :host {
   display: block;
 }
+
+.reviews-section {
+  padding: 3rem 0;
+  background: #FAFAF9;
+
+  &__title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #1C1917;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: 1024px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
+
+.review-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  border: 1px solid #E7E5E4;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+
+  &__name {
+    font-weight: 600;
+    color: #44403C;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+  }
+
+  &__date {
+    font-size: 0.875rem;
+    color: #78716C;
+  }
+
+  &__stars {
+    display: flex;
+    gap: 0.15rem;
+  }
+
+  &__text {
+    color: #44403C;
+    font-size: 0.875rem;
+    line-height: 1.6;
+  }
+}
+
+.star {
+  font-size: 1rem;
+
+  &--filled {
+    color: #FACC15;
+  }
+
+  &--empty {
+    color: #D6D3D1;
+  }
+}

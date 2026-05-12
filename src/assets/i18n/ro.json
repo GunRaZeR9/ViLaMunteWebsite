@@ -1,74 +1,253 @@
 {
   "nav": {
     "home": "Acasă",
-    "gallery": "Galerie",
-    "rates": "Tarife",
-    "calendar": "Calendar",
-    "rules": "Regulament",
-    "contact": "Contact"
+    "gallery": "Povestea noastră",
+    "rates": "Facilități",
+    "calendar": "Teambuilding",
+    "contact": "Rezervă Acum"
   },
-  "home": {
-    "title": "Viila Munte",
-    "tagline": "O retragere alpin în inima munților Călimani",
-    "description": "Bienvenue în Viila Munte - o cabană de lux situată în pitorescul masiv al Călimani. Ideală pentru cupluri, familii și grupuri de prieteni care caută o evadare din agitația zilei.",
-    "highlights": {
-      "views": "Vederi montane spectaculoase",
-      "amenities": "Toate facilitățile moderne",
-      "location": "Locație retrasă și liniștită"
+  "seo": {
+    "home": {
+      "title": "ViiLa Munte Toplița - Cabană de lemn pentru 20 persoane în Munții Călimani",
+      "description": "ViiLa Munte Toplița - Cabană de lemn pentru 20 persoane în Munții Călimani. Închiriere integrală, biliard, saună, ciubăr și internet Starlink. Ideală pentru teambuilding și evenimente private."
     },
-    "cta": "Rezervă acum",
-    "reviews_title": "Ce spun oaspeții noștri"
-  },
-  "gallery": {
-    "title": "Galerie foto",
-    "description": "Explorează frumusețea Viila Munte"
-  },
-  "rates": {
-    "title": "Tarife și disponibilitate",
-    "pricePerNight": "Preț pe noapte",
-    "includes": "Include:",
-    "amenities": {
-      "bedrooms": "Dormitoare confortabile",
-      "kitchen": "Bucătărie complet echipată",
-      "heating": "Încălzire și apă caldă",
-      "wifi": "WiFi de viteză mare",
-      "parking": "Parcare privată"
+    "cabin": {
+      "title": "Cazare 20 persoane Toplița - Camere și Facilități Viila Munte",
+      "description": "Descoperî Viila Munte, locația ideală pentru teambuilding în Harghita. Cabană în Călimani cu 20 de locuri, 7 băi, ciubăr și saună. Rezervă integral!"
     },
-    "seasonRules": {
-      "high": "Sezon înalt (mai-septembrie)",
-      "mid": "Sezon mediu",
-      "low": "Sezon jos (octombrie-aprilie)"
+    "access": {
+      "title": "Cum ajungi la ViiLa Munte - Drum forestier și Atracții Toplița",
+      "description": "Află cum ajungi la ViiLa Munte Toplița. Ghid complet despre drumul forestier de 12 km în Călimani și principalele atracții: Cascada Mezotermală și Pârtia de Schi."
+    },
+    "teambuilding": {
+      "title": "Teambuilding în Harghita - Locație exclusivă Munții Călimani",
+      "description": "ViiLa Munte: Destinația ideală pentru teambuilding la munte. Capacitate 20 persoane, internet Starlink, liniște totală și facilități premium în inima Călimanilor."
+    },
+    "booking": {
+      "title": "Rezervări ViiLa Munte Toplița — Disponibilitate și Tarife",
+      "description": "Rezervă integral cabana ViiLa Munte pentru grupul tău de 20 de persoane. Tarif: 2.400 RON/noapte. Vezi calendarul actualizat și regulamentul locației."
     }
   },
-  "calendar": {
-    "title": "Calendar disponibilitate",
-    "available": "Disponibil",
-    "blocked": "Ocupat",
-    "ctaText": "Contactează-ne pentru rezervare"
+  "home": {
+    "hero": {
+      "title": "ViiLa Munte — Refugiul tău exclusiv în inima Călimanilor",
+      "tagline": "12 km de liniște între tine și restul lumii. Închiriere integrală pentru grupuri de până la 20 de persoane.",
+      "ctaBook": "Rezervă Cabana",
+      "ctaGallery": "Vezi Galerie"
+    },
+    "intro": {
+      "title": "Spune „Adio\" agitației, spune „Da\" muntelui",
+      "text": "ViiLa Munte este o experiență de deconectare totală la 1.000m altitudine. O locație izolată, creată special pentru teambuilding-uri și grupuri mari care caută intimitate absolută și confort premium.",
+      "cta": "Află povestea noastră"
+    },
+    "stats": {
+      "guests": "20 Oaspeți",
+      "rooms": "10 Camere",
+      "bathrooms": "7 Băi",
+      "billiard": "Biliard",
+      "internet": "Starlink",
+      "cta": "Vezi detalii interior și dotări"
+    },
+    "spa": {
+      "title": "Foc, Apă și Relaxare sub Cerul Liber",
+      "text": "Descoperă ciubărul nostru fierbinte și sauna panoramică, special create pentru a șterge oboseala zilei sub cel mai curat cer înstelat.",
+      "cta": "Vezi facilități SPA"
+    },
+    "teambuilding": {
+      "title": "Locația ideală pentru echipa ta",
+      "text": "Intimitate totală, internet rapid și spațiu generos pentru activități comune. Fără vecini, fără distrageri.",
+      "cta": "Oferte Teambuilding"
+    },
+    "outdoor": {
+      "title": "Gustul muntelui și seri la foc de tabără",
+      "text": "Ți-am pregătit totul pentru un festin veritabil: zonă complet utilată pentru grătar și ceaun, foișor acoperit și un loc special amenajat pentru focuri de tabără sub cerul liber.",
+      "cta": "Vezi zona de grătar"
+    },
+    "road": {
+      "title": "Călătoria face parte din aventură",
+      "text": "Ultimii 12 km sunt pe drum forestier, bariera naturală care ne separă de zgomotul civilizației.",
+      "cta": "Ghid de Acces și Obiective"
+    },
+    "social": {
+      "title": "Clienții noștri ne recomandă",
+      "text": "Suntem mândri de comunitatea noastră. Cu peste 87 de recenzii pozitive pe Google Maps, ViiLa Munte este una dintre cele mai apreciate locații de munte din județul Harghita. Oamenii vin pentru peisaj și revin pentru ospitalitate.",
+      "rating": "4.9/5"
+    },
+    "reviews_title": "Ce spun oaspeții noștri",
+    "cta": "Rezervă acum"
   },
-  "rules": {
-    "title": "Regulament interior",
-    "checkIn": "Check-in: 16:00",
-    "checkOut": "Check-out: 11:00",
-    "rules": [
-      "Oaspeții responsabili de mențenerea curățeniei",
-      "Fumat interzis în interior",
-      "Zgomotul trebuie să fie minim după orele 22:00",
-      "Animale de companie negociate cu anticipare",
-      "Se acceptă plăți în numerar sau transfer bancar"
-    ]
+  "cabin": {
+    "hero": {
+      "title": "Confort și Intimitate în Inima Munților Călimani",
+      "subtitle": "O cabană la munte unde spațiul generos întâlnește liniștea deplină. Configurație ideală pentru grupuri și teambuilding-uri de 20 de persoane."
+    },
+    "rooms": {
+      "title": "Odihnă sub cerul de munte",
+      "apt": "Apartament Familial: 2 camere cu paturi matrimoniale și baie comună.",
+      "double": "2 Camere Double Executive: Pat matrimonial și baie proprie.",
+      "triple": "2 Camere Triple Premium: Pat matrimonial + pat single și baie proprie.",
+      "mansard": "2 Camere la Mansardă: Pat matrimonial + pat single și baie proprie."
+    },
+    "kitchen": {
+      "title": "O bucătărie complet utilată pentru festinuri mari",
+      "text": "Știm că o masă reușită înseamnă o echipă fericită. Bucătăria noastră este pregătită să susțină nevoile unui grup de 20 de persoane, fiind dotată cu:",
+      "item0": "Aragaz",
+      "item1": "Frigider generos",
+      "item2": "Cuptor cu microunde",
+      "item3": "Prăjitor de pâine",
+      "item4": "Mixer",
+      "item5": "Cafetieră",
+      "item6": "Aparat de cafea cu boabe",
+      "item7": "Veselă completă pentru 20 persoane"
+    },
+    "common": {
+      "title": "Facilități pentru grupuri și distracție",
+      "text": "Dacă cauți o cabană în Toplița unde distracția nu are limite, Viila Munte îți oferă un living generos cu masă de biliard, zonă de dining pentru 20 de persoane și o bucătărie complet utilată pentru festinuri memorabile. Fără vecini, fără restricții de volum, doar echipa ta."
+    },
+    "spa": {
+      "title": "Relaxare Premium: Ciubăr și Saună",
+      "text": "Nicio experiență la o cabană în Călimani nu este completă fără ritualul apei fierbinți.",
+      "tub": "Ciubăr exterior: Relaxare sub stele (450 RON / ședere).",
+      "sauna": "Saună Panoramică: Vedere directă către pădure (250 RON / ședere).",
+      "cta": "Rezervă acum"
+    },
+    "outdoor": {
+      "title": "Gătește și relaxează-te sub cerul liber",
+      "text": "O cabană la munte nu este completă fără mirosul de jar și poveștile la foc. Viila Munte îți pune la dispoziție tot ce ai nevoie pentru un festin autentic:",
+      "bbq": "Zonă de grătar și ceaun: Complet utilată pentru preparate delicioase în aer liber.",
+      "campfire": "Foc de tabără: Locul special amenajat unde serile de teambuilding devin memorabile sub cerul înstelat al Călimanilor.",
+      "gazebo": "Foișor: Spațiu acoperit pentru mese în aer liber, indiferent de vreme."
+    },
+    "tech": {
+      "title": "Conectivitate la altitudine",
+      "text": "Deși suntem o cabană la munte izolată, rămâi conectat prin internet de mare viteză Starlink. Ideal pentru sesiuni de lucru în cadrul unui teambuilding sau pentru streaming video fără întreruperi."
+    },
+    "cta": {
+      "title": "Ești gata să rezervi întreaga cabană?",
+      "button": "Rezervă acum"
+    }
+  },
+  "access": {
+    "hero": {
+      "title": "Drumul spre liniște: Ghid de Acces",
+      "subtitle": "O călătorie de 12 km prin inima pădurii, poarta ta către o deconectare totală."
+    },
+    "road": {
+      "title": "Ce trebuie să știi despre drumul forestier",
+      "text": "ViiLa Munte este o locație izolată, iar drumul până la noi face parte din farmecul experienței. Accesul se face din orașul Toplița pe un drum forestier de 12 km.",
+      "accessible": "Este practicabil? Da, drumul este accesibil pentru orice tip de autoturism condus cu atenție. Nu aveți nevoie de un vehicul 4x4, ci doar de răbdare pentru a savura peisajul (timp estimat de parcurgere: 45-60 minute).",
+      "signal": "Semnal GSM: Odată intrați pe drumul forestier, semnalul telefonic va dispărea treptat. Vă recomandăm să aveți traseul salvat offline. La cabană, vă veți bucura de conexiune stabilă prin internet Starlink."
+    },
+    "shopping": {
+      "title": "Ultima oprire pentru cumpărături",
+      "text": "Fiind o locație situată adânc în munte, vă recomandăm să faceți toate cumpărăturile necesare în Toplița înainte de a porni pe drumul forestier. În oraș găsiți supermarketuri (Lidl, Penny) și producători locali pentru aprovizionare completă."
+    },
+    "attractions": {
+      "title": "Ce poți vizita în zonă",
+      "0": { "name": "Cascada Mezotermală Toplița", "desc": "O minune unică în România, unde apa nu îngheață niciodată. (La 12 km de cabană)." },
+      "1": { "name": "Lacul Iezer Retițiș", "desc": "Explorează Munții Călimani direct de la poarta cabanei. Un traseu montan spectaculos care te poartă până la lacul glaciar situat la 2.021m altitudine." },
+      "2": { "name": "Cascada Lomășița", "desc": "O bijuterie ascunsă a munților, perfectă pentru o drumeție de deconectare în sălbăticie. Un traseu pitoresc prin pădure, accesibil iubitorilor de munte." },
+      "3": { "name": "Pârtia de Schi și Centrul Wellness", "desc": "Distracție pe zăpadă iarna sau relaxare la ștrandul mezotermal din Toplița în restul anului." },
+      "4": { "name": "Rezervația Călimani", "desc": "Trasee montane spectaculoase și peisaje sălbatice, chiar de la poarta cabanei." }
+    },
+    "map": {
+      "button": "Deschide în Google Maps"
+    }
+  },
+  "teambuilding": {
+    "hero": {
+      "title": "Biroul tău la 1.000m altitudine: Teambuilding fără compromisuri",
+      "subtitle": "Intimitate totală, conectivitate prin satelit și spațiu nelimitat pentru echipa ta. Locația unde ideile prind viață în liniștea munților."
+    },
+    "features": {
+      "title": "Facilități dedicate succesului echipei tale",
+      "0": { "icon": "📶", "title": "Conectivitate Starlink", "text": "Internet prin satelit de mare viteză (Wi-Fi 6), stabil pentru videoconferințe sau lucru remote." },
+      "1": { "icon": "🔒", "title": "Intimitate 100%", "text": "Cabana se închiriază integral. Nu avem vecini, deci echipa se poate bucura de libertate deplină, fără restricții." },
+      "2": { "icon": "👥", "title": "Capacitate de 20 persoane", "text": "7 unități locative pregătite să asigure confortul și odihna fiecărui membru al echipei." },
+      "3": { "icon": "🧾", "title": "Facturare pe firmă", "text": "Oferim documentele fiscale necesare pentru o decontare simplă și rapidă a evenimentului corporate." }
+    },
+    "activities": {
+      "title": "Activități care sudează echipa",
+      "text": "Știm că cele mai bune idei apar în momentele de relaxare. După sesiunile de brainstorming în living-ul generos, echipa se poate muta la:",
+      "0": "Competiții de biliard în zona de entertainment.",
+      "1": "Seară de povești la focul de tabără sub cerul liber.",
+      "2": "Relaxare la ciubăr și saună pentru reîncărcarea bateriilor.",
+      "3": "Drumeții exploratorii către Lacul Iezer sau Cascadele din zonă."
+    },
+    "dining": {
+      "title": "Totul la dispoziția voastră",
+      "text": "Bucătăria complet utilată vă permite să vă organizați mesele exact cum doriți, de la cafeaua proaspătă de dimineață (aparat cu boabe inclus), până la grătare și ceaune în aer liber. Aveți libertate totală de organizare."
+    },
+    "cta": {
+      "title": "Vrei să rezervi următorul teambuilding în Călimani?",
+      "button": "Solicită ofertă personalizată"
+    }
+  },
+  "booking": {
+    "hero": {
+      "title": "Rezervă-ți refugiul în inima munților",
+      "subtitle": "Verifică disponibilitatea și pregătește-te pentru o experiență de neuitat alături de grup. Închiriere integrală pentru maximum 20 de persoane."
+    },
+    "rates": {
+      "title": "Tarife și servicii",
+      "full": "Închiriere Integrală Cabană",
+      "fullPrice": "2.400 RON / noapte",
+      "capacity": "Capacitate: 20 persoane (7 unități locative).",
+      "minimum": "Sejur minim: 2 nopți (în weekend).",
+      "spaTitle": "Opțiuni Relaxare (SPA)",
+      "tub": "Ciubăr exterior: 450 RON / ședere.",
+      "sauna": "Saună Panoramică: 250 RON / ședere.",
+      "included": "Inclus în preț: Masă de biliard, grătar/ceaun, foc de tabără (lemne incluse), internet Starlink, parcare."
+    },
+    "calendar": {
+      "title": "Verifică zilele disponibile"
+    },
+    "rules": {
+      "title": "Reguli și detalii administrative",
+      "checkIn": "Check-in: După ora 14:00",
+      "checkOut": "Check-out: Până în ora 11:00",
+      "smoking": "Fumatul strict interzis în interiorul cabanei (permis doar pe terase și în zonele exterioare).",
+      "noise": "Deoarece nu avem vecini, vă puteți bucura de muzică la orice volum, cu respect față de liniștea naturii.",
+      "access": "Vă reamintim că ultimii 12 km sunt pe drum forestier. Recomandăm aprovizionarea completă în orașul Toplița.",
+      "pets": "Politica animale: Contactați-ne pentru detalii."
+    },
+    "contact": {
+      "location": "Toplița, Jud. Harghita (Acces din Str. Măgheruș).",
+      "mapButton": "Deschide în Google Maps",
+      "whatsapp": "WhatsApp"
+    },
+    "form": {
+      "title": "Trimite-ne o cerere de rezervare",
+      "subtitle": "Completează detaliile de mai jos și te vom contacta în cel mai scurt timp pentru confirmare.",
+      "name": "Nume Complet",
+      "namePlaceholder": "Ion Popescu",
+      "email": "Adresă de E-mail",
+      "emailPlaceholder": "Unde trimiți oferta",
+      "phone": "Număr de Telefon",
+      "phonePlaceholder": "Pentru detalii rapide",
+      "checkIn": "Data Check-in",
+      "checkOut": "Data Check-out",
+      "groupType": "Tipul grupului",
+      "groupFriends": "Grup de prieteni",
+      "groupTeambuilding": "Teambuilding",
+      "groupEvent": "Eveniment privat",
+      "persons": "Număr de persoane",
+      "personsPlaceholder": "Ex: 15, 20",
+      "message": "Mesaj / Cerințe speciale",
+      "messagePlaceholder": "Ex: Dorim și ciubăr, Avem nevoie de factură pe firmă",
+      "submit": "TRIMITE CEREREA"
+    }
   },
   "contact": {
     "title": "Contact",
-    "address": "Drumul Calimani, Comuna Bălan, Harghita, România",
-    "phone": "+40 (0)7XX XXX XXXX",
+    "address": "Toplița, Jud. Harghita",
+    "phone": "[Numărul tău]",
     "email": "contact@viilamunte.ro",
-    "formTitle": "Trimite-ne un mesaj",
-    "name": "Nume",
-    "email_field": "Email",
-    "message": "Mesaj",
-    "send": "Trimite",
     "mapTitle": "Locația noastră"
+  },
+  "whatsapp": {
+    "text": "Rezervă acum",
+    "mobileSr": "WhatsApp"
   },
   "footer": {
     "copyright": "© 2026 Viila Munte. Toate drepturile rezervate.",
@@ -80,5 +259,11 @@
     "message": "Folosim cookies pentru a îmbunătăți experiența ta.",
     "accept": "Accept",
     "decline": "Declin"
+  },
+  "rules": {
+    "title": "Regulament interior",
+    "checkIn": "Check-in: După ora 14:00",
+    "checkOut": "Check-out: Până în ora 11:00",
+    "rules": []
   }
 }

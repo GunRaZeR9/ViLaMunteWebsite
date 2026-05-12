@@ -10,5 +10,5 @@ import { TranslateModule } from '@ngx-translate/core';
   styleUrls: ['./call-now-fab.component.scss']
 })
 export class CallNowFabComponent {
-  phoneNumber = 'tel:+40XXXXXXXXX';
+  whatsappUrl = 'https://wa.me/40XXXXXXXXX';
 }

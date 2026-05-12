@@ -1,13 +1,15 @@
-<div *ngIf="isVisible" class="fixed bottom-0 left-0 right-0 bg-stone-950 text-white p-4 shadow-lg z-40">
-  <div class="container flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-    <p class="text-sm">{{ 'cookie.message' | translate }}</p>
-    <div class="flex gap-3 flex-shrink-0">
-      <button (click)="declineCookies()" class="px-4 py-2 border border-white text-white hover:bg-white/10 transition rounded">
-        {{ 'cookie.decline' | translate }}
-      </button>
-      <button (click)="acceptCookies()" class="px-4 py-2 bg-forest text-white hover:bg-forest-light transition rounded">
-        {{ 'cookie.accept' | translate }}
-      </button>
+@if (isVisible) {
+  <div class="cookie-banner">
+    <div class="container cookie-banner__inner">
+      <p class="cookie-banner__text">{{ 'cookie.message' | translate }}</p>
+      <div class="cookie-banner__actions">
+        <button (click)="declineCookies()" class="cookie-banner__btn cookie-banner__btn--outline">
+          {{ 'cookie.decline' | translate }}
+        </button>
+        <button (click)="acceptCookies()" class="cookie-banner__btn cookie-banner__btn--primary">
+          {{ 'cookie.accept' | translate }}
+        </button>
+      </div>
     </div>
   </div>
-</div>
+}
