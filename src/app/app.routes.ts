@@ -11,11 +11,11 @@ import { CookiePolicyComponent } from './pages/cookie-policy/cookie-policy.compo
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'gallery', component: OurStoryComponent },
-  { path: 'rates', component: AmenitiesComponent },
-  { path: 'calendar', component: TeambuildingComponent },
+  { path: 'our-story', component: OurStoryComponent },
+  { path: 'amenities', component: AmenitiesComponent },
+  { path: 'teambuilding', component: TeambuildingComponent },
   { path: 'rules', component: RulesComponent },
-  { path: 'contact', component: BookNowComponent },
+  { path: 'book-now', component: BookNowComponent },
   { path: 'terms', component: TermsComponent },
   { path: 'privacy-policy', component: PrivacyPolicyComponent },
   { path: 'cookie-policy', component: CookiePolicyComponent },
