@@ -28,13 +28,34 @@ export class BookNowComponent implements OnInit {
 
   ngOnInit(): void { this.seo.set('contact'); }
 
+  private groupTypeLabel(): string {
+    const map: Record<string, string> = {
+      friends: 'Prieteni / Familie',
+      teambuilding: 'Team-building',
+      event: 'Eveniment privat',
+    };
+    return map[this.groupType] || '—';
+  }
+
   submitForm(): void {
-    if (this.name && this.email && this.message) {
-      const body = encodeURIComponent(
-        `Tip grup: ${this.groupType}\nCheck-in: ${this.checkIn}\nCheck-out: ${this.checkOut}\nPersoane: ${this.persons}\nTelefon: ${this.phone}\n\n${this.message}`
-      );
-      const subject = encodeURIComponent(`Cerere rezervare - ${this.name}`);
-      window.location.href = `mailto:contact@viilamunte.ro?subject=${subject}&body=${body}`;
+    if (this.name && this.message) {
+      const lines = [
+        `Bună ziua! Doresc să fac o rezervare la ViiLa Munte.`,
+        ``,
+        `👤 Nume: ${this.name}`,
+        this.email ? `✉️ Email: ${this.email}` : null,
+        this.phone ? `📞 Telefon: ${this.phone}` : null,
+        this.checkIn ? `📅 Check-in: ${this.checkIn}` : null,
+        this.checkOut ? `📅 Check-out: ${this.checkOut}` : null,
+        this.groupType ? `👥 Tip grup: ${this.groupTypeLabel()}` : null,
+        this.persons ? `🧑‍🤝‍🧑 Persoane: ${this.persons}` : null,
+        ``,
+        `💬 ${this.message}`,
+      ]
+        .filter((l) => l !== null)
+        .join('\n');
+
+      window.open(`https://wa.me/40740618773?text=${encodeURIComponent(lines)}`, '_blank');
       this.resetForm();
     }
   }
