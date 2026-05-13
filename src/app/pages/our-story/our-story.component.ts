@@ -16,11 +16,11 @@ export class OurStoryComponent implements OnInit {
   attractionIndices = [0, 1, 2, 3, 4];
 
   attractionImages = [
-    'assets/images/3.drumul/DJI_0326.webp',
-    'assets/images/3.drumul/787.webp',
-    'assets/images/3.drumul/DJI_0003.webp',
-    'assets/images/1.HOMEPAGE/viilamunte%202.webp',
-    'assets/images/1.HOMEPAGE/viilamunte%206.webp',
+    'assets/images/2.cabana/Cascada-Toplita.jpg',
+    'assets/images/2.cabana/Lacul-Iezer.jpg',
+    'assets/images/2.cabana/lomasita.jpg',
+    'assets/images/2.cabana/partia-toplita.jpg',
+    'assets/images/2.cabana/parcul-national.jpg',
   ];
 
   constructor(private seo: SeoService) {}

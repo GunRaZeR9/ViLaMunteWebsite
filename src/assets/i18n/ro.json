@@ -42,8 +42,9 @@
     },
     "stats": {
       "guests": "20 Oaspeți",
-      "rooms": "10 Camere",
-      "bathrooms": "7 Băi",
+      "rooms": "8 Camere",
+      "tub": "Ciubăr",
+      "spa": "Saună",
       "billiard": "Biliard",
       "internet": "Starlink",
       "cta": "Vezi detalii interior și dotări"
@@ -83,12 +84,18 @@
     },
     "rooms": {
       "title": "Odihnă sub cerul de munte",
-      "subtitle": "Trei tipuri de camere, fiecare gândit pentru confort maxim în inima naturii.",
-      "photos": "fotografii",
-      "apt": "Apartament Familial: 2 camere cu paturi matrimoniale și baie comună.",
-      "double": "2 Camere Double Executive: Pat matrimonial și baie proprie.",
-      "triple": "2 Camere Triple Premium: Pat matrimonial + pat single și baie proprie.",
-      "mansard": "2 Camere la Mansardă: Pat matrimonial + pat single și baie proprie."
+      "subtitle": "Patru tipuri de camere, fiecare gândit pentru confort maxim în inima naturii.",
+      "photos": "poze",
+      "label": {
+        "apt": "Apartament",
+        "double": "Cameră Dublă",
+        "triple": "Cameră Triplă",
+        "mansard": "Cameră Mansardă"
+      },
+      "apt": "Apartament · 2 camere, paturi matrimoniale, baie comună · ×1",
+      "double": "Cameră dublă · pat matrimonial, baie proprie · ×2",
+      "triple": "Cameră triplă · pat matrimonial + pat single, baie proprie · ×2",
+      "mansard": "Cameră mansardă · pat matrimonial + pat single, baie proprie · ×2"
     },
     "kitchen": {
       "title": "O bucătărie complet utilată pentru festinuri mari",
@@ -165,7 +172,7 @@
       "title": "Facilități dedicate succesului echipei tale",
       "0": { "icon": "📶", "title": "Conectivitate Starlink", "text": "Internet prin satelit de mare viteză (Wi-Fi 6), stabil pentru videoconferințe sau lucru remote." },
       "1": { "icon": "🔒", "title": "Intimitate 100%", "text": "Cabana se închiriază integral. Nu avem vecini, deci echipa se poate bucura de libertate deplină, fără restricții." },
-      "2": { "icon": "👥", "title": "Capacitate de 20 persoane", "text": "7 unități locative pregătite să asigure confortul și odihna fiecărui membru al echipei." },
+      "2": { "icon": "👥", "title": "Capacitate de 20 persoane", "text": "8 unități locative pregătite să asigure confortul și odihna fiecărui membru al echipei." },
       "3": { "icon": "🧾", "title": "Facturare pe firmă", "text": "Oferim documentele fiscale necesare pentru o decontare simplă și rapidă a evenimentului corporate." }
     },
     "activities": {
@@ -199,7 +206,7 @@
       "title": "Tarife și servicii",
       "full": "Închiriere Integrală Cabană",
       "fullPrice": "2.400 RON / noapte",
-      "capacity": "Capacitate: 20 persoane (7 unități locative).",
+      "capacity": "Capacitate: 20 persoane (8 unități locative).",
       "minimum": "Sejur minim: 2 nopți (în weekend).",
       "spaTitle": "Opțiuni Relaxare (SPA)",
       "tub": "Ciubăr exterior: 450 RON / noapte.",

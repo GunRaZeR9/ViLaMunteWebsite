@@ -8,12 +8,12 @@ export class IcalService {
   private http = inject(HttpClient);
 
   /**
-   * Your Airbnb listing iCal URL.
-   * Find it at: Airbnb Host dashboard → Calendar → Export Calendar (link at the bottom).
+   * Your Booking.com property iCal URL.
+   * Find it at: Booking.com Extranet → Calendar → Export Calendar → copy the iCal link.
    * Replace the placeholder below with your actual URL.
    */
-  private readonly AIRBNB_ICAL_URL =
-    'https://www.airbnb.com/calendar/ical/YOUR_LISTING_ID.ics?s=YOUR_SECRET';
+  private readonly ICAL_URL =
+    'https://ical.booking.com/v1/export?t=YOUR_TOKEN';
 
   private readonly PROXY_URL = '/ical-proxy.php';
   private readonly CACHE_TTL_MS = 60 * 60 * 1000; // 1 hour
@@ -28,7 +28,7 @@ export class IcalService {
     }
     this.cacheTime = now;
     this.cache$ = this.http
-      .get(`${this.PROXY_URL}?url=${encodeURIComponent(this.AIRBNB_ICAL_URL)}`, {
+      .get(`${this.PROXY_URL}?url=${encodeURIComponent(this.ICAL_URL)}`, {
         responseType: 'text',
       })
       .pipe(

@@ -9,6 +9,8 @@ import { SeoService } from '../../services/seo.service';
 interface RoomCollection {
   key: string;
   label: string;
+  labelKey: string;
+  descriptionKey: string;
   images: string[];
   previewCount: number;
 }
@@ -25,26 +27,49 @@ export class AmenitiesComponent implements OnInit, OnDestroy {
 
   roomCollections: RoomCollection[] = [
     {
+      key: 'apt',
+      label: 'Apartament',
+      labelKey: 'cabin.rooms.label.apt',
+      descriptionKey: 'cabin.rooms.apt',
+      images: [
+        'assets/images/2.cabana/camera-2-pers-1.webp',
+        'assets/images/2.cabana/camera-2-pers-2.webp',
+        'assets/images/2.cabana/camera-2-pers-3.webp',
+      ],
+      previewCount: 3,
+    },
+    {
       key: 'double',
-      label: 'Cameră 2 Persoane',
-      images: Array.from({ length: 10 }, (_, i) =>
-        `assets/images/2.cabana/camera-2-pers-${i + 1}.webp`),
+      label: 'Cameră Dublă',
+      labelKey: 'cabin.rooms.label.double',
+      descriptionKey: 'cabin.rooms.double',
+      images: Array.from({ length: 7 }, (_, i) =>
+        `assets/images/2.cabana/camera-2-pers-${i + 4}.webp`),
       previewCount: 3,
     },
     {
       key: 'triple',
-      label: 'Cameră 3 Persoane',
+      label: 'Cameră Triplă',
+      labelKey: 'cabin.rooms.label.triple',
+      descriptionKey: 'cabin.rooms.triple',
       images: [
         'assets/images/2.cabana/camera-3-pers-1.webp',
         'assets/images/2.cabana/camera-3-pers-2.webp',
+        'assets/images/2.cabana/camera-3-pers-baie-1.webp',
       ],
-      previewCount: 2,
+      previewCount: 3,
     },
     {
-      key: 'bath',
-      label: 'Cameră 3 Persoane cu Baie',
-      images: ['assets/images/2.cabana/camera-3-pers-baie-1.webp'],
-      previewCount: 1,
+      key: 'mansard',
+      label: 'Cameră Mansardă',
+      labelKey: 'cabin.rooms.label.mansard',
+      descriptionKey: 'cabin.rooms.mansard',
+      images: [
+        'assets/images/2.cabana/camera-3-pers-baie-1.webp',
+        'assets/images/2.cabana/camera-3-pers-1.webp',
+        'assets/images/2.cabana/camera-3-pers-2.webp',
+      ],
+      previewCount: 3,
     },
   ];
 

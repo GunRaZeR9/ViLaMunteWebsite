@@ -42,8 +42,9 @@
     },
     "stats": {
       "guests": "20 Guests",
-      "rooms": "10 Rooms",
-      "bathrooms": "7 Bathrooms",
+      "rooms": "8 Rooms",
+      "tub": "Hot Tub",
+      "spa": "Sauna",
       "billiard": "Billiards",
       "internet": "Starlink",
       "cta": "View interior details & amenities"
@@ -83,12 +84,18 @@
     },
     "rooms": {
       "title": "Rest under the mountain sky",
-      "subtitle": "Three room types, each designed for maximum comfort in the heart of nature.",
+      "subtitle": "Four room types, each designed for maximum comfort in the heart of nature.",
       "photos": "photos",
-      "apt": "Family Apartment: 2 rooms with double beds and shared bathroom.",
-      "double": "2 Executive Double Rooms: Double bed and private bathroom.",
-      "triple": "2 Triple Premium Rooms: Double bed + single bed and private bathroom.",
-      "mansard": "2 Mansard Rooms: Double bed + single bed and private bathroom."
+      "label": {
+        "apt": "Apartment",
+        "double": "Double Room",
+        "triple": "Triple Room",
+        "mansard": "Mansard Room"
+      },
+      "apt": "Apartment · 2 bedrooms, double beds, shared bathroom · ×1 unit",
+      "double": "Double room · double bed, private bathroom · ×2 units",
+      "triple": "Triple room · double + single bed, private bathroom · ×2 units",
+      "mansard": "Mansard room · double + single bed, private bathroom · ×2 units"
     },
     "kitchen": {
       "title": "A fully equipped kitchen for large feasts",
@@ -165,7 +172,7 @@
       "title": "Facilities dedicated to your team's success",
       "0": { "icon": "📶", "title": "Starlink Connectivity", "text": "High-speed satellite internet (Wi-Fi 6), stable for video conferencing or remote work." },
       "1": { "icon": "🔒", "title": "100% Privacy", "text": "The cabin is rented in its entirety. We have no neighbours, so the team can enjoy complete freedom, without restrictions." },
-      "2": { "icon": "👥", "title": "Capacity of 20 people", "text": "7 accommodation units ready to ensure the comfort and rest of every team member." },
+      "2": { "icon": "👥", "title": "Capacity of 20 people", "text": "8 accommodation units ready to ensure the comfort and rest of every team member." },
       "3": { "icon": "🧾", "title": "Company invoicing", "text": "We provide the fiscal documents necessary for simple and fast corporate event reimbursement." }
     },
     "activities": {
@@ -199,7 +206,7 @@
       "title": "Rates and services",
       "full": "Full Cabin Rental",
       "fullPrice": "2,400 RON / night",
-      "capacity": "Capacity: 20 people (7 accommodation units).",
+      "capacity": "Capacity: 20 people (8 accommodation units).",
       "minimum": "Minimum stay: 2 nights (on weekends).",
       "spaTitle": "Relaxation Options (SPA)",
       "tub": "Outdoor Hot Tub: 450 RON / night.",

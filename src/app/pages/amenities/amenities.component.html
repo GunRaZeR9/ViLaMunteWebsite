@@ -44,7 +44,8 @@
           }
 
           <div class="room-deck__label">
-            <span class="room-deck__label-name">{{ collection.label }}</span>
+            <span class="room-deck__label-name">{{ collection.labelKey | translate }}</span>
+            <span class="room-deck__label-desc">{{ collection.descriptionKey | translate }}</span>
             <span class="room-deck__label-count">
               {{ collection.images.length }} {{ 'cabin.rooms.photos' | translate }}
             </span>
@@ -159,7 +160,7 @@
     </div>
     <div appFadeIn="right">
       <img
-        src="assets/images/1.HOMEPAGE/viilamunte%203.webp"
+        src="assets/images/2.cabana/gratar.webp"
         alt="Outdoor ViiLa Munte"
         class="cabin-outdoor__image"
         loading="lazy"

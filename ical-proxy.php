@@ -1,6 +1,6 @@
 <?php
 /**
- * Airbnb iCal Proxy — fetches Airbnb calendar server-side to bypass browser CORS.
+ * Booking.com iCal Proxy — fetches Booking.com calendar server-side to bypass browser CORS.
  *
  * REQUIREMENT: php.ini must have allow_url_fopen = On (default on most shared hosts).
  *
@@ -13,8 +13,8 @@ header('Cache-Control: max-age=3600');
 
 $url = isset($_GET['url']) ? $_GET['url'] : '';
 
-// Security: only proxy Airbnb iCal URLs — prevents open-proxy abuse
-if (!$url || strpos($url, 'https://www.airbnb.com/calendar/ical/') !== 0) {
+// Security: only proxy Booking.com iCal URLs — prevents open-proxy abuse
+if (!$url || strpos($url, 'https://ical.booking.com/') !== 0) {
     http_response_code(403);
     echo 'Forbidden';
     exit;
@@ -31,7 +31,7 @@ $ctx = stream_context_create([
 $data = @file_get_contents($url, false, $ctx);
 if ($data === false) {
     http_response_code(502);
-    echo 'Could not fetch calendar data from Airbnb.';
+    echo 'Could not fetch calendar data from Booking.com.';
     exit;
 }
 
