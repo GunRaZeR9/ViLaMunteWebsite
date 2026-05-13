@@ -1,0 +1,13 @@
+<div class="legal-page">
+  <div class="container legal-page__container">
+    <h1 class="legal-page__title">{{ 'legal.privacy.title' | translate }}</h1>
+    <p class="legal-page__updated">{{ 'legal.privacy.updated' | translate }}</p>
+
+    @for (n of chapterKeys; track n) {
+      <section class="legal-page__chapter">
+        <h2 class="legal-page__chapter-title">{{ 'legal.privacy.c' + n + '.title' | translate }}</h2>
+        <p class="legal-page__chapter-text">{{ 'legal.privacy.c' + n + '.text' | translate }}</p>
+      </section>
+    }
+  </div>
+</div>

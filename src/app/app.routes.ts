@@ -5,6 +5,9 @@ import { AmenitiesComponent } from './pages/amenities/amenities.component';
 import { TeambuildingComponent } from './pages/teambuilding/teambuilding.component';
 import { RulesComponent } from './pages/rules/rules.component';
 import { BookNowComponent } from './pages/book-now/book-now.component';
+import { TermsComponent } from './pages/terms/terms.component';
+import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
+import { CookiePolicyComponent } from './pages/cookie-policy/cookie-policy.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -13,5 +16,8 @@ export const routes: Routes = [
   { path: 'calendar', component: TeambuildingComponent },
   { path: 'rules', component: RulesComponent },
   { path: 'contact', component: BookNowComponent },
+  { path: 'terms', component: TermsComponent },
+  { path: 'privacy-policy', component: PrivacyPolicyComponent },
+  { path: 'cookie-policy', component: CookiePolicyComponent },
   { path: '**', redirectTo: '' }
 ];

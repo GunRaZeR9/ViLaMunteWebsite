@@ -80,4 +80,62 @@
       color: #fff;
     }
   }
+
+  &__logo {
+    height: 50px;
+    width: auto;
+    margin-bottom: 1rem;
+    filter: brightness(0) invert(1);
+  }
+
+  &__contact-link {
+    display: block;
+    color: #A8A29E;
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+    transition: color 0.3s;
+
+    &:hover {
+      color: #40916C;
+    }
+  }
+
+  &__whatsapp {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: 0.75rem;
+    padding: 0.4rem 0.9rem;
+    background: #25D366;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: background 0.2s;
+
+    &:hover {
+      background: #1ebe5d;
+    }
+  }
+
+  &__legal {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    @media (min-width: 640px) {
+      justify-content: flex-start;
+    }
+  }
+
+  &__legal-link {
+    color: #78716C;
+    font-size: 0.875rem;
+    transition: color 0.3s;
+
+    &:hover {
+      color: #fff;
+    }
+  }
 }

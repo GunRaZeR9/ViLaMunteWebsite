@@ -1,0 +1,17 @@
+<div class="legal-page">
+  <div class="container legal-page__container">
+    <h1 class="legal-page__title">{{ 'legal.terms.title' | translate }}</h1>
+    <p class="legal-page__updated">{{ 'legal.terms.updated' | translate }}</p>
+
+    <div class="legal-page__intro">
+      <p>{{ 'legal.terms.intro' | translate }}</p>
+    </div>
+
+    @for (n of chapterKeys; track n) {
+      <section class="legal-page__chapter">
+        <h2 class="legal-page__chapter-title">{{ 'legal.terms.c' + n + '.title' | translate }}</h2>
+        <p class="legal-page__chapter-text">{{ 'legal.terms.c' + n + '.text' | translate }}</p>
+      </section>
+    }
+  </div>
+</div>

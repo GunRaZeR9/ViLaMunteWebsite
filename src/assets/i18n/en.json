@@ -248,8 +248,8 @@
   "contact": {
     "title": "Contact",
     "address": "Toplița, Harghita County",
-    "phone": "[Your number]",
-    "email": "contact@viilamunte.ro",
+    "phone": "+40 740 618 773",
+    "email": "viilamunte@gmail.com",
     "mapTitle": "Our location"
   },
   "whatsapp": {
@@ -260,7 +260,8 @@
     "copyright": "© 2026 Viila Munte. All rights reserved.",
     "followUs": "Follow us",
     "terms": "Terms of Use",
-    "privacy": "Privacy Policy"
+    "privacy": "Privacy Policy",
+    "cookies": "Cookie Policy"
   },
   "cookie": {
     "message": "We use cookies to improve your experience.",
@@ -272,5 +273,171 @@
     "checkIn": "Check-in: After 14:00",
     "checkOut": "Check-out: Before 11:00",
     "rules": []
+  },
+  "legal": {
+    "terms": {
+      "title": "Terms & Conditions",
+      "updated": "Updated version as of 30.04.2026",
+      "intro": "The website vilamunte.ro is owned and operated by Sc Pro-Silva HR SRL (\"ViLaMunte\", \"we\"). Sc Pro-Silva HR SRL is based in Toplita, is registered with the Trade Register under no. J19/46/2009 and has tax identification number RO24982271.\n\nBy \"vilamunte.ro\" we mean any web page (website, landing page, subdomain) owned, administered or operated by Sc Pro-Silva HR SRL. During browsing on the Site, terms such as \"we\" or \"our\" refer to the aforementioned company.\n\nvilamunte.ro includes online information for users who accept the terms and conditions below, as well as any additional policies available on the site.\n\nBy visiting and using our online platform, you undertake to comply with these Terms and Conditions and the associated policies mentioned on the site. These Terms and Conditions apply to all users, including visitors who browse, submit requests or download materials.\n\nPlease read these Terms and Conditions before using the website. By accessing or using any part of the website, you confirm that you accept the provisions. If you do not accept the terms, please stop using the website and do not use the available forms or materials.\n\nAny new feature or section added to the website will be subject to these Terms and Conditions. We reserve the right to update, modify or replace any part of these Terms and Conditions by publishing the updated version on this page. It is your responsibility to check this page periodically. Continued use of the website after the changes are published constitutes acceptance of those changes.",
+      "c2": {
+        "title": "Chapter II. Terms and Definitions",
+        "text": "Online Platform / Site: Refers to vilamunte.ro and the associated pages administered by Sc Pro-Silva HR SRL.\n\nOwner: Sc Pro-Silva HR SRL, based in Toplita, registered with the Trade Register under no. J19/46/2009, tax ID RO24982271.\n\nUser: A natural or legal person while using the website.\n\nSubmission: Transmission of data by the User through the website, for example by completing a contact form, subscribing to a newsletter or downloading a resource.\n\nLink: A link to an internal or external page accessed by click.\n\nServices: The services presented on the website, including accommodation, teambuilding packages and related services."
+      },
+      "c3": {
+        "title": "Chapter III. Intellectual Property Rights",
+        "text": "The content of the website vilamunte.ro, including texts, images, graphic elements, downloadable materials, scripts, page structures, code and visual identity elements, constitutes the property of vilamunte.ro or is used lawfully with the right of use. Use of any elements without written consent is prohibited and may give rise to liability under applicable law.\n\nWe may grant the User the right to use certain materials through a separate agreement or through conditions explicitly stated at the time the material is provided. This right is limited to the purpose, period and person indicated and does not confer rights over other elements of the website.\n\nThe use on the website of any trademarks or logos belonging to third parties is for informational purposes and does not imply affiliation, sponsorship or endorsement in the absence of an express statement.\n\nIf you notice a possible copyright infringement in the website content, please contact us at viilamunte@gmail.com."
+      },
+      "c4": {
+        "title": "Chapter IV. General Conditions of Use",
+        "text": "By using the website you confirm that you are at least 18 years old and have the legal capacity to enter into legal acts. The website is not intended for minors and we do not intentionally collect data from persons under 18.\n\nThe website content is informational in nature. No part of the content constitutes a firm and binding offer to contract services. Any collaboration is established by accepting an offer, a contract or a written agreement, as applicable.\n\nWe make reasonable efforts to keep the information up to date, but typographical errors, inaccuracies or omissions may occur. We may correct the content and update the information at any time.\n\nIt is forbidden to use the website to transmit malicious code, attempt unauthorized access, spam, unauthorized data collection or any action that may affect the operation of the website or cause damage.\n\nWe may limit or stop access to the website, in whole or in part, in the event of a breach of these Terms and Conditions or when we reasonably believe it is necessary for the security of the platform."
+      },
+      "c5": {
+        "title": "Chapter V. Services, Estimates and Results",
+        "text": "The services presented on the website include accommodation, teambuilding packages, SPA services and related offerings. The exact details of deliverables, deadlines and commercial terms are established through direct communication and booking confirmation.\n\nAny estimates, projections or examples of results are indicative. We do not guarantee specific outcomes in the absence of an express written confirmation.\n\nAdvertising budgets and third-party platform policies are outside our control."
+      },
+      "c6": {
+        "title": "Chapter VI. Personal Data Processing",
+        "text": "We respect the confidentiality of website users. The website can be visited without providing personal data. Data are processed when the User submits information through forms, subscribes to the newsletter, downloads materials or contacts us through the available channels.\n\nFor details regarding categories of data, purposes and rights, please consult the Privacy Policy available on the website."
+      },
+      "c7": {
+        "title": "Chapter VII. Use of Cookies",
+        "text": "vilamunte.ro uses cookies and similar technologies. For details on categories, consent and management, please consult the Cookie Policy available on the website."
+      },
+      "c8": {
+        "title": "Chapter VIII. Data and Platform Security",
+        "text": "We apply technical and organizational measures to secure the website and protect data. However, no online platform can guarantee absolute security. The User assumes responsibility for the data they choose to transmit and for the security of their own device. In the event of a security breach affecting personal data, we will notify the affected users in accordance with the applicable legal provisions."
+      },
+      "c9": {
+        "title": "Chapter IX. Third-Party Links",
+        "text": "The website may include links to sites operated by third parties. These links are for informational purposes. We do not control the content or policies of those sites and do not assume responsibility for their use. We recommend consulting the terms and policies of those websites."
+      },
+      "c10": {
+        "title": "Chapter X. Errors, Inaccuracies and Omissions",
+        "text": "Occasionally, website content may include typographical errors, inaccuracies or omissions. We reserve the right to correct these situations and update the content without prior notice where necessary."
+      },
+      "c11": {
+        "title": "Chapter XI. Prohibited Uses",
+        "text": "The website may not be used for: any illegal action or action that infringes third-party rights; infringement of intellectual property rights; harassment, intimidation, defamation or discrimination; transmitting false or misleading information or impersonating another person; transmitting viruses, malware or destructive code; unauthorized collection or monitoring of other users' data; unauthorized access attempts, vulnerability testing or attacks on security systems; automated or abusive use of the website that exceeds normal and reasonable browsing.\n\nWe reserve the right to restrict access, including by blocking IP addresses, when we identify behavior that may affect the operation of the website or its security."
+      },
+      "c12": {
+        "title": "Chapter XII. Disclaimer of Warranties; Limitation of Liability",
+        "text": "The website and its content are provided for informational purposes. We do not guarantee that the website will operate without interruptions or errors and we are not liable for indirect damages resulting from the use or inability to use the website, to the extent permitted by law.\n\nWe are not responsible for the effects generated by decisions made solely on the basis of the information published on the website, in the absence of a contract or written confirmation regarding applicability in the specific case."
+      },
+      "c13": {
+        "title": "Chapter XIII. Termination of Use",
+        "text": "You may stop using the website at any time by ceasing to access our pages. If we believe that you have breached these Terms and Conditions or if there are reasonable suspicions of a breach, we may suspend or stop access to the website without prior notice."
+      },
+      "c14": {
+        "title": "Chapter XIV. Dispute Resolution. Governing Law",
+        "text": "Any attempt at unauthorized access or fraud will be reported to the competent authorities. Any conflict between Sc Pro-Silva HR SRL and the User will be attempted to be resolved amicably. Please send us any complaint at viilamunte@gmail.com so we can try to resolve it quickly.\n\nIf amicable settlement is not possible, Romanian law applies and the competent courts are those in Romania."
+      },
+      "c15": {
+        "title": "Chapter XV. Contact Information",
+        "text": "Questions, suggestions and complaints related to these Terms and Conditions or associated policies may be sent to viilamunte@gmail.com or to phone number +40 740 618 773."
+      },
+      "c16": {
+        "title": "Chapter XVI. Final Provisions",
+        "text": "If any of the above clauses is found to be null or invalid, this will not affect the validity of the remaining clauses."
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "updated": "Updated version as of 30.04.2026",
+      "c1": {
+        "title": "Chapter I. General Overview",
+        "text": "The website vilamunte.ro is owned and operated by Sc Pro-Silva HR SRL (\"ViLaMunte\", \"we\"). Sc Pro-Silva HR SRL is based in Toplita, is registered with the Trade Register under no. J19/46/2009 and has tax identification number RO24982271.\n\nBy \"vilamunte.ro\" we mean any web page (website, landing page, subdomain) owned, administered or operated by Sc Pro-Silva HR SRL.\n\nThis Privacy Policy describes how we collect and process personal data when you use the website, complete forms, download materials, subscribe to the newsletter or interact with us through the contact channels displayed.\n\nBy using the website, you confirm that you have read and understood this Privacy Policy. If you do not agree with the provisions below, please do not use the forms and do not provide personal data through the website."
+      },
+      "c2": {
+        "title": "Chapter II. Terms and Definitions",
+        "text": "Online Platform / Site: Refers to vilamunte.ro and the associated pages administered by Sc Pro-Silva HR SRL.\n\nController: Sc Pro-Silva HR SRL, Toplita, J19/46/2009, RO24982271.\n\nUser: An individual or legal entity using the website.\n\nPersonal Data: Any information that can directly or indirectly identify a person, such as name, email, phone number and the content of messages sent.\n\nSubmission: Transmission of data by the User through the website, for example by completing a contact form, subscribing to a newsletter or downloading a resource.\n\nProcessor: A contractual partner that processes data on behalf of the Controller, under an agreement."
+      },
+      "c3": {
+        "title": "Chapter III. Contact Details",
+        "text": "For questions or requests regarding personal data, you can contact us as follows:\n\nEmail: viilamunte@gmail.com\n\nPhone: +40 740 618 773\n\nWe do not have a designated Data Protection Officer (DPO). We handle personal-data requests through the email address above."
+      },
+      "c4": {
+        "title": "Chapter IV. What Data We Collect",
+        "text": "We may collect the following categories of data depending on how you use the website: full name, email address, phone number, message and information included in free-text fields, answers to questions in forms, questionnaires or quizzes, data provided for newsletter subscription, and data provided to access or download materials (lead magnets).\n\nWe do not carry out automated profiling and we do not make decisions solely by automated means that produce legal or similarly significant effects on Users."
+      },
+      "c5": {
+        "title": "Chapter V. Purposes of Processing and Legal Bases",
+        "text": "We process personal data for the following purposes: responding to requests and discussions initiated through forms or direct contact, making offers and pre-contractual steps, sending communications by newsletter, providing requested materials via download, measuring website performance and improving the user experience, and measuring conversions and optimizing marketing campaigns.\n\nThe legal bases for these purposes are: performance of pre-contractual steps for offer requests and discussions initiated through forms; consent for sending marketing communications (newsletter), downloading materials (lead magnets) and activating tracking tools (pixels/cookies); and legitimate interest for measuring website performance, optimizing campaigns and securing the platform."
+      },
+      "c6": {
+        "title": "Chapter VI. Tools Used and Technical Data",
+        "text": "The website may use measurement and marketing tools implemented through Google Tag Manager. Depending on the consent given in the cookie banner, we may activate Google Analytics for traffic and performance analysis, Google Ads for conversion measurement and campaign optimization, and Meta Ads through Meta Business Manager for conversion measurement and campaign optimization.\n\nIn practice, analytics services may process the IP address transiently for technical functions such as security and location estimation. We do not use this data for identification and we do not track the IP address as an identifying element in our reports."
+      },
+      "c7": {
+        "title": "Chapter VII. Recipients, Processors and Transfers",
+        "text": "Data may be processed by the hosting provider Hostico, Google Workspace, Google Tag Manager, Google Analytics, Google Ads, Meta Business Manager, as well as collaborators and contractual partners, including freelancers, when this is necessary for service delivery.\n\nWhere certain providers are located outside the European Economic Area, transfers may take place under GDPR-permitted conditions, including Standard Contractual Clauses and additional measures where applicable. We do not sell personal data and we do not transfer it to third parties for commercial purposes independent of our services.\n\nWhen using analytics and advertising services, certain data may be transferred to or accessed by the parent entities of Google and Meta located in the United States. These transfers take place under the EU-U.S. Data Privacy Framework (for certified organizations) or under the Standard Contractual Clauses (SCCs) approved by the European Commission, ensuring a level of protection equivalent to that in the European Union."
+      },
+      "c8": {
+        "title": "Chapter VIII. Retention Period",
+        "text": "We retain data collected through contact forms for up to 1 year in the case of requests that do not result in a contract. Data provided for newsletter subscription or downloading materials (lead magnets) is retained for 3 years from the last interaction, or until consent is withdrawn.\n\nConsent can be withdrawn at any time using the unsubscribe option included in communications or by sending a request to viilamunte@gmail.com."
+      },
+      "c9": {
+        "title": "Chapter IX. Data Subject Rights",
+        "text": "Under the GDPR, you have the following rights: the right of access, the right to rectification, the right to erasure, the right to restriction of processing, the right to object, the right to data portability, the right to withdraw consent where processing is based on consent, and the right to lodge a complaint with the competent authority.\n\nTo exercise your rights, you can write to viilamunte@gmail.com. We may request additional information to confirm identity when necessary."
+      },
+      "c10": {
+        "title": "Chapter X. Minors",
+        "text": "The website and the services presented are not intended for minors. We do not intentionally collect data from persons under 18 years of age. If you suspect that we have received such data, please contact us for deletion."
+      },
+      "c11": {
+        "title": "Chapter XI. Cookies and Consent",
+        "text": "The website uses cookies and similar technologies. Consent management is handled through the cookie banner. Optional cookies, such as analytics and marketing cookies, are activated based on the choices expressed by the User.\n\nFor details about categories and how they are managed, please consult the Cookie Policy available on the website."
+      },
+      "c12": {
+        "title": "Chapter XII. Data Security",
+        "text": "We apply technical and organizational measures to protect data, including access control, role separation, server-level protection and the use of secure communication channels.\n\nSubmitting information through forms involves the voluntary provision of data by the User. We recommend that you do not submit sensitive information that is not necessary for assessing the request."
+      },
+      "c13": {
+        "title": "Chapter XIII. Third-Party Links",
+        "text": "The website may contain links to websites operated by third parties. We do not control their content or policies, and their use is at your own risk. We recommend reviewing the privacy policies of those websites."
+      },
+      "c14": {
+        "title": "Chapter XIV. Policy Updates",
+        "text": "We may update this Privacy Policy when changes occur in our activity, in the tools we use, or in legal requirements. The updated version will be published on this page."
+      },
+      "c15": {
+        "title": "Chapter XV. Contact Information",
+        "text": "Questions, suggestions and requests regarding this policy can be sent to viilamunte@gmail.com or to phone number +40 740 618 773."
+      },
+      "c16": {
+        "title": "Chapter XVI. Final Provisions",
+        "text": "If any of the above clauses is found to be null or invalid, this will not affect the validity of the remaining clauses."
+      }
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "s1": {
+        "title": "1. What are cookies?",
+        "text": "An \"internet cookie\" (also known as a \"browser cookie\", \"HTTP cookie\" or simply \"cookie\") is a small file containing letters and numbers that is stored on your computer, mobile device or other equipment through which you access the internet.\n\nCookies are installed through a request sent by a web server to a browser (e.g. Internet Explorer, Firefox, Chrome).\n\nOnce installed, cookies have a determined lifespan, remaining \"passive\" in the sense that they do not contain software programs, viruses or spyware and will not access information on the hard drive of the user's device on which they have been installed.\n\nA cookie is made up of two parts: the cookie name and the cookie content/value. From a technical perspective, only the web server that sent the cookie can access it again when a user returns to the web page associated with that web server."
+      },
+      "s2": {
+        "title": "2. What purposes are cookies used for on this website?",
+        "text": "Cookies are used to provide users of this website with a better browsing experience and services adapted to the needs and interests of each user, as follows:\n\n• Improving the use of this website, including by identifying any errors that occur during visits/use of it by users.\n\n• Providing anonymous statistics about how this website is used by the owner of this website.\n\n• Anticipating potential goods that may be made available to users in the future through this website, depending on the services/products accessed.\n\nBased on feedback sent through cookies regarding how this website is used, we can take measures to make this website more efficient and accessible to users."
+      },
+      "s3": {
+        "title": "3. What is the lifespan of cookies?",
+        "text": "The lifespan of cookies can vary depending on the purpose for which it is placed. There are the following categories:\n\nSession cookies — a cookie that is automatically deleted when the user closes their browser.\n\nPersistent/fixed cookies — a cookie that remains stored on the user's device until it reaches a certain expiration date (a few minutes, days or years in the future) or until it is deleted by the user at any time through browser settings."
+      },
+      "s4": {
+        "title": "4. What are third-party cookies?",
+        "text": "Certain sections of content on this website may be provided by third parties, i.e. not by the website owner, in which case these cookies are called third-party cookies.\n\nThese cookies may come from the following third parties:\n\n• Google Analytics\n\n• Facebook Pixel"
+      },
+      "s5": {
+        "title": "5. What cookies are used on this website?",
+        "text": "When using/visiting this website, the following cookies may be placed:\n\na. Performance cookies — Through this type of cookie, user preferences on this website are stored, so that resetting preferences in case of subsequent visits to the website is no longer necessary.\n\nb. User analysis cookies — These cookies inform us whether a particular user of this website has visited/used this website before. These cookies are used for statistical purposes only.\n\nc. Geotargeting cookies — These cookies are used by software that determines the country of origin of the website user. The same ads will be received regardless of the language selected.\n\nd. Registration cookies — When you register on this site, cookies are generated that remember this fact. Servers use these cookies to show us the account you are registered with.\n\ne. Advertising cookies — These cookies allow us to find out that a user has viewed an online advertisement, the type of it and the time elapsed since viewing that advertising message. These cookies are used for online advertising targeting and are anonymous.\n\nf. Advertising provider cookies — From third-party advertising providers."
+      },
+      "s6": {
+        "title": "6. What type of information is stored and accessed through cookies?",
+        "text": "Cookies store information in a small text file that allows browser recognition. This website recognizes the browser until the cookies expire or are deleted."
+      },
+      "s7": {
+        "title": "7. How can cookies be disabled?",
+        "text": "Disabling and refusing to accept cookies can make this website difficult to visit, resulting in limitations on its use.\n\nUsers can configure their browser to reject cookie files or to accept cookies from a specific website only. However, refusing or disabling cookies does not mean you will not receive online advertising — only that it will not be adapted to your preferences and interests.\n\nAll modern browsers offer the ability to change cookie settings. These settings can typically be accessed in the \"options\" section or in your browser's \"preferences\" menu.\n\nFor any additional questions about how cookies are used on this website, please contact us at viilamunte@gmail.com.\n\nTypes of cookies used:\n\n1. Necessary for website operation — This website uses cookies to save user sessions and for activities strictly necessary for its operation.\n\n2. Analytics (Google Analytics) — Monitors website use to create reports and helps us improve user experience.\n\n3. Marketing and behavior analysis (Facebook) — A behavioral remarketing service that analyzes visitors to this website. Processing Location: USA.\n\n4. Displaying content from other platforms (YouTube, Vimeo) — Allows loading external content directly on the website. Processing Location: USA."
+      }
+    }
   }
 }

@@ -44,3 +44,7 @@ __screenshots__/
 Thumbs.db
 
 writer-texts
+
+
+.nx/cache
+.nx/workspace-data
