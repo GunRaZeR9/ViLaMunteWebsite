@@ -6,9 +6,10 @@
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(8px);
-  border-bottom: 1px solid #E7E5E4;
+  background: rgba(28, 25, 23, 0.88);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(60, 56, 52, 0.6);
 
   &__nav {
     display: flex;
@@ -32,33 +33,33 @@
   }
 
   &__link {
-    color: #44403C;
+    color: rgba(255, 255, 255, 0.85);
     font-size: 0.95rem;
     transition: color 0.3s;
 
     &:hover {
-      color: #2D6A4F;
+      color: #fff;
     }
 
     &--active {
-      color: #2D6A4F;
-      border-bottom: 2px solid #2D6A4F;
+      color: #fff;
+      border-bottom: 2px solid #40916C;
       padding-bottom: 2px;
     }
   }
 
   &__lang {
     padding: 4px 12px;
-    background: #F5F5F4;
-    border: 1px solid #E7E5E4;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.25);
     border-radius: 4px;
     font-size: 0.875rem;
     font-weight: 500;
-    color: #44403C;
+    color: #fff;
     transition: background 0.2s;
 
     &:hover {
-      background: #E7E5E4;
+      background: rgba(255, 255, 255, 0.22);
     }
   }
 
@@ -66,7 +67,7 @@
     display: flex;
     background: none;
     border: none;
-    color: #44403C;
+    color: #fff;
     padding: 4px;
 
     @media (min-width: 768px) {
@@ -80,7 +81,8 @@
   }
 
   &__mobile {
-    border-top: 1px solid #E7E5E4;
+    border-top: 1px solid rgba(60, 56, 52, 0.6);
+    background: rgba(28, 25, 23, 0.96);
 
     @media (min-width: 768px) {
       display: none;
