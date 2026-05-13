@@ -109,8 +109,8 @@
     "spa": {
       "title": "Premium Relaxation: Hot Tub & Sauna",
       "text": "No experience at a cabin in Călimani is complete without the hot water ritual.",
-      "tub": "Outdoor Hot Tub: Relaxation under the stars (450 RON / session).",
-      "sauna": "Panoramic Sauna: Direct view of the forest (250 RON / session).",
+      "tub": "Outdoor Hot Tub: Relaxation under the stars (450 RON / night).",
+      "sauna": "Panoramic Sauna: Direct view of the forest (250 RON / night).",
       "cta": "Book now"
     },
     "outdoor": {
@@ -202,12 +202,18 @@
       "capacity": "Capacity: 20 people (7 accommodation units).",
       "minimum": "Minimum stay: 2 nights (on weekends).",
       "spaTitle": "Relaxation Options (SPA)",
-      "tub": "Outdoor Hot Tub: 450 RON / session.",
-      "sauna": "Panoramic Sauna: 250 RON / session.",
+      "tub": "Outdoor Hot Tub: 450 RON / night.",
+      "sauna": "Panoramic Sauna: 250 RON / night.",
       "included": "Included in price: Billiard table, BBQ/cauldron, campfire (firewood included), Starlink internet, parking."
     },
     "calendar": {
-      "title": "Check available dates"
+      "title": "Check available dates",
+      "legend": {
+        "available": "Available",
+        "booked": "Booked"
+      },
+      "loading": "Loading availability...",
+      "error": "Could not load availability. Please contact us directly."
     },
     "rules": {
       "title": "Rules and administrative details",
@@ -251,6 +257,10 @@
     "phone": "+40 740 618 773",
     "email": "viilamunte@gmail.com",
     "mapTitle": "Our location"
+  },
+  "callNow": {
+    "text": "Call now",
+    "mobileSr": "Call now"
   },
   "whatsapp": {
     "text": "Book now",

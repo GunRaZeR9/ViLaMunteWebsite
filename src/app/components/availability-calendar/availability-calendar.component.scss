@@ -1,0 +1,145 @@
+:host {
+  display: block;
+}
+
+.cal {
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+
+    @media (max-width: 640px) {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+  }
+
+  &__month {
+    &-header {
+      font-weight: 700;
+      font-size: 1rem;
+      text-align: center;
+      color: #292524;
+      text-transform: capitalize;
+      margin-bottom: 0.75rem;
+      letter-spacing: 0.01em;
+    }
+  }
+
+  &__day-names,
+  &__week {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+
+  &__day-name {
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #A8A29E;
+    padding: 0.25rem 0 0.4rem;
+    text-transform: uppercase;
+  }
+
+  &__day {
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    border-radius: 6px;
+    margin: 2px;
+    background: #f0f5ee;
+    color: #292524;
+    border: 1.5px solid transparent;
+    transition: background 0.15s;
+
+    &--empty {
+      background: transparent;
+    }
+
+    &--past {
+      background: transparent;
+      color: #C9C5C2;
+    }
+
+    &--blocked {
+      background: rgba(185, 28, 28, 0.1);
+      color: #b91c1c;
+      border-color: rgba(185, 28, 28, 0.25);
+    }
+
+    &--today {
+      border-color: #3d7a36;
+      font-weight: 700;
+    }
+
+    &--today.cal__day--blocked {
+      border-color: #b91c1c;
+    }
+  }
+
+  &__legend {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  &__legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.82rem;
+    color: #57534E;
+
+    &::before {
+      content: '';
+      width: 14px;
+      height: 14px;
+      border-radius: 4px;
+      flex-shrink: 0;
+    }
+
+    &--available::before {
+      background: #f0f5ee;
+      border: 1.5px solid #3d7a36;
+    }
+
+    &--booked::before {
+      background: rgba(185, 28, 28, 0.1);
+      border: 1.5px solid rgba(185, 28, 28, 0.25);
+    }
+  }
+
+  &__skeleton {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+
+    @media (max-width: 640px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__skeleton-block {
+    height: 240px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #f0eeec 25%, #e6e3e0 50%, #f0eeec 75%);
+    background-size: 200% 100%;
+    animation: cal-shimmer 1.5s infinite;
+  }
+
+  &__error {
+    text-align: center;
+    color: #b91c1c;
+    font-size: 0.9rem;
+    padding: 1rem 0;
+  }
+}
+
+@keyframes cal-shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}

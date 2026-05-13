@@ -109,8 +109,8 @@
     "spa": {
       "title": "Relaxare Premium: Ciubăr și Saună",
       "text": "Nicio experiență la o cabană în Călimani nu este completă fără ritualul apei fierbinți.",
-      "tub": "Ciubăr exterior: Relaxare sub stele (450 RON / ședere).",
-      "sauna": "Saună Panoramică: Vedere directă către pădure (250 RON / ședere).",
+      "tub": "Ciubăr exterior: Relaxare sub stele (450 RON / noapte).",
+      "sauna": "Saună Panoramică: Vedere directă către pădure (250 RON / noapte).",
       "cta": "Rezervă acum"
     },
     "outdoor": {
@@ -202,12 +202,18 @@
       "capacity": "Capacitate: 20 persoane (7 unități locative).",
       "minimum": "Sejur minim: 2 nopți (în weekend).",
       "spaTitle": "Opțiuni Relaxare (SPA)",
-      "tub": "Ciubăr exterior: 450 RON / ședere.",
-      "sauna": "Saună Panoramică: 250 RON / ședere.",
+      "tub": "Ciubăr exterior: 450 RON / noapte.",
+      "sauna": "Saună Panoramică: 250 RON / noapte.",
       "included": "Inclus în preț: Masă de biliard, grătar/ceaun, foc de tabără (lemne incluse), internet Starlink, parcare."
     },
     "calendar": {
-      "title": "Verifică zilele disponibile"
+      "title": "Verifică zilele disponibile",
+      "legend": {
+        "available": "Disponibil",
+        "booked": "Rezervat"
+      },
+      "loading": "Se încarcă disponibilitatea...",
+      "error": "Nu s-a putut încărca calendarul. Contactați-ne direct."
     },
     "rules": {
       "title": "Reguli și detalii administrative",
@@ -251,6 +257,10 @@
     "phone": "+40 740 618 773",
     "email": "viilamunte@gmail.com",
     "mapTitle": "Locația noastră"
+  },
+  "callNow": {
+    "text": "Sună acum",
+    "mobileSr": "Sună acum"
   },
   "whatsapp": {
     "text": "Rezervă acum",

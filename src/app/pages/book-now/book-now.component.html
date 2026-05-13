@@ -45,9 +45,8 @@
     <h2 class="booking-calendar__title">
       {{ 'booking.calendar.title' | translate }}
     </h2>
-    <div class="booking-calendar__placeholder">
-      <!-- Smoobu / Airbnb calendar widget will be embedded here -->
-      <p class="booking-calendar__coming-soon">Calendar widget coming soon</p>
+    <div class="booking-calendar__widget">
+      <app-availability-calendar></app-availability-calendar>
     </div>
   </div>
 </section>
@@ -98,7 +97,7 @@
       </div>
       <div class="booking-contact__info-card">
         <h3 class="booking-contact__info-label">📞</h3>
-        <a href="tel:+40XXXXXXXXX" class="booking-contact__phone">
+        <a href="tel:+40740618773" class="booking-contact__phone">
           {{ 'contact.phone' | translate }}
         </a>
       </div>
@@ -108,14 +107,14 @@
           {{ 'contact.email' | translate }}
         </a>
       </div>
-      <a href="https://maps.google.com/?q=Balan,+Harghita,+Romania"
+      <a href="https://maps.google.com/?q=47.04306,25.31194"
          target="_blank" rel="noopener noreferrer"
          class="btn btn--outline-forest booking-contact__map-btn">
         {{ 'booking.contact.mapButton' | translate }}
       </a>
       <div class="booking-contact__map-embed">
         <iframe
-          src="https://maps.google.com/maps?q=Balan,+Harghita,+Romania&output=embed"
+          src="https://maps.google.com/maps?q=47.04306,25.31194&z=15&output=embed"
           width="100%"
           height="250"
           loading="lazy"

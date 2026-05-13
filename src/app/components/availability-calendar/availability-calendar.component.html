@@ -1,0 +1,42 @@
+@if (loading()) {
+  <div class="cal__skeleton">
+    <div class="cal__skeleton-block"></div>
+    <div class="cal__skeleton-block"></div>
+  </div>
+} @else if (hasError()) {
+  <p class="cal__error">{{ 'booking.calendar.error' | translate }}</p>
+} @else {
+  <div class="cal__grid">
+    @for (month of months(); track month.label) {
+      <div class="cal__month">
+        <div class="cal__month-header">{{ month.label }}</div>
+        <div class="cal__day-names">
+          @for (name of DAY_NAMES; track name) {
+            <span class="cal__day-name">{{ name }}</span>
+          }
+        </div>
+        @for (week of month.weeks; track $index) {
+          <div class="cal__week">
+            @for (day of week; track $index) {
+              <div
+                class="cal__day"
+                [class.cal__day--empty]="!day.date"
+                [class.cal__day--blocked]="day.date && day.isBlocked && !day.isPast"
+                [class.cal__day--past]="day.isPast"
+                [class.cal__day--today]="day.isToday"
+              >{{ day.date ? day.date.getDate() : '' }}</div>
+            }
+          </div>
+        }
+      </div>
+    }
+  </div>
+  <div class="cal__legend">
+    <span class="cal__legend-item cal__legend-item--available">
+      {{ 'booking.calendar.legend.available' | translate }}
+    </span>
+    <span class="cal__legend-item cal__legend-item--booked">
+      {{ 'booking.calendar.legend.booked' | translate }}
+    </span>
+  </div>
+}
