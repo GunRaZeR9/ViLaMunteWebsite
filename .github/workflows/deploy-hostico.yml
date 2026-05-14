@@ -40,11 +40,17 @@ jobs:
       - name: Push to hostico-prod branch
         run: |
           cd dist/vilamunte/browser
-          git init
+          git init -b hostico-prod
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
           git add -A
-          git commit -m "deploy: $(date -u '+%Y-%m-%d %H:%M UTC') [${GITHUB_SHA::7}]"
-          git push --force \
-            https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git \
-            HEAD:hostico-prod
+          TREE=$(git write-tree)
+          MESSAGE="deploy: $(date -u '+%Y-%m-%d %H:%M UTC') [${GITHUB_SHA::7}]"
+          if git fetch origin hostico-prod --depth=1 2>/dev/null; then
+            COMMIT=$(git commit-tree "$TREE" -p FETCH_HEAD -m "$MESSAGE")
+          else
+            COMMIT=$(git commit-tree "$TREE" -m "$MESSAGE")
+          fi
+          git update-ref refs/heads/hostico-prod "$COMMIT"
+          git push origin hostico-prod
