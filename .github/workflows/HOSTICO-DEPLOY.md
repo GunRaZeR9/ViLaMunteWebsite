@@ -146,6 +146,7 @@ deployment:
 |---|---|
 | "system cannot deploy" in cPanel | `.cpanel.yml` is missing from `hostico-prod` — check the Action ran successfully |
 | cPanel still shows `main` branch | Run `git fetch && git checkout hostico-prod` in the server repo directory |
+| "Not possible to fast-forward" on Update from Remote | Run in cPanel Terminal: `git fetch origin && git checkout -B hostico-prod origin/hostico-prod` — one-time fix |
 | rsync not found | Replace `/usr/bin/rsync` with `/bin/cp -R . $DEPLOYPATH/` (won't delete old files) |
 | Build fails in Action | Check Node version matches your local (`node -v`) and update `node-version` in the workflow |
 | Old hashed JS/CSS files pile up | `--delete` flag on rsync removes them automatically — make sure it's present |
