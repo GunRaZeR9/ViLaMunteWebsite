@@ -1,0 +1,460 @@
+{
+  "nav": {
+    "home": "Acasă",
+    "gallery": "Povestea noastră",
+    "rates": "Facilități",
+    "calendar": "Teambuilding",
+    "contact": "Rezervă Acum"
+  },
+  "seo": {
+    "home": {
+      "title": "ViiLa Munte Toplița - Cabană de lemn pentru 20 persoane în Munții Călimani",
+      "description": "ViiLa Munte Toplița - Cabană de lemn pentru 20 persoane în Munții Călimani. Închiriere integrală, biliard, saună, ciubăr și internet Starlink. Ideală pentru teambuilding și evenimente private."
+    },
+    "cabin": {
+      "title": "Cazare 20 persoane Toplița - Camere și Facilități Viila Munte",
+      "description": "Descoperî Viila Munte, locația ideală pentru teambuilding în Harghita. Cabană în Călimani cu 20 de locuri, 7 băi, ciubăr și saună. Rezervă integral!"
+    },
+    "access": {
+      "title": "Cum ajungi la ViiLa Munte - Drum forestier și Atracții Toplița",
+      "description": "Află cum ajungi la ViiLa Munte Toplița. Ghid complet despre drumul forestier de 12 km în Călimani și principalele atracții: Cascada Mezotermală și Pârtia de Schi."
+    },
+    "teambuilding": {
+      "title": "Teambuilding în Harghita - Locație exclusivă Munții Călimani",
+      "description": "ViiLa Munte: Destinația ideală pentru teambuilding la munte. Capacitate 20 persoane, internet Starlink, liniște totală și facilități premium în inima Călimanilor."
+    },
+    "booking": {
+      "title": "Rezervări ViiLa Munte Toplița — Disponibilitate și Tarife",
+      "description": "Rezervă integral cabana ViiLa Munte pentru grupul tău de 20 de persoane. Tarif: 2.400 RON/noapte. Vezi calendarul actualizat și regulamentul locației."
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "ViiLa Munte — Refugiul tău exclusiv în inima Călimanilor",
+      "tagline": "12 km de liniște între tine și restul lumii. Închiriere integrală pentru grupuri de până la 20 de persoane.",
+      "ctaBook": "Rezervă Cabana",
+      "ctaGallery": "Vezi Galerie"
+    },
+    "intro": {
+      "title": "Spune „Adio\" agitației, spune „Da\" muntelui",
+      "text": "ViiLa Munte este o experiență de deconectare totală la 1.000m altitudine. O locație izolată, creată special pentru teambuilding-uri și grupuri mari care caută intimitate absolută și confort premium.",
+      "cta": "Află povestea noastră"
+    },
+    "stats": {
+      "guests": "20 Oaspeți",
+      "rooms": "8 Camere",
+      "tub": "Ciubăr",
+      "spa": "Saună",
+      "billiard": "Biliard",
+      "internet": "Starlink",
+      "cta": "Vezi detalii interior și dotări"
+    },
+    "spa": {
+      "title": "Foc, Apă și Relaxare sub Cerul Liber",
+      "text": "Descoperă ciubărul nostru fierbinte și sauna panoramică, special create pentru a șterge oboseala zilei sub cel mai curat cer înstelat.",
+      "cta": "Vezi facilități SPA"
+    },
+    "teambuilding": {
+      "title": "Locația ideală pentru echipa ta",
+      "text": "Intimitate totală, internet rapid și spațiu generos pentru activități comune. Fără vecini, fără distrageri.",
+      "cta": "Oferte Teambuilding"
+    },
+    "outdoor": {
+      "title": "Gustul muntelui și seri la foc de tabără",
+      "text": "Ți-am pregătit totul pentru un festin veritabil: zonă complet utilată pentru grătar și ceaun, foișor acoperit și un loc special amenajat pentru focuri de tabără sub cerul liber.",
+      "cta": "Vezi zona de grătar"
+    },
+    "road": {
+      "title": "Călătoria face parte din aventură",
+      "text": "Ultimii 12 km sunt pe drum forestier, bariera naturală care ne separă de zgomotul civilizației.",
+      "cta": "Ghid de Acces și Obiective"
+    },
+    "social": {
+      "title": "Clienții noștri ne recomandă",
+      "text": "Suntem mândri de comunitatea noastră. Cu peste 87 de recenzii pozitive pe Google Maps, ViiLa Munte este una dintre cele mai apreciate locații de munte din județul Harghita. Oamenii vin pentru peisaj și revin pentru ospitalitate.",
+      "rating": "4.9/5"
+    },
+    "reviews_title": "Ce spun oaspeții noștri",
+    "cta": "Rezervă acum"
+  },
+  "cabin": {
+    "hero": {
+      "title": "Confort și Intimitate în Inima Munților Călimani",
+      "subtitle": "O cabană la munte unde spațiul generos întâlnește liniștea deplină. Configurație ideală pentru grupuri și teambuilding-uri de 20 de persoane."
+    },
+    "rooms": {
+      "title": "Odihnă sub cerul de munte",
+      "subtitle": "Patru tipuri de camere, fiecare gândit pentru confort maxim în inima naturii.",
+      "photos": "poze",
+      "label": {
+        "apt": "Apartament",
+        "double": "Cameră Dublă",
+        "triple": "Cameră Triplă",
+        "mansard": "Cameră Mansardă"
+      },
+      "apt": "Apartament · 2 camere, paturi matrimoniale, baie comună · ×1",
+      "double": "Cameră dublă · pat matrimonial, baie proprie · ×2",
+      "triple": "Cameră triplă · pat matrimonial + pat single, baie proprie · ×2",
+      "mansard": "Cameră mansardă · pat matrimonial + pat single, baie proprie · ×2"
+    },
+    "kitchen": {
+      "title": "O bucătărie complet utilată pentru festinuri mari",
+      "text": "Știm că o masă reușită înseamnă o echipă fericită. Bucătăria noastră este pregătită să susțină nevoile unui grup de 20 de persoane, fiind dotată cu:",
+      "item0": "Aragaz",
+      "item1": "Frigider generos",
+      "item2": "Cuptor cu microunde",
+      "item3": "Prăjitor de pâine",
+      "item4": "Mixer",
+      "item5": "Cafetieră",
+      "item6": "Aparat de cafea cu boabe",
+      "item7": "Veselă completă pentru 20 persoane"
+    },
+    "common": {
+      "title": "Facilități pentru grupuri și distracție",
+      "text": "Dacă cauți o cabană în Toplița unde distracția nu are limite, Viila Munte îți oferă un living generos cu masă de biliard, zonă de dining pentru 20 de persoane și o bucătărie complet utilată pentru festinuri memorabile. Fără vecini, fără restricții de volum, doar echipa ta."
+    },
+    "spa": {
+      "title": "Relaxare Premium: Ciubăr și Saună",
+      "text": "Nicio experiență la o cabană în Călimani nu este completă fără ritualul apei fierbinți.",
+      "tub": "Ciubăr exterior: Relaxare sub stele (450 RON / noapte).",
+      "sauna": "Saună Panoramică: Vedere directă către pădure (250 RON / noapte).",
+      "cta": "Rezervă acum"
+    },
+    "outdoor": {
+      "title": "Gătește și relaxează-te sub cerul liber",
+      "text": "O cabană la munte nu este completă fără mirosul de jar și poveștile la foc. Viila Munte îți pune la dispoziție tot ce ai nevoie pentru un festin autentic:",
+      "bbq": "Zonă de grătar și ceaun: Complet utilată pentru preparate delicioase în aer liber.",
+      "campfire": "Foc de tabără: Locul special amenajat unde serile de teambuilding devin memorabile sub cerul înstelat al Călimanilor.",
+      "gazebo": "Foișor: Spațiu acoperit pentru mese în aer liber, indiferent de vreme."
+    },
+    "tech": {
+      "title": "Conectivitate la altitudine",
+      "text": "Deși suntem o cabană la munte izolată, rămâi conectat prin internet de mare viteză Starlink. Ideal pentru sesiuni de lucru în cadrul unui teambuilding sau pentru streaming video fără întreruperi."
+    },
+    "cta": {
+      "title": "Ești gata să rezervi întreaga cabană?",
+      "button": "Rezervă acum"
+    }
+  },
+  "access": {
+    "hero": {
+      "title": "Drumul spre liniște: Ghid de Acces",
+      "subtitle": "O călătorie de 12 km prin inima pădurii, poarta ta către o deconectare totală."
+    },
+    "road": {
+      "title": "Ce trebuie să știi despre drumul forestier",
+      "text": "ViiLa Munte este o locație izolată, iar drumul până la noi face parte din farmecul experienței. Accesul se face din orașul Toplița pe un drum forestier de 12 km.",
+      "accessible": "Este practicabil? Da, drumul este accesibil pentru orice tip de autoturism condus cu atenție. Nu aveți nevoie de un vehicul 4x4, ci doar de răbdare pentru a savura peisajul (timp estimat de parcurgere: 45-60 minute).",
+      "signal": "Semnal GSM: Odată intrați pe drumul forestier, semnalul telefonic va dispărea treptat. Vă recomandăm să aveți traseul salvat offline. La cabană, vă veți bucura de conexiune stabilă prin internet Starlink."
+    },
+    "shopping": {
+      "title": "Ultima oprire pentru cumpărături",
+      "text": "Fiind o locație situată adânc în munte, vă recomandăm să faceți toate cumpărăturile necesare în Toplița înainte de a porni pe drumul forestier. În oraș găsiți supermarketuri (Lidl, Penny) și producători locali pentru aprovizionare completă."
+    },
+    "attractions": {
+      "title": "Ce poți vizita în zonă",
+      "0": { "name": "Cascada Mezotermală Toplița", "desc": "O minune unică în România, unde apa nu îngheață niciodată. (La 12 km de cabană)." },
+      "1": { "name": "Lacul Iezer Retițiș", "desc": "Explorează Munții Călimani direct de la poarta cabanei. Un traseu montan spectaculos care te poartă până la lacul glaciar situat la 2.021m altitudine." },
+      "2": { "name": "Cascada Lomășița", "desc": "O bijuterie ascunsă a munților, perfectă pentru o drumeție de deconectare în sălbăticie. Un traseu pitoresc prin pădure, accesibil iubitorilor de munte." },
+      "3": { "name": "Pârtia de Schi și Centrul Wellness", "desc": "Distracție pe zăpadă iarna sau relaxare la ștrandul mezotermal din Toplița în restul anului." },
+      "4": { "name": "Rezervația Călimani", "desc": "Trasee montane spectaculoase și peisaje sălbatice, chiar de la poarta cabanei." }
+    },
+    "map": {
+      "button": "Deschide în Google Maps"
+    }
+  },
+  "teambuilding": {
+    "hero": {
+      "title": "Biroul tău la 1.000m altitudine: Teambuilding fără compromisuri",
+      "subtitle": "Intimitate totală, conectivitate prin satelit și spațiu nelimitat pentru echipa ta. Locația unde ideile prind viață în liniștea munților."
+    },
+    "features": {
+      "title": "Facilități dedicate succesului echipei tale",
+      "0": { "icon": "📶", "title": "Conectivitate Starlink", "text": "Internet prin satelit de mare viteză (Wi-Fi 6), stabil pentru videoconferințe sau lucru remote." },
+      "1": { "icon": "🔒", "title": "Intimitate 100%", "text": "Cabana se închiriază integral. Nu avem vecini, deci echipa se poate bucura de libertate deplină, fără restricții." },
+      "2": { "icon": "👥", "title": "Capacitate de 20 persoane", "text": "8 unități locative pregătite să asigure confortul și odihna fiecărui membru al echipei." },
+      "3": { "icon": "🧾", "title": "Facturare pe firmă", "text": "Oferim documentele fiscale necesare pentru o decontare simplă și rapidă a evenimentului corporate." }
+    },
+    "activities": {
+      "title": "Activități care sudează echipa",
+      "text": "Știm că cele mai bune idei apar în momentele de relaxare. După sesiunile de brainstorming în living-ul generos, echipa se poate muta la:",
+      "0": "Competiții de biliard în zona de entertainment.",
+      "1": "Seară de povești la focul de tabără sub cerul liber.",
+      "2": "Relaxare la ciubăr și saună pentru reîncărcarea bateriilor.",
+      "3": "Drumeții exploratorii către Lacul Iezer sau Cascadele din zonă."
+    },
+    "gallery": {
+      "title": "Atmosfera locației",
+      "subtitle": "O privire în spațiile care fac diferența pentru echipa ta.",
+      "photos": "fotografii"
+    },
+    "dining": {
+      "title": "Totul la dispoziția voastră",
+      "text": "Bucătăria complet utilată vă permite să vă organizați mesele exact cum doriți, de la cafeaua proaspătă de dimineață (aparat cu boabe inclus), până la grătare și ceaune în aer liber. Aveți libertate totală de organizare."
+    },
+    "cta": {
+      "title": "Vrei să rezervi următorul teambuilding în Călimani?",
+      "button": "Solicită ofertă personalizată"
+    }
+  },
+  "booking": {
+    "hero": {
+      "title": "Rezervă-ți refugiul în inima munților",
+      "subtitle": "Verifică disponibilitatea și pregătește-te pentru o experiență de neuitat alături de grup. Închiriere integrală pentru maximum 20 de persoane."
+    },
+    "rates": {
+      "title": "Tarife și servicii",
+      "full": "Închiriere Integrală Cabană",
+      "fullPrice": "2.400 RON / noapte",
+      "capacity": "Capacitate: 20 persoane (8 unități locative).",
+      "minimum": "Sejur minim: 2 nopți (în weekend).",
+      "spaTitle": "Opțiuni Relaxare (SPA)",
+      "tub": "Ciubăr exterior: 450 RON / noapte.",
+      "sauna": "Saună Panoramică: 250 RON / noapte.",
+      "included": "Inclus în preț: Masă de biliard, grătar/ceaun, foc de tabără (lemne incluse), internet Starlink, parcare."
+    },
+    "calendar": {
+      "title": "Verifică zilele disponibile",
+      "legend": {
+        "available": "Disponibil",
+        "booked": "Rezervat"
+      },
+      "loading": "Se încarcă disponibilitatea...",
+      "error": "Nu s-a putut încărca calendarul. Contactați-ne direct."
+    },
+    "rules": {
+      "title": "Reguli și detalii administrative",
+      "checkIn": "Check-in: După ora 14:00",
+      "checkOut": "Check-out: Până în ora 11:00",
+      "smoking": "Fumatul strict interzis în interiorul cabanei (permis doar pe terase și în zonele exterioare).",
+      "noise": "Deoarece nu avem vecini, vă puteți bucura de muzică la orice volum, cu respect față de liniștea naturii.",
+      "access": "Vă reamintim că ultimii 12 km sunt pe drum forestier. Recomandăm aprovizionarea completă în orașul Toplița.",
+      "pets": "Politica animale: Contactați-ne pentru detalii."
+    },
+    "contact": {
+      "location": "Toplița, Jud. Harghita (Acces din Str. Măgheruș).",
+      "mapButton": "Deschide în Google Maps",
+      "whatsapp": "WhatsApp"
+    },
+    "form": {
+      "title": "Trimite-ne o cerere de rezervare",
+      "subtitle": "Completează detaliile de mai jos și te vom contacta în cel mai scurt timp pentru confirmare.",
+      "name": "Nume Complet",
+      "namePlaceholder": "Ion Popescu",
+      "email": "Adresă de E-mail",
+      "emailPlaceholder": "Unde trimiți oferta",
+      "phone": "Număr de Telefon",
+      "phonePlaceholder": "Pentru detalii rapide",
+      "checkIn": "Data Check-in",
+      "checkOut": "Data Check-out",
+      "groupType": "Tipul grupului",
+      "groupFriends": "Grup de prieteni",
+      "groupTeambuilding": "Teambuilding",
+      "groupEvent": "Eveniment privat",
+      "persons": "Număr de persoane",
+      "personsPlaceholder": "Ex: 15, 20",
+      "message": "Mesaj / Cerințe speciale",
+      "messagePlaceholder": "Ex: Dorim și ciubăr, Avem nevoie de factură pe firmă",
+      "submit": "TRIMITE PE WHATSAPP"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "address": "Toplița, Jud. Harghita",
+    "phone": "+40 740 618 773",
+    "email": "viilamunte@gmail.com",
+    "mapTitle": "Locația noastră"
+  },
+  "callNow": {
+    "text": "Sună acum",
+    "mobileSr": "Sună acum"
+  },
+  "whatsapp": {
+    "text": "Rezervă acum",
+    "mobileSr": "WhatsApp"
+  },
+  "footer": {
+    "copyright": "© 2026 Viila Munte. Toate drepturile rezervate.",
+    "followUs": "Urmărește-ne",
+    "terms": "Condiții de utilizare",
+    "privacy": "Politica de confidențialitate",
+    "cookies": "Politică de cookies"
+  },
+  "cookie": {
+    "message": "Folosim cookies pentru a îmbunătăți experiența ta.",
+    "accept": "Accept",
+    "decline": "Declin"
+  },
+  "rules": {
+    "title": "Regulament interior",
+    "checkIn": "Check-in: După ora 14:00",
+    "checkOut": "Check-out: Până în ora 11:00",
+    "rules": []
+  },
+  "legal": {
+    "terms": {
+      "title": "Termeni și Condiții",
+      "updated": "Versiune actualizată la data de 30.04.2026",
+      "intro": "Website-ul vilamunte.ro este deținut și operat de Sc Pro-Silva HR SRL (\"ViLaMunte\", \"noi\"). Sc Pro-Silva HR SRL are sediul în Toplița, este înregistrată la Registrul Comerțului sub nr. J19/46/2009 și are codul unic de identificare fiscală RO24982271.\n\nPrin „vilamunte.ro\" înțelegem orice pagină web (website, landing page, subdomeniu) deținută, administrată sau operată de Sc Pro-Silva HR SRL. Pe parcursul navigării pe Site, termeni precum „noi\" sau „nostru\" se referă la compania menționată mai sus.\n\nvilamunte.ro include informații online pentru utilizatorii care acceptă termenii și condițiile de mai jos, precum și orice politici suplimentare disponibile pe site.\n\nPrin vizitarea și utilizarea platformei noastre online, vă angajați să respectați acești Termeni și Condiții și politicile asociate menționate pe site. Acești Termeni și Condiții se aplică tuturor utilizatorilor, inclusiv vizitatorilor care navighează, transmit cereri sau descarcă materiale.\n\nVă rugăm să citiți acești Termeni și Condiții înainte de a utiliza website-ul. Prin accesarea sau utilizarea oricărei părți a website-ului, confirmați că acceptați prevederile. Dacă nu acceptați termenii, vă rugăm să încetați utilizarea website-ului și să nu folosiți formularele sau materialele disponibile.\n\nOrice caracteristică sau secțiune nouă adăugată website-ului va fi supusă acestor Termeni și Condiții. Ne rezervăm dreptul de a actualiza, modifica sau înlocui orice parte a acestor Termeni și Condiții prin publicarea versiunii actualizate pe această pagină. Este responsabilitatea dumneavoastră să verificați periodic această pagină. Continuarea utilizării website-ului după publicarea modificărilor constituie acceptarea acelor modificări.",
+      "c2": {
+        "title": "Capitolul II. Termeni și Definiții",
+        "text": "Platformă Online / Site: Se referă la vilamunte.ro și paginile asociate administrate de Sc Pro-Silva HR SRL.\n\nProprietar: Sc Pro-Silva HR SRL, cu sediul în Toplița, înregistrată la Registrul Comerțului sub nr. J19/46/2009, CUI RO24982271.\n\nUtilizator: O persoană fizică sau juridică în timp ce utilizează website-ul.\n\nTriimitere: Transmiterea datelor de către Utilizator prin intermediul website-ului, de exemplu prin completarea unui formular de contact, abonarea la newsletter sau descărcarea unei resurse.\n\nLink: O legătură către o pagină internă sau externă accesată prin click.\n\nServicii: Serviciile prezentate pe website, inclusiv cazare, pachete teambuilding și servicii conexe."
+      },
+      "c3": {
+        "title": "Capitolul III. Drepturi de Proprietate Intelectuală",
+        "text": "Conținutul website-ului vilamunte.ro, inclusiv texte, imagini, elemente grafice, materiale descărcabile, script-uri, structuri de pagini, cod și elemente de identitate vizuală, constituie proprietatea vilamunte.ro sau este utilizat în mod legal cu drept de utilizare. Utilizarea oricăror elemente fără consimțământ scris este interzisă și poate atrage răspunderea conform legii aplicabile.\n\nPutem acorda Utilizatorului dreptul de a folosi anumite materiale printr-un acord separat sau prin condiții explicit menționate la momentul furnizării materialului. Acest drept este limitat la scopul, perioada și persoana indicată și nu conferă drepturi asupra altor elemente ale website-ului.\n\nFolosirea pe website a oricăror mărci comerciale sau logo-uri aparținând terților este în scop informativ și nu implică afiliere, sponsorizare sau aprobare în absența unei declarații exprese.\n\nDacă observați o posibilă încălcare a drepturilor de autor în conținutul website-ului, vă rugăm să ne contactați la viilamunte@gmail.com."
+      },
+      "c4": {
+        "title": "Capitolul IV. Condiții Generale de Utilizare",
+        "text": "Prin utilizarea website-ului confirmați că aveți cel puțin 18 ani și capacitatea juridică de a încheia acte juridice. Website-ul nu este destinat minorilor și nu colectăm intenționat date de la persoane sub 18 ani.\n\nConținutul website-ului are caracter informativ. Nicio parte a conținutului nu constituie o ofertă fermă și obligatorie de a contracta servicii. Orice colaborare se stabilește prin acceptarea unei oferte, contract sau acord scris, după caz.\n\nDepunem eforturi rezonabile pentru a menține informațiile actualizate, dar pot apărea erori tipografice, inexactități sau omisiuni. Putem corecta conținutul și actualiza informațiile în orice moment.\n\nEste interzisă folosirea website-ului pentru a transmite cod malițios, a încerca accesul neautorizat, spam, colectare neautorizată de date sau orice acțiune care poate afecta funcționarea website-ului sau poate cauza prejudicii.\n\nPutem limita sau opri accesul la website, în totalitate sau parțial, în cazul încălcării acestor Termeni și Condiții sau când considerăm în mod rezonabil că este necesar pentru securitatea platformei."
+      },
+      "c5": {
+        "title": "Capitolul V. Servicii, Estimări și Rezultate",
+        "text": "Serviciile prezentate pe website includ cazare, pachete teambuilding, servicii SPA și oferte conexe. Detaliile exacte ale livrabilelor, termenelor și condițiilor comerciale se stabilesc prin comunicare directă și confirmare de rezervare.\n\nOrice estimări, proiecții sau exemple de rezultate sunt orientative. Nu garantăm rezultate specifice în absența unei confirmări scrise exprese."
+      },
+      "c6": {
+        "title": "Capitolul VI. Prelucrarea Datelor cu Caracter Personal",
+        "text": "Respectăm confidențialitatea utilizatorilor website-ului. Website-ul poate fi vizitat fără a furniza date cu caracter personal. Datele sunt prelucrate atunci când Utilizatorul transmite informații prin formulare, se abonează la newsletter, descarcă materiale sau ne contactează prin canalele disponibile.\n\nPentru detalii privind categoriile de date, scopurile și drepturile dumneavoastră, vă rugăm să consultați Politica de Confidențialitate disponibilă pe website."
+      },
+      "c7": {
+        "title": "Capitolul VII. Utilizarea Cookie-urilor",
+        "text": "vilamunte.ro folosește cookie-uri și tehnologii similare. Pentru detalii privind categoriile, consimțământul și gestionarea acestora, vă rugăm să consultați Politica de Cookie-uri disponibilă pe website."
+      },
+      "c8": {
+        "title": "Capitolul VIII. Securitatea Datelor și a Platformei",
+        "text": "Aplicăm măsuri tehnice și organizatorice pentru securizarea website-ului și protejarea datelor. Cu toate acestea, nicio platformă online nu poate garanta securitate absolută. Utilizatorul își asumă responsabilitatea pentru datele pe care alege să le transmită și pentru securitatea propriului dispozitiv. În cazul unei breșe de securitate care afectează datele cu caracter personal, vom notifica utilizatorii afectați în conformitate cu dispozițiile legale aplicabile."
+      },
+      "c9": {
+        "title": "Capitolul IX. Link-uri către Terți",
+        "text": "Website-ul poate include link-uri către site-uri operate de terți. Aceste link-uri sunt în scop informativ. Nu controlăm conținutul sau politicile acelor site-uri și nu ne asumăm responsabilitatea pentru utilizarea lor. Recomandăm consultarea termenilor și politicilor acelor website-uri."
+      },
+      "c10": {
+        "title": "Capitolul X. Erori, Inexactități și Omisiuni",
+        "text": "Ocazional, conținutul website-ului poate include erori tipografice, inexactități sau omisiuni. Ne rezervăm dreptul de a corecta aceste situații și de a actualiza conținutul fără notificare prealabilă, acolo unde este necesar."
+      },
+      "c11": {
+        "title": "Capitolul XI. Utilizări Interzise",
+        "text": "Website-ul nu poate fi utilizat pentru: orice acțiune ilegală sau care încalcă drepturile terților; încălcarea drepturilor de proprietate intelectuală; hărțuire, intimidare, defăimare sau discriminare; transmiterea de informații false sau înșelătoare sau uzurparea identității altei persoane; transmiterea de viruși, malware sau cod distructiv; colectarea sau monitorizarea neautorizată a datelor altor utilizatori; tentative de acces neautorizat, testarea vulnerabilităților sau atacuri asupra sistemelor de securitate; utilizarea automatizată sau abuzivă a website-ului care depășește navigarea normală și rezonabilă.\n\nNe rezervăm dreptul de a restricționa accesul, inclusiv prin blocarea adreselor IP, atunci când identificăm comportamente care pot afecta funcționarea website-ului sau securitatea acestuia."
+      },
+      "c12": {
+        "title": "Capitolul XII. Excluderea Garanțiilor; Limitarea Răspunderii",
+        "text": "Website-ul și conținutul său sunt furnizate în scop informativ. Nu garantăm că website-ul va funcționa fără întreruperi sau erori și nu suntem răspunzători pentru daunele indirecte rezultate din utilizarea sau imposibilitatea utilizării website-ului, în măsura permisă de lege.\n\nNu suntem responsabili pentru efectele generate de decizii luate exclusiv pe baza informațiilor publicate pe website, în absența unui contract sau a unei confirmări scrise privind aplicabilitatea în cazul specific."
+      },
+      "c13": {
+        "title": "Capitolul XIII. Încetarea Utilizării",
+        "text": "Puteți înceta utilizarea website-ului în orice moment prin oprirea accesării paginilor noastre. Dacă considerăm că ați încălcat acești Termeni și Condiții sau dacă există suspiciuni rezonabile de încălcare, putem suspenda sau opri accesul la website fără notificare prealabilă."
+      },
+      "c14": {
+        "title": "Capitolul XIV. Soluționarea Litigiilor. Legea Aplicabilă",
+        "text": "Orice tentativă de acces neautorizat sau fraudă va fi raportată autorităților competente. Orice conflict între Sc Pro-Silva HR SRL și Utilizator va fi soluționat pe cale amiabilă. Vă rugăm să ne transmiteți orice reclamație la viilamunte@gmail.com pentru a încerca rezolvarea rapidă.\n\nDacă soluționarea amiabilă nu este posibilă, se aplică legea română, iar instanțele competente sunt cele din România."
+      },
+      "c15": {
+        "title": "Capitolul XV. Informații de Contact",
+        "text": "Întrebările, sugestiile și reclamațiile legate de acești Termeni și Condiții sau politicile asociate pot fi transmise la viilamunte@gmail.com sau la numărul de telefon +40 740 618 773."
+      },
+      "c16": {
+        "title": "Capitolul XVI. Dispoziții Finale",
+        "text": "Dacă oricare dintre clauzele de mai sus este găsită nulă sau invalidă, aceasta nu va afecta valabilitatea clauzelor rămase."
+      }
+    },
+    "privacy": {
+      "title": "Politica de Confidențialitate",
+      "updated": "Versiune actualizată la data de 30.04.2026",
+      "c1": {
+        "title": "Capitolul I. Prezentare Generală",
+        "text": "Website-ul vilamunte.ro este deținut și operat de Sc Pro-Silva HR SRL (\"ViLaMunte\", \"noi\"). Sc Pro-Silva HR SRL are sediul în Toplița, este înregistrată la Registrul Comerțului sub nr. J19/46/2009 și are codul unic de identificare fiscală RO24982271.\n\nPrin „vilamunte.ro\" înțelegem orice pagină web (website, landing page, subdomeniu) deținută, administrată sau operată de Sc Pro-Silva HR SRL.\n\nAceastă Politică de Confidențialitate descrie modul în care colectăm și prelucrăm datele cu caracter personal atunci când utilizați website-ul, completați formulare, descărcați materiale, vă abonați la newsletter sau interacționați cu noi prin canalele de contact afișate.\n\nPrin utilizarea website-ului, confirmați că ați citit și înțeles această Politică de Confidențialitate. Dacă nu sunteți de acord cu prevederile de mai jos, vă rugăm să nu utilizați formularele și să nu furnizați date cu caracter personal prin website."
+      },
+      "c2": {
+        "title": "Capitolul II. Termeni și Definiții",
+        "text": "Platformă Online / Site: Se referă la vilamunte.ro și paginile asociate administrate de Sc Pro-Silva HR SRL.\n\nOperator: Sc Pro-Silva HR SRL, Toplița, J19/46/2009, RO24982271.\n\nUtilizator: O persoană fizică sau juridică care utilizează website-ul.\n\nDate cu Caracter Personal: Orice informație care poate identifica direct sau indirect o persoană, cum ar fi numele, adresa de e-mail, numărul de telefon și conținutul mesajelor transmise.\n\nTriimitere: Transmiterea datelor de către Utilizator prin intermediul website-ului, de exemplu prin completarea unui formular de contact, abonarea la newsletter sau descărcarea unei resurse.\n\nPersoană împuternicită: Un partener contractual care prelucrează datele în numele Operatorului, în baza unui acord."
+      },
+      "c3": {
+        "title": "Capitolul III. Date de Contact",
+        "text": "Pentru întrebări sau solicitări referitoare la datele cu caracter personal, ne puteți contacta după cum urmează:\n\nE-mail: viilamunte@gmail.com\n\nTelefon: +40 740 618 773\n\nNu avem un Responsabil cu Protecția Datelor (DPO) desemnat. Gestionăm solicitările privind datele cu caracter personal prin adresa de e-mail de mai sus."
+      },
+      "c4": {
+        "title": "Capitolul IV. Ce Date Colectăm",
+        "text": "Putem colecta următoarele categorii de date în funcție de modul în care utilizați website-ul: nume complet, adresă de e-mail, număr de telefon, mesaj și informații incluse în câmpurile de text liber, răspunsuri la întrebări din formulare, chestionare sau quiz-uri, date furnizate pentru abonarea la newsletter și date furnizate pentru accesarea sau descărcarea materialelor (lead magnets).\n\nNu efectuăm profilare automatizată și nu luăm decizii exclusiv prin mijloace automate care produc efecte juridice sau cu impact semnificativ similar asupra Utilizatorilor."
+      },
+      "c5": {
+        "title": "Capitolul V. Scopurile Prelucrării și Temeiurile Juridice",
+        "text": "Prelucrăm datele cu caracter personal în următoarele scopuri: răspunsul la solicitări și discuții inițiate prin formulare sau contact direct, realizarea de oferte și demersuri precontractuale, trimiterea de comunicări prin newsletter, furnizarea de materiale solicitate prin descărcare, măsurarea performanței website-ului și îmbunătățirea experienței utilizatorilor și măsurarea conversiilor și optimizarea campaniilor de marketing.\n\nTemeiurile juridice pentru aceste scopuri sunt: executarea unor demersuri precontractuale pentru cererile de ofertă și discuțiile inițiate prin formulare; consimțământul pentru trimiterea de comunicări de marketing (newsletter), descărcarea materialelor (lead magnets) și activarea instrumentelor de urmărire (pixeli/cookie-uri); și interesul legitim pentru măsurarea performanței website-ului, optimizarea campaniilor și securizarea platformei."
+      },
+      "c6": {
+        "title": "Capitolul VI. Instrumente Utilizate și Date Tehnice",
+        "text": "Website-ul poate utiliza instrumente de măsurare și marketing implementate prin Google Tag Manager. În funcție de consimțământul acordat în banner-ul de cookie-uri, putem activa Google Analytics pentru analiza traficului și a performanței, Google Ads pentru măsurarea conversiilor și optimizarea campaniilor și Meta Ads prin Meta Business Manager pentru măsurarea conversiilor și optimizarea campaniilor.\n\nÎn practică, serviciile de analiză pot prelucra adresa IP în mod tranzitoriu pentru funcții tehnice precum securitatea și estimarea locației. Nu utilizăm aceste date pentru identificare și nu urmărim adresa IP ca element de identificare în rapoartele noastre."
+      },
+      "c7": {
+        "title": "Capitolul VII. Destinatari, Persoane Împuternicite și Transferuri",
+        "text": "Datele pot fi prelucrate de furnizorul de hosting Hostico, Google Workspace, Google Tag Manager, Google Analytics, Google Ads, Meta Business Manager, precum și de colaboratori și parteneri contractuali, inclusiv freelanceri, atunci când este necesar pentru furnizarea serviciilor.\n\nÎn cazul în care anumiți furnizori sunt situați în afara Spațiului Economic European, transferurile pot avea loc în condiții permise de GDPR, inclusiv Clauze Contractuale Standard și măsuri suplimentare acolo unde este aplicabil. Nu vindem date cu caracter personal și nu le transferăm terților în scopuri comerciale independente de serviciile noastre.\n\nLa utilizarea serviciilor de analiză și publicitate, anumite date pot fi transferate sau accesate de entitățile-mamă ale Google și Meta din Statele Unite. Aceste transferuri au loc în baza EU-U.S. Data Privacy Framework (pentru organizațiile certificate) sau în baza Clauzelor Contractuale Standard (SCC) aprobate de Comisia Europeană."
+      },
+      "c8": {
+        "title": "Capitolul VIII. Perioada de Retenție",
+        "text": "Reținem datele colectate prin formulare de contact până la 1 an în cazul solicitărilor care nu se finalizează printr-un contract. Datele furnizate pentru abonarea la newsletter sau descărcarea materialelor (lead magnets) sunt reținute 3 ani de la ultima interacțiune sau până la retragerea consimțământului.\n\nConsimțământul poate fi retras oricând folosind opțiunea de dezabonare inclusă în comunicări sau prin trimiterea unei solicitări la viilamunte@gmail.com."
+      },
+      "c9": {
+        "title": "Capitolul IX. Drepturile Persoanelor Vizate",
+        "text": "În temeiul GDPR, aveți următoarele drepturi: dreptul de acces, dreptul la rectificare, dreptul la ștergere, dreptul la restricționarea prelucrării, dreptul la opoziție, dreptul la portabilitatea datelor, dreptul de a retrage consimțământul atunci când prelucrarea se bazează pe consimțământ și dreptul de a depune o plângere la autoritatea competentă.\n\nPentru exercitarea drepturilor, ne puteți scrie la viilamunte@gmail.com. Putem solicita informații suplimentare pentru confirmarea identității atunci când este necesar."
+      },
+      "c10": {
+        "title": "Capitolul X. Minori",
+        "text": "Website-ul și serviciile prezentate nu sunt destinate minorilor. Nu colectăm intenționat date de la persoane sub 18 ani. Dacă suspectați că am primit astfel de date, vă rugăm să ne contactați pentru ștergere."
+      },
+      "c11": {
+        "title": "Capitolul XI. Cookie-uri și Consimțământ",
+        "text": "Website-ul folosește cookie-uri și tehnologii similare. Gestionarea consimțământului se realizează prin banner-ul de cookie-uri. Cookie-urile opționale, cum ar fi cele de analiză și marketing, sunt activate în baza alegerilor exprimate de Utilizator.\n\nPentru detalii despre categorii și modul de gestionare, vă rugăm să consultați Politica de Cookie-uri disponibilă pe website."
+      },
+      "c12": {
+        "title": "Capitolul XII. Securitatea Datelor",
+        "text": "Aplicăm măsuri tehnice și organizatorice pentru protejarea datelor, inclusiv control al accesului, separarea rolurilor, protecție la nivel de server și utilizarea canalelor de comunicare securizate.\n\nTransmiterea informațiilor prin formulare implică furnizarea voluntară a datelor de către Utilizator. Recomandăm să nu transmiteți informații sensibile care nu sunt necesare pentru evaluarea solicitării."
+      },
+      "c13": {
+        "title": "Capitolul XIII. Link-uri către Terți",
+        "text": "Website-ul poate conține link-uri către website-uri operate de terți. Nu controlăm conținutul sau politicile acestora, iar utilizarea lor se face pe propriul risc. Recomandăm consultarea politicilor de confidențialitate ale acelor website-uri."
+      },
+      "c14": {
+        "title": "Capitolul XIV. Actualizări ale Politicii",
+        "text": "Putem actualiza această Politică de Confidențialitate atunci când apar modificări în activitatea noastră, în instrumentele utilizate sau în cerințele legale. Versiunea actualizată va fi publicată pe această pagină."
+      },
+      "c15": {
+        "title": "Capitolul XV. Informații de Contact",
+        "text": "Întrebările, sugestiile și solicitările referitoare la această politică pot fi transmise la viilamunte@gmail.com sau la numărul de telefon +40 740 618 773."
+      },
+      "c16": {
+        "title": "Capitolul XVI. Dispoziții Finale",
+        "text": "Dacă oricare dintre clauzele de mai sus este găsită nulă sau invalidă, aceasta nu va afecta valabilitatea clauzelor rămase."
+      }
+    },
+    "cookies": {
+      "title": "Politică de Cookie-uri",
+      "s1": {
+        "title": "1. Ce sunt cookie-urile?",
+        "text": "Un „cookie de internet\" (cunoscut și ca „cookie de browser\", „cookie HTTP\" sau pur și simplu „cookie\") este un fișier mic care conține litere și numere și care este stocat pe computerul, dispozitivul mobil sau alt echipament prin care accesați internetul.\n\nCookie-urile sunt instalate printr-o cerere trimisă de un server web unui browser (de ex. Internet Explorer, Firefox, Chrome).\n\nOdată instalate, cookie-urile au o durată de viață determinată, rămânând „pasive\" în sensul că nu conțin programe software, viruși sau spyware și nu vor accesa informații de pe hard disk-ul dispozitivului utilizatorului pe care au fost instalate.\n\nUn cookie este format din două părți: numele cookie-ului și conținutul/valoarea cookie-ului. Din punct de vedere tehnic, doar serverul web care a trimis cookie-ul îl poate accesa din nou atunci când un utilizator revine pe pagina web asociată acelui server web."
+      },
+      "s2": {
+        "title": "2. În ce scopuri sunt utilizate cookie-urile pe acest website?",
+        "text": "Cookie-urile sunt utilizate pentru a oferi utilizatorilor acestui website o experiență de navigare mai bună și servicii adaptate nevoilor și intereselor fiecărui utilizator, după cum urmează:\n\n• Îmbunătățirea utilizării acestui website, inclusiv prin identificarea oricăror erori care apar în timpul vizitelor/utilizării acestuia de către utilizatori.\n\n• Furnizarea de statistici anonime despre modul în care acest website este utilizat de proprietarul acestuia.\n\n• Anticiparea potențialelor produse care pot fi puse la dispoziția utilizatorilor în viitor prin intermediul acestui website, în funcție de serviciile/produsele accesate.\n\nPe baza feedback-ului transmis prin cookie-uri referitor la modul în care este utilizat acest website, putem lua măsuri pentru a face acest website mai eficient și mai accesibil utilizatorilor."
+      },
+      "s3": {
+        "title": "3. Care este durata de viață a cookie-urilor?",
+        "text": "Durata de viață a cookie-urilor poate varia în funcție de scopul pentru care sunt plasate. Există următoarele categorii:\n\nCookie-uri de sesiune — un cookie care este șters automat atunci când utilizatorul închide browser-ul.\n\nCookie-uri persistente/fixe — un cookie care rămâne stocat pe dispozitivul utilizatorului până când atinge o anumită dată de expirare (câteva minute, zile sau ani în viitor) sau până când este șters de utilizator în orice moment prin setările browser-ului."
+      },
+      "s4": {
+        "title": "4. Ce sunt cookie-urile terților?",
+        "text": "Anumite secțiuni de conținut de pe acest website pot fi furnizate de terți, adică nu de proprietarul website-ului, caz în care aceste cookie-uri se numesc cookie-uri ale terților.\n\nAceste cookie-uri pot proveni de la următorii terți:\n\n• Google Analytics\n\n• Facebook Pixel"
+      },
+      "s5": {
+        "title": "5. Ce cookie-uri sunt utilizate pe acest website?",
+        "text": "La utilizarea/vizitarea acestui website, pot fi plasate următoarele cookie-uri:\n\na. Cookie-uri de performanță — Prin acest tip de cookie se stochează preferințele utilizatorului pe acest website, astfel încât resetarea preferințelor în cazul vizitelor ulterioare nu mai este necesară.\n\nb. Cookie-uri de analiză a utilizatorilor — Aceste cookie-uri ne informează dacă un anumit utilizator al acestui website a mai vizitat/utilizat acest website anterior. Sunt utilizate exclusiv în scopuri statistice.\n\nc. Cookie-uri de geotargeting — Sunt utilizate de software care determină țara de origine a utilizatorului website-ului. Aceleași reclame vor fi primite indiferent de limba selectată.\n\nd. Cookie-uri de înregistrare — Când vă înregistrați pe acest site, sunt generate cookie-uri care rețin acest fapt. Serverele utilizează aceste cookie-uri pentru a ne arăta contul cu care sunteți înregistrat.\n\ne. Cookie-uri de publicitate — Aceste cookie-uri ne permit să aflăm că un utilizator a vizualizat o reclamă online, tipul acesteia și timpul scurs de la vizualizarea acelui mesaj publicitar. Sunt utilizate pentru targetarea publicității online și sunt anonime.\n\nf. Cookie-uri ale furnizorilor de publicitate — De la furnizori terți de publicitate."
+      },
+      "s6": {
+        "title": "6. Ce tip de informații sunt stocate și accesate prin cookie-uri?",
+        "text": "Cookie-urile stochează informații într-un fișier text mic care permite recunoașterea browser-ului. Acest website recunoaște browser-ul până când cookie-urile expiră sau sunt șterse."
+      },
+      "s7": {
+        "title": "7. Cum pot fi dezactivate cookie-urile?",
+        "text": "Dezactivarea și refuzul de a accepta cookie-uri pot face ca acest website să fie dificil de vizitat, rezultând limitări ale utilizării sale.\n\nUtilizatorii pot configura browser-ul pentru a respinge fișierele cookie sau pentru a accepta cookie-uri numai de la un anumit website. Cu toate acestea, refuzul sau dezactivarea cookie-urilor nu înseamnă că nu veți primi publicitate online — doar că aceasta nu va fi adaptată preferințelor și intereselor dumneavoastră.\n\nToate browserele moderne oferă posibilitatea de a modifica setările cookie-urilor. Aceste setări pot fi accesate de obicei în secțiunea „opțiuni\" sau în meniul „preferințe\" al browser-ului.\n\nPentru orice întrebări suplimentare despre modul în care sunt utilizate cookie-urile pe acest website, vă rugăm să ne contactați la viilamunte@gmail.com.\n\nTipuri de cookie-uri utilizate:\n\n1. Necesare pentru funcționarea website-ului — Acest website folosește cookie-uri pentru a salva sesiunile utilizatorilor și pentru activitățile strict necesare funcționării sale.\n\n2. Analytics (Google Analytics) — Monitorizează utilizarea website-ului pentru a crea rapoarte și ne ajută să îmbunătățim experiența utilizatorilor.\n\n3. Marketing și analiză comportamentală (Facebook) — Un serviciu de remarketing comportamental care analizează vizitatorii acestui website. Locație procesare: SUA.\n\n4. Afișarea de conținut din alte platforme (YouTube, Vimeo) — Permite încărcarea de conținut extern direct pe website. Locație procesare: SUA."
+      }
+    }
+  }
+}

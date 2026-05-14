@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "author": "Elena M.",
+    "rating": 5,
+    "date": "2026-04-15",
+    "text": "O experiență minunată! Casa este exact cum arată în fotografii, foarte curată și confortabilă. Proprietarii sunt ospitalieri și atenți la detalii. Vom reveni cu siguranță!",
+    "textEn": "A wonderful experience! The house is exactly as it appears in the photos, very clean and comfortable. The owners are hospitable and attentive to detail. We will definitely return!"
+  },
+  {
+    "id": 2,
+    "author": "Ion D.",
+    "rating": 5,
+    "date": "2026-04-08",
+    "text": "Locul perfect pentru o escapadă în natură. Veduturile montane sunt spectaculoase, iar liniștea este ceea ce am căutat. Toți prietenii mei au fost impresionați.",
+    "textEn": "The perfect place for a nature escape. The mountain views are spectacular, and the peace and quiet is what we were looking for. All my friends were impressed."
+  },
+  {
+    "id": 3,
+    "author": "Vera & Michel",
+    "rating": 5,
+    "date": "2026-03-28",
+    "text": "Viila Munte est un vrai bijou! Accueil chaleureux, cabin magnifique avec tout ce qu'il faut. Nous avons passé un séjour inoubliable. Merci beaucoup!",
+    "textEn": "Viila Munte is a real gem! Warm welcome, magnificent cabin with everything you need. We had an unforgettable stay. Thank you very much!"
+  },
+  {
+    "id": 4,
+    "author": "Andrei T.",
+    "rating": 4.5,
+    "date": "2026-03-15",
+    "text": "Foarte frumos și pitoresc. Doar o mică problemă cu apa caldă în prima zi, dar proprietarii au rezolvat-o rapid. În rest, totul perfect!",
+    "textEn": "Very beautiful and picturesque. Just a small issue with hot water on the first day, but the owners fixed it quickly. Otherwise, everything was perfect!"
+  },
+  {
+    "id": 5,
+    "author": "Ioana & Cosmin",
+    "rating": 5,
+    "date": "2026-02-28",
+    "text": "Cel mai bun weekend din luna! Casa are tot ceea ce ai nevoie și mai mult. Locația este superbă pentru iubitorii de munte. Recomandăm cu căldură!",
+    "textEn": "The best weekend of the month! The house has everything you need and more. The location is superb for mountain lovers. We highly recommend it!"
+  }
+]
