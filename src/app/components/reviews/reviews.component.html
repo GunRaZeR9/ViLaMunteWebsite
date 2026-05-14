@@ -13,10 +13,7 @@
             </div>
             <div class="review-card__stars">
               @for (star of getRating(review.rating); track $index) {
-                <span class="star star--filled">★</span>
-              }
-              @for (star of getRating(5 - review.rating); track $index) {
-                <span class="star star--empty">★</span>
+                <span class="star" [class.star--filled]="star === 1" [class.star--empty]="star === 0">★</span>
               }
             </div>
           </div>
