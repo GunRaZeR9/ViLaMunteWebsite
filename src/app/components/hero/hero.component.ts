@@ -11,6 +11,7 @@ import { TranslateModule } from '@ngx-translate/core';
 })
 export class HeroComponent {
   @Input() imageUrl: string = 'assets/images/2023/07/DJI_0682.jpg';
+  @Input() imageAlt: string = 'ViiLa Munte';
   @Input() title: string = '';
   @Input() subtitle: string = '';
   @Input() showCta: boolean = true;

@@ -3,6 +3,7 @@
   [title]="'cabin.hero.title' | translate"
   [subtitle]="'cabin.hero.subtitle' | translate"
   [imageUrl]="'assets/images/2.cabana/455.webp'"
+  [imageAlt]="'Cabana ViiLa Munte camere și facilități'"
   [showCta]="false"
 ></app-hero>
 
@@ -145,15 +146,15 @@
       </p>
       <ul class="cabin-outdoor__list">
         <li class="cabin-outdoor__item">
-          <span class="cabin-outdoor__item-icon">🔥</span>
+          <span class="cabin-outdoor__item-icon" aria-hidden="true">🔥</span>
           <span class="cabin-outdoor__item-text">{{ 'cabin.outdoor.bbq' | translate }}</span>
         </li>
         <li class="cabin-outdoor__item">
-          <span class="cabin-outdoor__item-icon">🌟</span>
+          <span class="cabin-outdoor__item-icon" aria-hidden="true">🌟</span>
           <span class="cabin-outdoor__item-text">{{ 'cabin.outdoor.campfire' | translate }}</span>
         </li>
         <li class="cabin-outdoor__item">
-          <span class="cabin-outdoor__item-icon">🏕️</span>
+          <span class="cabin-outdoor__item-icon" aria-hidden="true">🏕️</span>
           <span class="cabin-outdoor__item-text">{{ 'cabin.outdoor.gazebo' | translate }}</span>
         </li>
       </ul>
@@ -173,7 +174,7 @@
 <!-- SECTION 7: TECH -->
 <section class="cabin-tech">
   <div class="container cabin-tech__inner" appFadeIn="up">
-    <span class="cabin-tech__icon">📶</span>
+    <span class="cabin-tech__icon" aria-hidden="true">📶</span>
     <h2 class="cabin-tech__title">{{ 'cabin.tech.title' | translate }}</h2>
     <p class="cabin-tech__text">{{ 'cabin.tech.text' | translate }}</p>
   </div>
@@ -195,6 +196,7 @@
     (click)="closeLightbox()"
     role="dialog"
     aria-modal="true"
+    [attr.aria-label]="lightboxLabel"
   >
     <div class="lightbox__stage" (click)="$event.stopPropagation()">
       <button class="lightbox__close" (click)="closeLightbox()" type="button" aria-label="Închide">&#x2715;</button>

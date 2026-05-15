@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Inject, PLATFORM_ID } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
 import { CommonModule } from '@angular/common';
 import { TranslateModule } from '@ngx-translate/core';
 
@@ -10,12 +11,15 @@ import { TranslateModule } from '@ngx-translate/core';
   styleUrls: ['./cookie-banner.component.scss']
 })
 export class CookieBannerComponent implements OnInit {
-  isVisible = true;
+  isVisible = false;
+
+  constructor(@Inject(PLATFORM_ID) private platformId: object) {}
 
   ngOnInit(): void {
+    if (!isPlatformBrowser(this.platformId)) return;
     const cookieConsent = localStorage.getItem('cookieConsent');
-    if (cookieConsent) {
-      this.isVisible = false;
+    if (!cookieConsent) {
+      this.isVisible = true;
     }
   }
 

@@ -40,7 +40,7 @@ $yellow-400: #FACC15;
 $bg-light:    $stone-50;
 $bg-white:    #FFFFFF;
 $text-dark:   $stone-950;
-$text-muted:  $stone-500;
+$text-muted:  $stone-600;
 $border-color: $stone-200;
 
 /* =====================================================
@@ -287,4 +287,16 @@ ul, ol {
 
 .text-center {
   text-align: center;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }

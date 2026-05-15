@@ -12,9 +12,9 @@
                 <h3 class="review-card__name">{{ review.author }}</h3>
                 <p class="review-card__date">{{ review.date | date: 'short' }}</p>
               </div>
-              <div class="review-card__stars">
+              <div class="review-card__stars" role="img" [attr.aria-label]="review.rating + ' stele din 5'">
                 @for (star of getRating(review.rating); track $index) {
-                  <span class="star" [class.star--filled]="star === 1" [class.star--empty]="star === 0">★</span>
+                  <span class="star" [class.star--filled]="star === 1" [class.star--empty]="star === 0" aria-hidden="true">★</span>
                 }
               </div>
             </div>

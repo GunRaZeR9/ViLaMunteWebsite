@@ -1,5 +1,5 @@
-import { Component, OnInit, OnDestroy, HostListener } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Component, OnInit, OnDestroy, HostListener, PLATFORM_ID, Inject } from '@angular/core';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { TranslateModule } from '@ngx-translate/core';
 import { RouterLink } from '@angular/router';
 import { HeroComponent } from '../../components/hero/hero.component';
@@ -39,27 +39,29 @@ export class TeambuildingComponent implements OnInit, OnDestroy {
   lightboxIndex = 0;
   lightboxLabel = '';
 
-  constructor(private seo: SeoService) {}
+  constructor(private seo: SeoService, @Inject(PLATFORM_ID) private platformId: object) {}
 
   ngOnInit(): void { this.seo.set('calendar'); }
 
   ngOnDestroy(): void {
-    document.body.style.overflow = '';
+    if (isPlatformBrowser(this.platformId)) document.body.style.overflow = '';
   }
 
   openLightbox(): void {
     const col = this.galleryCollection;
-    col.images.forEach(src => { const i = new Image(); i.src = src; });
+    if (isPlatformBrowser(this.platformId)) {
+      col.images.forEach(src => { const i = new Image(); i.src = src; });
+    }
     this.lightboxImages = col.images;
     this.lightboxIndex = 0;
     this.lightboxLabel = col.label;
     this.lightboxOpen = true;
-    document.body.style.overflow = 'hidden';
+    if (isPlatformBrowser(this.platformId)) document.body.style.overflow = 'hidden';
   }
 
   closeLightbox(): void {
     this.lightboxOpen = false;
-    document.body.style.overflow = '';
+    if (isPlatformBrowser(this.platformId)) document.body.style.overflow = '';
   }
 
   navigateLightbox(direction: 1 | -1): void {

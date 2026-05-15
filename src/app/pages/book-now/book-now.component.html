@@ -3,6 +3,7 @@
   [title]="'booking.hero.title' | translate"
   [subtitle]="'booking.hero.subtitle' | translate"
   [imageUrl]="'assets/images/5.rezervare/DDM02787-HDR.webp'"
+  [imageAlt]="'Rezervare cabana ViiLa Munte'"
   [showCta]="false"
 >
   <button class="btn btn--primary" (click)="scrollToContact()">
@@ -50,7 +51,7 @@
       {{ 'booking.calendar.title' | translate }}
     </h2>
     <div class="booking-calendar__coming-soon" appFadeIn="up">
-      <span class="booking-calendar__coming-soon-icon">📅</span>
+      <span class="booking-calendar__coming-soon-icon" aria-hidden="true">📅</span>
       <p class="booking-calendar__coming-soon-text">{{ 'booking.calendar.comingSoon' | translate }}</p>
       <p class="booking-calendar__coming-soon-sub">{{ 'booking.calendar.comingSoonSub' | translate }}</p>
     </div>
@@ -65,26 +66,26 @@
     </h2>
     <div class="booking-rules__list">
       <div class="booking-rule" appFadeIn="up">
-        <span class="booking-rule__icon">🕒</span>
+        <span class="booking-rule__icon" aria-hidden="true">🕒</span>
         <div class="booking-rule__content">
           <p class="booking-rule__text">{{ 'booking.rules.checkIn' | translate }}</p>
           <p class="booking-rule__text">{{ 'booking.rules.checkOut' | translate }}</p>
         </div>
       </div>
       <div class="booking-rule" appFadeIn="up">
-        <span class="booking-rule__icon">🚭</span>
+        <span class="booking-rule__icon" aria-hidden="true">🚭</span>
         <p class="booking-rule__text">{{ 'booking.rules.smoking' | translate }}</p>
       </div>
       <div class="booking-rule" appFadeIn="up">
-        <span class="booking-rule__icon">🎵</span>
+        <span class="booking-rule__icon" aria-hidden="true">🎵</span>
         <p class="booking-rule__text">{{ 'booking.rules.noise' | translate }}</p>
       </div>
       <div class="booking-rule" appFadeIn="up">
-        <span class="booking-rule__icon">🌲</span>
+        <span class="booking-rule__icon" aria-hidden="true">🌲</span>
         <p class="booking-rule__text">{{ 'booking.rules.access' | translate }}</p>
       </div>
       <div class="booking-rule" appFadeIn="up">
-        <span class="booking-rule__icon">🐾</span>
+        <span class="booking-rule__icon" aria-hidden="true">🐾</span>
         <p class="booking-rule__text">{{ 'booking.rules.pets' | translate }}</p>
       </div>
     </div>
@@ -98,17 +99,17 @@
     <!-- Contact info + map -->
     <div class="booking-contact__info" appFadeIn="left">
       <div class="booking-contact__info-card">
-        <h3 class="booking-contact__info-label">📍 {{ 'contact.title' | translate }}</h3>
+        <h3 class="booking-contact__info-label"><span aria-hidden="true">📍</span> {{ 'contact.title' | translate }}</h3>
         <p>{{ 'booking.contact.location' | translate }}</p>
       </div>
       <div class="booking-contact__info-card">
-        <h3 class="booking-contact__info-label">📞</h3>
+        <h3 class="booking-contact__info-label"><span aria-hidden="true">📞</span><span class="sr-only">Telefon</span></h3>
         <a href="tel:+40740618773" class="booking-contact__phone">
           {{ 'contact.phone' | translate }}
         </a>
       </div>
       <div class="booking-contact__info-card">
-        <h3 class="booking-contact__info-label">✉️</h3>
+        <h3 class="booking-contact__info-label"><span aria-hidden="true">✉️</span><span class="sr-only">Email</span></h3>
         <a href="mailto:contact@viilamunte.ro" class="booking-contact__email">
           {{ 'contact.email' | translate }}
         </a>
@@ -119,13 +120,25 @@
         {{ 'booking.contact.mapButton' | translate }}
       </a>
       <div class="booking-contact__map-embed">
-        <iframe
-          src="https://maps.google.com/maps?q=47.04306,25.31194&z=15&output=embed"
-          width="100%"
-          height="250"
-          loading="lazy"
-          title="ViiLa Munte location">
-        </iframe>
+        @if (mapLoaded) {
+          <iframe
+            src="https://maps.google.com/maps?q=47.04306,25.31194&z=15&output=embed"
+            width="100%"
+            height="250"
+            loading="lazy"
+            title="ViiLa Munte location">
+          </iframe>
+        } @else {
+          <button
+            class="booking-contact__map-facade"
+            (click)="mapLoaded = true"
+            type="button"
+            aria-label="Încarcă harta ViiLa Munte"
+          >
+            <span aria-hidden="true">🗺️</span>
+            Arată pe hartă
+          </button>
+        }
       </div>
     </div>
 
@@ -136,22 +149,22 @@
 
       <form (ngSubmit)="submitForm()" #bookingForm="ngForm" class="booking-form">
         <div class="booking-form__field">
-          <label class="booking-form__label">{{ 'booking.form.name' | translate }}</label>
-          <input [(ngModel)]="name" name="name" type="text" required
+          <label class="booking-form__label" for="booking-name">{{ 'booking.form.name' | translate }}</label>
+          <input id="booking-name" [(ngModel)]="name" name="name" type="text" required
                  [placeholder]="'booking.form.namePlaceholder' | translate"
                  class="booking-form__input" />
         </div>
 
         <div class="booking-form__row">
           <div class="booking-form__field">
-            <label class="booking-form__label">{{ 'booking.form.email' | translate }}</label>
-            <input [(ngModel)]="email" name="email" type="email"
+            <label class="booking-form__label" for="booking-email">{{ 'booking.form.email' | translate }}</label>
+            <input id="booking-email" [(ngModel)]="email" name="email" type="email"
                    [placeholder]="'booking.form.emailPlaceholder' | translate"
                    class="booking-form__input" />
           </div>
           <div class="booking-form__field">
-            <label class="booking-form__label">{{ 'booking.form.phone' | translate }}</label>
-            <input [(ngModel)]="phone" name="phone" type="tel"
+            <label class="booking-form__label" for="booking-phone">{{ 'booking.form.phone' | translate }}</label>
+            <input id="booking-phone" [(ngModel)]="phone" name="phone" type="tel"
                    [placeholder]="'booking.form.phonePlaceholder' | translate"
                    class="booking-form__input" />
           </div>
@@ -159,21 +172,21 @@
 
         <div class="booking-form__row">
           <div class="booking-form__field">
-            <label class="booking-form__label">{{ 'booking.form.checkIn' | translate }}</label>
-            <input [(ngModel)]="checkIn" name="checkIn" type="date"
+            <label class="booking-form__label" for="booking-check-in">{{ 'booking.form.checkIn' | translate }}</label>
+            <input id="booking-check-in" [(ngModel)]="checkIn" name="checkIn" type="date"
                    class="booking-form__input" />
           </div>
           <div class="booking-form__field">
-            <label class="booking-form__label">{{ 'booking.form.checkOut' | translate }}</label>
-            <input [(ngModel)]="checkOut" name="checkOut" type="date"
+            <label class="booking-form__label" for="booking-check-out">{{ 'booking.form.checkOut' | translate }}</label>
+            <input id="booking-check-out" [(ngModel)]="checkOut" name="checkOut" type="date"
                    class="booking-form__input" />
           </div>
         </div>
 
         <div class="booking-form__row">
           <div class="booking-form__field">
-            <label class="booking-form__label">{{ 'booking.form.groupType' | translate }}</label>
-            <select [(ngModel)]="groupType" name="groupType" class="booking-form__select">
+            <label class="booking-form__label" for="booking-group-type">{{ 'booking.form.groupType' | translate }}</label>
+            <select id="booking-group-type" [(ngModel)]="groupType" name="groupType" class="booking-form__select">
               <option value="">—</option>
               <option value="friends">{{ 'booking.form.groupFriends' | translate }}</option>
               <option value="teambuilding">{{ 'booking.form.groupTeambuilding' | translate }}</option>
@@ -181,16 +194,16 @@
             </select>
           </div>
           <div class="booking-form__field">
-            <label class="booking-form__label">{{ 'booking.form.persons' | translate }}</label>
-            <input [(ngModel)]="persons" name="persons" type="number" min="1" max="20"
+            <label class="booking-form__label" for="booking-persons">{{ 'booking.form.persons' | translate }}</label>
+            <input id="booking-persons" [(ngModel)]="persons" name="persons" type="number" min="1" max="20"
                    [placeholder]="'booking.form.personsPlaceholder' | translate"
                    class="booking-form__input" />
           </div>
         </div>
 
         <div class="booking-form__field">
-          <label class="booking-form__label">{{ 'booking.form.message' | translate }}</label>
-          <textarea [(ngModel)]="message" name="message" rows="4" required
+          <label class="booking-form__label" for="booking-message">{{ 'booking.form.message' | translate }}</label>
+          <textarea id="booking-message" [(ngModel)]="message" name="message" rows="4" required
                     [placeholder]="'booking.form.messagePlaceholder' | translate"
                     class="booking-form__textarea"></textarea>
         </div>

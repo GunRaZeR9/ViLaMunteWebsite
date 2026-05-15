@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Component, OnInit, PLATFORM_ID, Inject } from '@angular/core';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { TranslateModule } from '@ngx-translate/core';
 import { HeroComponent } from '../../components/hero/hero.component';
@@ -13,6 +13,7 @@ import { SeoService } from '../../services/seo.service';
   styleUrls: ['./book-now.component.scss']
 })
 export class BookNowComponent implements OnInit {
+  mapLoaded = false;
   name = '';
   email = '';
   phone = '';
@@ -22,12 +23,14 @@ export class BookNowComponent implements OnInit {
   persons = '';
   message = '';
 
-  constructor(private seo: SeoService) {}
+  constructor(private seo: SeoService, @Inject(PLATFORM_ID) private platformId: object) {}
 
   ngOnInit(): void { this.seo.set('contact'); }
 
   scrollToContact(): void {
-    document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+    if (isPlatformBrowser(this.platformId)) {
+      document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+    }
   }
 
   private groupTypeLabel(): string {
@@ -40,7 +43,7 @@ export class BookNowComponent implements OnInit {
   }
 
   submitForm(): void {
-    if (this.name && this.message) {
+    if (this.name && this.message && isPlatformBrowser(this.platformId)) {
       const lines = [
         `Bună ziua! Doresc să fac o rezervare la ViiLa Munte.`,
         ``,

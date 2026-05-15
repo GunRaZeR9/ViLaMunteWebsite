@@ -1,4 +1,5 @@
-import { Injectable } from '@angular/core';
+import { Injectable, Inject, PLATFORM_ID } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
 import { TranslateService } from '@ngx-translate/core';
 import { BehaviorSubject, Observable } from 'rxjs';
 
@@ -9,14 +10,19 @@ export class I18nService {
   private currentLanguage = new BehaviorSubject<string>('ro');
   public language$: Observable<string> = this.currentLanguage.asObservable();
 
-  constructor(private translate: TranslateService) {
+  constructor(
+    private translate: TranslateService,
+    @Inject(PLATFORM_ID) private platformId: object
+  ) {
     this.initializeLanguages();
   }
 
   private initializeLanguages(): void {
     this.translate.setDefaultLang('ro');
     this.translate.use('ro').subscribe();
-    const storedLang = localStorage.getItem('language') || 'ro';
+    const storedLang = isPlatformBrowser(this.platformId)
+      ? localStorage.getItem('language') || 'ro'
+      : 'ro';
     this.setLanguage(storedLang);
   }
 
@@ -24,7 +30,9 @@ export class I18nService {
     if (lang === 'ro' || lang === 'en') {
       this.translate.use(lang).subscribe();
       this.currentLanguage.next(lang);
-      localStorage.setItem('language', lang);
+      if (isPlatformBrowser(this.platformId)) {
+        localStorage.setItem('language', lang);
+      }
     }
   }
 

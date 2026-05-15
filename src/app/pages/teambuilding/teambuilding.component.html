@@ -3,6 +3,7 @@
   [title]="'teambuilding.hero.title' | translate"
   [subtitle]="'teambuilding.hero.subtitle' | translate"
   [imageUrl]="'assets/images/4.teambuilding/432.webp'"
+  [imageAlt]="'Teambuilding ViiLa Munte Munții Călimani'"
   [showCta]="false"
 ></app-hero>
 
@@ -15,7 +16,7 @@
     <div class="tb-features__grid">
       @for (i of featureIndices; track i) {
         <div class="tb-feature-card" appFadeIn="up">
-          <div class="tb-feature-card__icon">{{ 'teambuilding.features.' + i + '.icon' | translate }}</div>
+          <div class="tb-feature-card__icon" aria-hidden="true">{{ 'teambuilding.features.' + i + '.icon' | translate }}</div>
           <h3 class="tb-feature-card__title">
             {{ 'teambuilding.features.' + i + '.title' | translate }}
           </h3>
@@ -111,6 +112,7 @@
     (click)="closeLightbox()"
     role="dialog"
     aria-modal="true"
+    [attr.aria-label]="lightboxLabel"
   >
     <div class="lightbox__stage" (click)="$event.stopPropagation()">
       <button class="lightbox__close" (click)="closeLightbox()" type="button" aria-label="Închide">&#x2715;</button>
