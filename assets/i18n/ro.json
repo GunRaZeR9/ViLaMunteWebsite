@@ -215,6 +215,8 @@
     },
     "calendar": {
       "title": "Verifică zilele disponibile",
+      "comingSoon": "Calendar de disponibilitate — în curând",
+      "comingSoonSub": "Lucrăm la integrarea unui calendar de rezervări online. Până atunci, verifică disponibilitatea prin WhatsApp sau formularul de mai jos.",
       "legend": {
         "available": "Disponibil",
         "booked": "Rezervat"
