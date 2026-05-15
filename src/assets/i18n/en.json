@@ -200,7 +200,8 @@
   "booking": {
     "hero": {
       "title": "Book your retreat in the heart of the mountains",
-      "subtitle": "Check availability and prepare for an unforgettable experience with your group. Full cabin rental for a maximum of 20 people."
+      "subtitle": "Check availability and prepare for an unforgettable experience with your group. Full cabin rental for a maximum of 20 people.",
+      "contactCta": "Contact us"
     },
     "rates": {
       "title": "Rates and services",

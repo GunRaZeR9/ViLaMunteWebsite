@@ -26,6 +26,10 @@ export class BookNowComponent implements OnInit {
 
   ngOnInit(): void { this.seo.set('contact'); }
 
+  scrollToContact(): void {
+    document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+  }
+
   private groupTypeLabel(): string {
     const map: Record<string, string> = {
       friends: 'Prieteni / Familie',

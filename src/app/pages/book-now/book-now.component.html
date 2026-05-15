@@ -4,7 +4,11 @@
   [subtitle]="'booking.hero.subtitle' | translate"
   [imageUrl]="'assets/images/5.rezervare/DDM02787-HDR.webp'"
   [showCta]="false"
-></app-hero>
+>
+  <button class="btn btn--primary" (click)="scrollToContact()">
+    {{ 'booking.hero.contactCta' | translate }}
+  </button>
+</app-hero>
 
 <!-- SECTION 2: RATES -->
 <section class="booking-rates">
@@ -88,7 +92,7 @@
 </section>
 
 <!-- SECTION 5: CONTACT + BOOKING FORM -->
-<section class="booking-contact">
+<section id="contact" class="booking-contact">
   <div class="container booking-contact__grid">
 
     <!-- Contact info + map -->
