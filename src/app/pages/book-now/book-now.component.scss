@@ -116,13 +116,36 @@
     color: #1C1917;
   }
 
-  &__widget {
-    max-width: 56rem;
+  &__coming-soon {
+    max-width: 40rem;
     margin: 0 auto;
     background: #fff;
     border-radius: 0.75rem;
-    padding: 2rem;
+    padding: 3rem 2rem;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+    border: 2px dashed #D6D3D1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  &__coming-soon-icon {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  &__coming-soon-text {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #1C1917;
+  }
+
+  &__coming-soon-sub {
+    font-size: 0.95rem;
+    color: #78716C;
+    line-height: 1.6;
   }
 }
 

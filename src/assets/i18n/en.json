@@ -215,6 +215,8 @@
     },
     "calendar": {
       "title": "Check available dates",
+      "comingSoon": "Availability calendar — coming soon",
+      "comingSoonSub": "We are working on an online booking calendar. In the meantime, check availability via WhatsApp or the form below.",
       "legend": {
         "available": "Available",
         "booked": "Booked"

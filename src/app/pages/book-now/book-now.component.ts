@@ -5,12 +5,10 @@ import { TranslateModule } from '@ngx-translate/core';
 import { HeroComponent } from '../../components/hero/hero.component';
 import { FadeInDirective } from '../../directives/fade-in.directive';
 import { SeoService } from '../../services/seo.service';
-import { AvailabilityCalendarComponent } from '../../components/availability-calendar/availability-calendar.component';
-
 @Component({
   selector: 'app-book-now',
   standalone: true,
-  imports: [CommonModule, FormsModule, TranslateModule, HeroComponent, FadeInDirective, AvailabilityCalendarComponent],
+  imports: [CommonModule, FormsModule, TranslateModule, HeroComponent, FadeInDirective],
   templateUrl: './book-now.component.html',
   styleUrls: ['./book-now.component.scss']
 })

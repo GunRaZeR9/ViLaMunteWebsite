@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Component, inject } from '@angular/core';
+import { AsyncPipe, CommonModule } from '@angular/common';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
 
 interface Review {
   id: number;
@@ -15,23 +16,15 @@ interface Review {
 @Component({
   selector: 'app-reviews',
   standalone: true,
-  imports: [CommonModule, TranslateModule],
+  imports: [CommonModule, TranslateModule, AsyncPipe],
   templateUrl: './reviews.component.html',
   styleUrls: ['./reviews.component.scss']
 })
-export class ReviewsComponent implements OnInit {
-  reviews: Review[] = [];
+export class ReviewsComponent {
+  private http = inject(HttpClient);
+  public translate = inject(TranslateService);
 
-  constructor(
-    private http: HttpClient,
-    public translate: TranslateService
-  ) {}
-
-  ngOnInit(): void {
-    this.http.get<Review[]>('assets/data/reviews-mock.json').subscribe(data => {
-      this.reviews = data;
-    });
-  }
+  reviews$: Observable<Review[]> = this.http.get<Review[]>('assets/data/reviews-mock.json');
 
   getReviewText(review: Review): string {
     return this.translate.currentLang === 'ro' ? review.text : review.textEn;

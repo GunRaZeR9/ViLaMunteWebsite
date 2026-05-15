@@ -39,14 +39,16 @@
   </div>
 </section>
 
-<!-- SECTION 3: CALENDAR PLACEHOLDER -->
+<!-- SECTION 3: CALENDAR -->
 <section class="booking-calendar">
   <div class="container">
     <h2 class="booking-calendar__title">
       {{ 'booking.calendar.title' | translate }}
     </h2>
-    <div class="booking-calendar__widget">
-      <app-availability-calendar></app-availability-calendar>
+    <div class="booking-calendar__coming-soon" appFadeIn="up">
+      <span class="booking-calendar__coming-soon-icon">📅</span>
+      <p class="booking-calendar__coming-soon-text">{{ 'booking.calendar.comingSoon' | translate }}</p>
+      <p class="booking-calendar__coming-soon-sub">{{ 'booking.calendar.comingSoonSub' | translate }}</p>
     </div>
   </div>
 </section>
