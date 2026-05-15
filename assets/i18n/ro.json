@@ -200,7 +200,8 @@
   "booking": {
     "hero": {
       "title": "Rezervă-ți refugiul în inima munților",
-      "subtitle": "Verifică disponibilitatea și pregătește-te pentru o experiență de neuitat alături de grup. Închiriere integrală pentru maximum 20 de persoane."
+      "subtitle": "Verifică disponibilitatea și pregătește-te pentru o experiență de neuitat alături de grup. Închiriere integrală pentru maximum 20 de persoane.",
+      "contactCta": "Contactează-ne"
     },
     "rates": {
       "title": "Tarife și servicii",
