@@ -49,4 +49,5 @@ writer-texts
 .nx/cache
 .nx/workspace-data
 
-ReposViLaMunteWebsitePHPlighthouse-reports
+lighthouse-reports/
+ReposViLaMunteWebsitePHPlighthouse-reports/
