@@ -16,11 +16,11 @@ export class OurStoryComponent implements OnInit {
   attractionIndices = [0, 1, 2, 3, 4];
 
   attractionImages = [
-    'assets/images/2.cabana/Cascada-Toplita.jpg',
-    'assets/images/2.cabana/Lacul-Iezer.jpg',
-    'assets/images/2.cabana/lomasita.jpg',
-    'assets/images/2.cabana/partia-toplita.jpg',
-    'assets/images/2.cabana/parcul-national.jpg',
+    'assets/images/cabana/Cascada-Toplita.jpg',
+    'assets/images/cabana/Lacul-Iezer.jpg',
+    'assets/images/cabana/lomasita.jpg',
+    'assets/images/cabana/partia-toplita.jpg',
+    'assets/images/cabana/parcul-national.jpg',
   ];
 
   constructor(private seo: SeoService) {}

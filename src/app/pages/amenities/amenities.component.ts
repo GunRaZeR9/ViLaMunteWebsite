@@ -32,9 +32,9 @@ export class AmenitiesComponent implements OnInit, OnDestroy {
       labelKey: 'cabin.rooms.label.apt',
       descriptionKey: 'cabin.rooms.apt',
       images: [
-        'assets/images/2.cabana/camera-2-pers-1.webp',
-        'assets/images/2.cabana/camera-2-pers-2.webp',
-        'assets/images/2.cabana/camera-2-pers-3.webp',
+        'assets/images/cabana/camera-2-pers-1.webp',
+        'assets/images/cabana/camera-2-pers-2.webp',
+        'assets/images/cabana/camera-2-pers-3.webp',
       ],
       previewCount: 3,
     },
@@ -44,7 +44,7 @@ export class AmenitiesComponent implements OnInit, OnDestroy {
       labelKey: 'cabin.rooms.label.double',
       descriptionKey: 'cabin.rooms.double',
       images: Array.from({ length: 7 }, (_, i) =>
-        `assets/images/2.cabana/camera-2-pers-${i + 4}.webp`),
+        `assets/images/cabana/camera-2-pers-${i + 4}.webp`),
       previewCount: 3,
     },
     {
@@ -53,9 +53,9 @@ export class AmenitiesComponent implements OnInit, OnDestroy {
       labelKey: 'cabin.rooms.label.triple',
       descriptionKey: 'cabin.rooms.triple',
       images: [
-        'assets/images/2.cabana/camera-3-pers-1.webp',
-        'assets/images/2.cabana/camera-3-pers-2.webp',
-        'assets/images/2.cabana/camera-3-pers-baie-1.webp',
+        'assets/images/cabana/camera-3-pers-1.webp',
+        'assets/images/cabana/camera-3-pers-2.webp',
+        'assets/images/cabana/camera-3-pers-baie-1.webp',
       ],
       previewCount: 3,
     },
@@ -65,9 +65,9 @@ export class AmenitiesComponent implements OnInit, OnDestroy {
       labelKey: 'cabin.rooms.label.mansard',
       descriptionKey: 'cabin.rooms.mansard',
       images: [
-        'assets/images/2.cabana/camera-3-pers-baie-1.webp',
-        'assets/images/2.cabana/camera-3-pers-1.webp',
-        'assets/images/2.cabana/camera-3-pers-2.webp',
+        'assets/images/cabana/camera-3-pers-baie-1.webp',
+        'assets/images/cabana/camera-3-pers-1.webp',
+        'assets/images/cabana/camera-3-pers-2.webp',
       ],
       previewCount: 3,
     },

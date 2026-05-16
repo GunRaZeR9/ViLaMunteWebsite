@@ -26,10 +26,10 @@ export class TeambuildingComponent implements OnInit, OnDestroy {
   galleryCollection: PhotoCollection = {
     label: 'Galerie Teambuilding',
     images: [
-      'assets/images/4.teambuilding/teambuilding-biliard.webp',
-      'assets/images/4.teambuilding/teambuilding-ciubar.webp',
-      'assets/images/4.teambuilding/teambuilding-gratar.webp',
-      'assets/images/4.teambuilding/teambuilding-sauna.webp',
+      'assets/images/teambuilding/teambuilding-biliard.webp',
+      'assets/images/teambuilding/teambuilding-ciubar.webp',
+      'assets/images/teambuilding/teambuilding-gratar.webp',
+      'assets/images/teambuilding/teambuilding-sauna.webp',
     ],
     previewCount: 3,
   };
