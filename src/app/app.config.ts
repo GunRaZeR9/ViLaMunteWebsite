@@ -2,7 +2,6 @@ import { ApplicationConfig, provideBrowserGlobalErrorListeners, inject } from '@
 import { provideRouter, withInMemoryScrolling } from '@angular/router';
 import { provideHttpClient, withFetch } from '@angular/common/http';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
-import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient } from '@angular/common/http';
 import { importProvidersFrom } from '@angular/core';
 import { TransferState } from '@angular/core';
@@ -10,7 +9,7 @@ import { Observable, of } from 'rxjs';
 import { TranslationObject } from '@ngx-translate/core';
 
 import { routes } from './app.routes';
-import { TRANSLATIONS_KEY } from './app.config.server';
+import { TRANSLATIONS_KEY } from './translations.tokens';
 
 class BrowserTranslateLoader implements TranslateLoader {
   private http = inject(HttpClient);

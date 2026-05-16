@@ -7,6 +7,7 @@ import { TransferState, makeStateKey } from '@angular/core';
 
 import { appConfig } from './app.config';
 import { serverRoutes } from './app.routes.server';
+import { TRANSLATIONS_KEY } from './translations.tokens';
 import roTranslations from '../assets/i18n/ro.json';
 import enTranslations from '../assets/i18n/en.json';
 
@@ -14,8 +15,6 @@ const translations: Record<string, TranslationObject> = {
   ro: roTranslations as TranslationObject,
   en: enTranslations as TranslationObject,
 };
-
-export const TRANSLATIONS_KEY = makeStateKey<Record<string, TranslationObject>>('translations');
 
 class InlineTranslateLoader implements TranslateLoader {
   private transferState = inject(TransferState);
