@@ -1,8 +1,9 @@
-import { mergeApplicationConfig, ApplicationConfig } from '@angular/core';
+import { mergeApplicationConfig, ApplicationConfig, inject } from '@angular/core';
 import { provideServerRendering, withRoutes } from '@angular/ssr';
 import { TranslateLoader } from '@ngx-translate/core';
 import { Observable, of } from 'rxjs';
 import { TranslationObject } from '@ngx-translate/core';
+import { TransferState, makeStateKey } from '@angular/core';
 
 import { appConfig } from './app.config';
 import { serverRoutes } from './app.routes.server';
@@ -14,9 +15,15 @@ const translations: Record<string, TranslationObject> = {
   en: enTranslations as TranslationObject,
 };
 
+export const TRANSLATIONS_KEY = makeStateKey<Record<string, TranslationObject>>('translations');
+
 class InlineTranslateLoader implements TranslateLoader {
+  private transferState = inject(TransferState);
+
   getTranslation(lang: string): Observable<TranslationObject> {
-    return of(translations[lang] ?? translations['ro']);
+    const result = translations[lang] ?? translations['ro'];
+    this.transferState.set(TRANSLATIONS_KEY, translations);
+    return of(result);
   }
 }
 
